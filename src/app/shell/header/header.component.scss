@@ -2,6 +2,10 @@
 
 .navbar {
   margin-bottom: $spacer;
+  background-color: #008ed9 !important;
+  .navbar-brand {
+    margin: -20px 0;
+  }
 }
 
 .nav-link.dropdown-toggle {
