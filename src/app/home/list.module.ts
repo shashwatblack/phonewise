@@ -7,9 +7,10 @@ import { SharedModule } from '@app/shared';
 import { HomeRoutingModule } from './home-routing.module';
 import { ListComponent } from '@app/home/list.component';
 import { PhonesService } from '@app/home/phones.service';
+import { NgDragDropModule } from 'ng-drag-drop';
 
 @NgModule({
-  imports: [CommonModule, TranslateModule, CoreModule, SharedModule, HomeRoutingModule],
+  imports: [CommonModule, TranslateModule, CoreModule, SharedModule, HomeRoutingModule, NgDragDropModule.forRoot()],
   declarations: [ListComponent],
   providers: [PhonesService]
 })

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { finalize } from 'rxjs/operators';
 
 import { PhonesService } from './phones.service';
 
@@ -11,11 +10,18 @@ import { PhonesService } from './phones.service';
 export class ListComponent implements OnInit {
   phones: object;
   isLoading: boolean;
+  droppedPhones: object;
 
   constructor(private quoteService: PhonesService) {}
 
   ngOnInit() {
     this.isLoading = false;
     this.phones = Array(10).fill(1);
+    this.droppedPhones = [];
+  }
+
+  phoneDropped(e: any) {
+    // Get the dropped data here
+    this.droppedPhones.push(e.dragData);
   }
 }

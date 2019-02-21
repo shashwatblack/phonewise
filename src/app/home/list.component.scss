@@ -16,6 +16,7 @@ q {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  pointer-events: none;
   .phone {
     > img {
       height: 150px;
