@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import { PhonesService } from './phones.service';
-
 @Component({
   selector: 'phones-list',
   templateUrl: './list.component.html',
@@ -10,9 +8,9 @@ import { PhonesService } from './phones.service';
 export class ListComponent implements OnInit {
   phones: object;
   isLoading: boolean;
-  droppedPhones: object;
+  droppedPhones: Array<any>;
 
-  constructor(private quoteService: PhonesService) {}
+  constructor() {}
 
   ngOnInit() {
     this.isLoading = false;

@@ -6,14 +6,14 @@
           MOST POPULAR
         </div>
         <div class="phone">
-          <img src="assets/apple.svg" alt="" />
+          <img src="{{ getImage((overview || {}).mostPopular) }}" />
         </div>
       </div>
     </div>
     <div class="col-6">
       <div class="top-phone phone-container">
         <div class="phone">
-          <img src="assets/apple.svg" alt="" />
+          <img src="{{ getImage((overview || {}).bestBudget) }}" />
         </div>
         <div class="title text-left">
           BEST BUDGET
@@ -28,7 +28,7 @@
           MOST ADMIRED
         </div>
         <div class="phone">
-          <img src="assets/apple.svg" alt="" />
+          <img src="{{ getImage((overview || {}).mostAdmired) }}" />
         </div>
       </div>
     </div>
@@ -38,7 +38,7 @@
           BEST CAMERA
         </div>
         <div class="phone">
-          <img src="assets/apple.svg" alt="" />
+          <img src="{{ getImage((overview || {}).bestCamera) }}" />
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@
           BEST PERFORMER
         </div>
         <div class="phone">
-          <img src="assets/apple.svg" alt="" />
+          <img src="{{ getImage((overview || {}).bestPerformer) }}" />
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@
           YOU CHOOSE
         </div>
         <div class="phone">
-          <img src="assets/apple.svg" alt="" />
+          <img src="{{ getImage() }}" />
         </div>
       </div>
     </div>
