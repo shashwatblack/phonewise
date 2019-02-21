@@ -1,0 +1,33 @@
+.logo {
+  width: 100px;
+}
+
+q {
+  font-style: italic;
+  font-size: 1.2rem;
+  quotes: "« " " »";
+}
+
+.phone-container {
+  background: #f0f0f0;
+  margin: 10px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .phone {
+    > img {
+      height: 150px;
+    }
+  }
+
+  &.top-phone {
+    flex-direction: row;
+    .phone {
+      > img {
+        height: 300px;
+      }
+    }
+  }
+}
