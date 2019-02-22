@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { finalize } from 'rxjs/operators';
-
-import { QuoteService } from './quote.service';
+import { dataService } from '@app/home/data.service';
 
 @Component({
   selector: 'app-home',
@@ -9,22 +8,38 @@ import { QuoteService } from './quote.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  quote: string;
   isLoading: boolean;
+  overview: object;
+  phones: Array<any>;
 
-  constructor(private quoteService: QuoteService) {}
+  constructor(private dataService: dataService) {}
 
   ngOnInit() {
     this.isLoading = true;
-    this.quoteService
-      .getRandomQuote({ category: 'dev' })
+    this.dataService
+      .getOverview()
       .pipe(
         finalize(() => {
           this.isLoading = false;
         })
       )
-      .subscribe((quote: string) => {
-        this.quote = quote;
+      .subscribe((overview: object) => {
+        this.overview = overview;
       });
+    this.dataService.getPhones().subscribe((phones: any) => {
+      this.phones = phones;
+    });
+  }
+
+  getImage(phoneId: string): string {
+    if (this.phones) {
+      const match = this.phones.filter(phone => {
+        return phone.id === phoneId;
+      });
+      if (match.length >= 1) {
+        return match[0].img_url;
+      }
+    }
+    return 'assets/apple.svg';
   }
 }

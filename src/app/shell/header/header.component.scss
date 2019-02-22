@@ -1,7 +1,17 @@
 @import "src/theme/theme-variables";
 
+.logo {
+  height: 30px;
+  filter: brightness(100);
+  margin-top: -5px;
+}
+
 .navbar {
   margin-bottom: $spacer;
+  background-color: #428cbd !important;
+  .navbar-brand {
+    margin: -20px 0;
+  }
 }
 
 .nav-link.dropdown-toggle {

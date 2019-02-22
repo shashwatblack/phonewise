@@ -1,0 +1,34 @@
+<div class="container-fluid container">
+  <div class="row">
+    <div
+      class="col-3"
+      *ngFor="let phone of phones; let i = index"
+      draggable
+      [dragClass]="'my-draggable'"
+      [dragData]="i"
+    >
+      <div class="phone-container">
+        <div class="title text-left">
+          MOST ADMIRED
+        </div>
+        <div class="phone">
+          <img src="assets/apple.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        droppable
+        style="height: 215px; width: 255px; background-color: beige; margin: 10px 15px; padding: 20px;"
+        (onDrop)="phoneDropped($event)"
+      >
+        <p>Drop items here</p>
+        <ul>
+          <li *ngFor="let phone of droppedPhones">
+            {{ phone }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

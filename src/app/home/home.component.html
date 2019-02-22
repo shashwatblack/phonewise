@@ -1,10 +1,75 @@
-<div class="container-fluid">
+<div class="container-fluid container">
+  <div class="row">
+    <div class="col-6">
+      <div class="top-phone phone-container">
+        <div class="title text-right">
+          MOST POPULAR
+        </div>
+        <div class="phone">
+          <img src="{{ getImage((overview || {}).mostPopular) }}" />
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="top-phone phone-container">
+        <div class="phone">
+          <img src="{{ getImage((overview || {}).bestBudget) }}" />
+        </div>
+        <div class="title text-left">
+          BEST BUDGET
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <div class="phone-container">
+        <div class="title text-left">
+          MOST ADMIRED
+        </div>
+        <div class="phone">
+          <img src="{{ getImage((overview || {}).mostAdmired) }}" />
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="phone-container">
+        <div class="title text-left">
+          BEST CAMERA
+        </div>
+        <div class="phone">
+          <img src="{{ getImage((overview || {}).bestCamera) }}" />
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="phone-container">
+        <div class="title text-left">
+          BEST PERFORMER
+        </div>
+        <div class="phone">
+          <img src="{{ getImage((overview || {}).bestPerformer) }}" />
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="phone-container">
+        <div class="title text-left">
+          YOU CHOOSE
+        </div>
+        <div class="phone">
+          <img src="{{ getImage() }}" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
   <div class="jumbotron text-center">
     <h1>
-      <img class="logo" src="assets/ngx-rocket-logo.png" alt="angular logo"/>
       <span translate>Hello world !</span>
     </h1>
     <app-loader [isLoading]="isLoading"></app-loader>
-    <q [hidden]="isLoading">{{quote}}</q>
+    <q [hidden]="isLoading">{{ quote }}</q>
   </div>
+  -->
 </div>
