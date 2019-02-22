@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  getImage(phoneId: string): string {
+  getImage(phoneId?: string): string {
     if (this.phones) {
       const match = this.phones.filter(phone => {
         return phone.id === phoneId;
