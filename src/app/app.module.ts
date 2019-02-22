@@ -9,14 +9,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { environment } from '@env/environment';
 import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
-import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
-import { AboutModule } from './about/about.module';
-import { CompareModule } from './compare/compare.module';
+import { HomeModule } from '@app/home/home.module';
+import { AboutModule } from '@app/about/about.module';
+import { CompareModule } from '@app/compare/compare.module';
+import { ListModule } from '@app/home/list.module';
+import { DetailModule } from '@app/detail/detail.module';
 import { LoginModule } from './login/login.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ListModule } from '@app/home/list.module';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { ListModule } from '@app/home/list.module';
     ListModule,
     AboutModule,
     CompareModule,
+    DetailModule,
     LoginModule,
     AppRoutingModule // must be imported as the last module as it contains the fallback route
   ],
