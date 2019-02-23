@@ -15,7 +15,7 @@ export class DetailComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-    this.sub = this.route.queryParams.subscribe(params => {
+    this.route.queryParams.subscribe(params => {
       this.id = params['id'] || 0;
     });
   }

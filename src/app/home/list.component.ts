@@ -11,6 +11,7 @@ export class ListComponent implements OnInit {
   isLoading: boolean;
   droppedPhones: Array<any>;
   sort: string;
+  order: string;
 
   constructor(private route: ActivatedRoute) {}
 
@@ -18,7 +19,7 @@ export class ListComponent implements OnInit {
     this.isLoading = false;
     this.phones = Array(10).fill(1);
     this.droppedPhones = [];
-    this.sub = this.route.queryParams.subscribe(params => {
+    this.route.queryParams.subscribe(params => {
       this.sort = params['sort'] || 'price';
       this.order = params['order'] || 'desc';
     });
