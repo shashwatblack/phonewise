@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 import { environment } from '@env/environment';
 
@@ -9,8 +10,13 @@ import { environment } from '@env/environment';
 })
 export class DetailComponent implements OnInit {
   version: string = environment.version;
+  id: number;
 
-  constructor() {}
+  constructor(private route: ActivatedRoute) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.sub = this.route.queryParams.subscribe(params => {
+      this.id = params['id'] || 0;
+    });
+  }
 }

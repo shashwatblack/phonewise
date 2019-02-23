@@ -1,56 +1,66 @@
 <div class="container-fluid container">
   <div class="row">
     <div class="col-6">
-      <div class="top-phone phone-container">
-        <div class="title text-right">
-          MOST POPULAR
+      <a [routerLink]="['/list']" [queryParams]="{ sort: 'popularity', order: 'desc' }">
+        <div class="top-phone phone-container">
+          <div class="title text-right">
+            MOST POPULAR
+          </div>
+          <div class="phone">
+            <img src="{{ getImage((overview || {}).mostPopular) }}" />
+          </div>
         </div>
-        <div class="phone">
-          <img src="{{ getImage((overview || {}).mostPopular) }}" />
-        </div>
-      </div>
+      </a>
     </div>
     <div class="col-6">
-      <div class="top-phone phone-container">
-        <div class="phone">
-          <img src="{{ getImage((overview || {}).bestBudget) }}" />
+      <a [routerLink]="['/list']" [queryParams]="{ sort: 'price', order: 'asc' }">
+        <div class="top-phone phone-container">
+          <div class="phone">
+            <img src="{{ getImage((overview || {}).bestBudget) }}" />
+          </div>
+          <div class="title text-left">
+            BEST BUDGET
+          </div>
         </div>
-        <div class="title text-left">
-          BEST BUDGET
-        </div>
-      </div>
+      </a>
     </div>
   </div>
   <div class="row">
     <div class="col-3">
-      <div class="phone-container">
-        <div class="title text-left">
-          MOST ADMIRED
+      <a [routerLink]="['/list']" [queryParams]="{ sort: 'admiration', order: 'desc' }">
+        <div class="phone-container">
+          <div class="title text-left">
+            MOST ADMIRED
+          </div>
+          <div class="phone">
+            <img src="{{ getImage((overview || {}).mostAdmired) }}" />
+          </div>
         </div>
-        <div class="phone">
-          <img src="{{ getImage((overview || {}).mostAdmired) }}" />
-        </div>
-      </div>
+      </a>
     </div>
     <div class="col-3">
-      <div class="phone-container">
-        <div class="title text-left">
-          BEST CAMERA
+      <a [routerLink]="['/list']" [queryParams]="{ sort: 'camera', order: 'desc' }">
+        <div class="phone-container">
+          <div class="title text-left">
+            BEST CAMERA
+          </div>
+          <div class="phone">
+            <img src="{{ getImage((overview || {}).bestCamera) }}" />
+          </div>
         </div>
-        <div class="phone">
-          <img src="{{ getImage((overview || {}).bestCamera) }}" />
-        </div>
-      </div>
+      </a>
     </div>
     <div class="col-3">
-      <div class="phone-container">
-        <div class="title text-left">
-          BEST PERFORMER
+      <a [routerLink]="['/list']" [queryParams]="{ sort: 'performance', order: 'desc' }">
+        <div class="phone-container">
+          <div class="title text-left">
+            BEST PERFORMER
+          </div>
+          <div class="phone">
+            <img src="{{ getImage((overview || {}).bestPerformer) }}" />
+          </div>
         </div>
-        <div class="phone">
-          <img src="{{ getImage((overview || {}).bestPerformer) }}" />
-        </div>
-      </div>
+      </a>
     </div>
     <div class="col-3">
       <div class="phone-container">
@@ -58,7 +68,7 @@
           YOU CHOOSE
         </div>
         <div class="phone">
-          <!-- <img src="{{ getImage() }}" /> -->
+          <img src="{{ getImage() }}" />
         </div>
       </div>
     </div>
