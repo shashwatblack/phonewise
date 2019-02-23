@@ -1,4 +1,5 @@
 <div class="container-fluid container">
+  <h2>{{ sort }} / {{ order }}</h2>
   <div class="row">
     <div
       class="col-3"
@@ -7,14 +8,16 @@
       [dragClass]="'my-draggable'"
       [dragData]="i"
     >
-      <div class="phone-container">
-        <div class="title text-left">
-          MOST ADMIRED
+      <a [routerLink]="['/detail']" [queryParams]="{ id: i }">
+        <div class="phone-container">
+          <div class="title text-left">
+            {{ i }}
+          </div>
+          <div class="phone">
+            <img src="assets/apple.svg" alt="" />
+          </div>
         </div>
-        <div class="phone">
-          <img src="assets/apple.svg" alt="" />
-        </div>
-      </div>
+      </a>
     </div>
     <div>
       <div
