@@ -8,7 +8,7 @@
       [dragClass]="'my-draggable'"
       [dragData]="i"
     >
-      <a [routerLink]="['/detail']" [queryParams]="{ id: i }">
+      <div [routerLink]="['/detail']" [queryParams]="{ id: i }">
         <div class="phone-container">
           <div class="title text-left">
             {{ i }}
@@ -17,21 +17,8 @@
             <img src="assets/apple.svg" alt="" />
           </div>
         </div>
-      </a>
-    </div>
-    <div>
-      <div
-        droppable
-        style="height: 215px; width: 255px; background-color: beige; margin: 10px 15px; padding: 20px;"
-        (onDrop)="phoneDropped($event)"
-      >
-        <p>Drop items here</p>
-        <ul>
-          <li *ngFor="let phone of droppedPhones">
-            {{ phone }}
-          </li>
-        </ul>
       </div>
     </div>
   </div>
 </div>
+<app-basket></app-basket>
