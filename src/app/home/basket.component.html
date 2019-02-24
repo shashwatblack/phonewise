@@ -1,27 +1,31 @@
 <div class="basket-container">
   <div class="basket">
-    <div *ngFor="let index of [0, 1, 2]">
-      <div droppable (onDrop)="phoneDropped($event, index)" class="drop-area">
-        <div class="phone active" *ngIf="droppedPhones[index]">
-          <img [src]="droppedPhones[index].img_url" alt="" />
+    <div tourAnchor="basket.drag">
+      <div *ngFor="let index of [0, 1, 2]">
+        <div droppable (onDrop)="phoneDropped($event, index)" class="drop-area">
+          <div class="phone active" *ngIf="droppedPhones[index]">
+            <img [src]="droppedPhones[index].img_url" alt="" />
+          </div>
+          <div class="title text-left" *ngIf="droppedPhones[index]">
+            {{ droppedPhones[index].brand }} {{ droppedPhones[index].model }}
+          </div>
+          <div class="phone" *ngIf="!droppedPhones[index]">
+            <img src="assets/apple.svg" alt="" />
+          </div>
+          <button
+            class="btn btn-outline-danger btn-remove-phone"
+            *ngIf="!!droppedPhones[index]"
+            (click)="removePhone(index)"
+          >
+            <i class="fa fa-times"></i>
+          </button>
         </div>
-        <div class="title text-left" *ngIf="droppedPhones[index]">
-          {{ droppedPhones[index].brand }} {{ droppedPhones[index].model }}
-        </div>
-        <div class="phone" *ngIf="!droppedPhones[index]">
-          <img src="assets/apple.svg" alt="" />
-        </div>
-        <button
-          class="btn btn-outline-danger btn-remove-phone"
-          *ngIf="!!droppedPhones[index]"
-          (click)="removePhone(index)"
-        >
-          <i class="fa fa-times"></i>
-        </button>
       </div>
     </div>
-    <button class="btn btn-info compare-btn" [disabled]="disableCompareButton()" (click)="compare()">
-      Compare Now
-    </button>
+    <div tourAnchor="basket.compare">
+      <button class="btn btn-info compare-btn" [disabled]="disableCompareButton()" (click)="compare()">
+        Compare Now
+      </button>
+    </div>
   </div>
 </div>

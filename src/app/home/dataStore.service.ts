@@ -14,6 +14,13 @@ const overviewsJson = {
 const phonesJson = [
   {
     id: 1,
+
+    reviewScore: 4,
+    performanceScore: 4,
+    cameraScore: 4,
+    popularityScore: 4,
+    valueScore: 4,
+
     brand: 'Acer',
     model: 'Iconia Talk S',
     network_technology: 'GSM / HSPA / LTE',
@@ -67,6 +74,23 @@ const phonesJson = [
         source: 'CNET',
         content:
           'These guys are the best! I had a little situation with my item but they quickly fixed the issue. I was pleased and will definitely be buying another phon from them if I need one.'
+      }
+    ],
+    prices: [
+      {
+        rating: 4,
+        source: 'amazon',
+        price: 400,
+        shipping: '4 Days',
+        url: 'https://www.amazon.com/OnePlus-5T-A5010-64GB-International/dp/B0787NNSK9'
+      },
+      {
+        rating: 3,
+        source: 'ebay',
+        price: 300,
+        shipping: 'Out of Stock',
+        url:
+          'https://www.ebay.com/itm/OnePlus-5T-128GB-Midnight-Black-A5010-FACTORY-UNLOCKED-6-0-16MP-8GB-RAM/222747039182'
       }
     ],
     img_url: 'http://cdn2.gsmarena.com/vv/bigpic/acer-iconia-talk-s.jpg'
@@ -886,7 +910,7 @@ const phonesJson = [
         rating: 5,
         type: 'video',
         source: 'TechRadar',
-        content: 'https://www.youtube.com/watch?v=t9R7xx0joOU'
+        content: 'https://www.youtube.com/embed/t9R7xx0joOU'
       },
       {
         rating: 2,

@@ -1,8 +1,367 @@
 <div class="container-fluid">
-  <div class="jumbotron text-center">
-    <h1>
-      <span translate>APP_NAME</span>
-    </h1>
-    <p><i class="far fa-bookmark"></i> <span translate>Version</span> {{ version }}</p>
+  <div class="phone-container">
+    <h3>Compare Phones</h3>
+    <div class="row align-items-center">
+      <div class="col-3 offset-2 text-center">
+        <ng-container *ngIf="phones[0]">
+          <img class="phone-img" src="{{ phones[0].img_url }}" />
+        </ng-container>
+        <ng-container *ngIf="!phones[0]">
+          <a href="/">
+            <img class="phone-img" src="../../assets/apple.svg" alt="add phone" />
+          </a>
+        </ng-container>
+      </div>
+      <div class="col-3 text-center">
+        <ng-container *ngIf="phones[1]">
+          <img class="phone-img" src="{{ phones[1].img_url }}" />
+        </ng-container>
+        <ng-container *ngIf="!phones[1]">
+          <a href="/">
+            <img class="phone-img" src="../../assets/apple.svg" alt="add phone" />
+          </a>
+        </ng-container>
+      </div>
+      <div class="col-3 text-center">
+        <ng-container *ngIf="phones[2]">
+          <img class="phone-img" src="{{ phones[2].img_url }}" />
+        </ng-container>
+        <ng-container *ngIf="!phones[2]">
+          <a href="/">
+            <img class="phone-img" src="../../assets/apple.svg" alt="add phone" />
+          </a>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3 offset-2 text-center">
+        <ng-container *ngIf="phones[0]">
+          <h5 class="phone-name">{{ phones[0].brand }} {{ phones[0].model }}</h5>
+        </ng-container>
+        <ng-container *ngIf="!phones[0]">
+          <a href="/">
+            <h5 class="phone-name">Add Phone</h5>
+          </a>
+        </ng-container>
+      </div>
+      <div class="col-3 text-center">
+        <ng-container *ngIf="phones[1]">
+          <h5 class="phone-name">{{ phones[1].brand }} {{ phones[1].model }}</h5>
+        </ng-container>
+        <ng-container *ngIf="!phones[1]">
+          <a href="/">
+            <h5 class="phone-name">Add Phone</h5>
+          </a>
+        </ng-container>
+      </div>
+      <div class="col-3 text-center">
+        <ng-container *ngIf="phones[2]">
+          <h5 class="phone-name">{{ phones[2].brand }} {{ phones[2].model }}</h5>
+        </ng-container>
+        <ng-container *ngIf="!phones[2]">
+          <a href="/">
+            <h5 class="phone-name">Add Phone</h5>
+          </a>
+        </ng-container>
+      </div>
+    </div>
+    <ngb-tabset>
+      <ngb-tab title="Specs">
+        <ng-template ngbTabContent>
+          <ngb-accordion [closeOthers]="true" activeIds="detail-panel-general">
+            <ngb-panel title="General" id="detail-panel-general">
+              <ng-template ngbPanelContent>
+                <div class="row">
+                  <div class="col-2">
+                    <p>
+                      <b>Announced</b>
+                    </p>
+                    <p>
+                      <b>Status</b>
+                    </p>
+                    <p>
+                      <b>Dimentions</b>
+                    </p>
+                    <p>
+                      <b>Weight</b>
+                    </p>
+                    <p>
+                      <b>Colors</b>
+                    </p>
+                    <p>
+                      <b>OS</b>
+                    </p>
+                    <p>
+                      <b>Battery</b>
+                    </p>
+                    <p>
+                      <b>Sensors</b>
+                    </p>
+                  </div>
+                  <ng-container *ngFor="let i of [0, 1, 2]">
+                    <div class="col-3" *ngIf="phones[i]">
+                      <p>
+                        {{ phones[i].announced }}
+                      </p>
+                      <p>
+                        {{ phones[i].status }}
+                      </p>
+                      <p>
+                        {{ phones[i].dimentions }}
+                      </p>
+                      <p>{{ phones[i].weight_g }} g / {{ phones[i].weight_oz }} oz</p>
+                      <p>
+                        {{ phones[i].colors }}
+                      </p>
+                      <p>
+                        {{ phones[i].OS }}
+                      </p>
+                      <p>
+                        {{ phones[i].battery }}
+                      </p>
+                      <p>
+                        {{ phones[i].sensors }}
+                      </p>
+                    </div>
+                  </ng-container>
+                </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="Hardware" id="detail-panel-hardware">
+              <ng-template ngbPanelContent>
+                <div class="row">
+                  <div class="col-2">
+                    <p>
+                      <b>CPU</b>
+                    </p>
+                    <p>
+                      <b>Chipset</b>
+                    </p>
+                    <p>
+                      <b>GPU</b>
+                    </p>
+                    <p>
+                      <b>Memory Card</b>
+                    </p>
+                    <p>
+                      <b>Internal Memory</b>
+                    </p>
+                    <p>
+                      <b>RAM</b>
+                    </p>
+                  </div>
+                  <ng-container *ngFor="let i of [0, 1, 2]">
+                    <div class="col-3" *ngIf="phones[i]">
+                      <p>
+                        {{ phones[i].CPU }}
+                      </p>
+                      <p>
+                        {{ phones[i].Chipset }}
+                      </p>
+                      <p>
+                        {{ phones[i].GPU }}
+                      </p>
+                      <p>
+                        {{ phones[i].memory_card }}
+                      </p>
+                      <p>
+                        {{ phones[i].internal_memory }}
+                      </p>
+                      <p>
+                        {{ phones[i].RAM }}
+                      </p>
+                    </div>
+                  </ng-container>
+                </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="Camera" id="detail-panel-camera">
+              <ng-template ngbPanelContent>
+                <div class="row">
+                  <div class="col-2">
+                    <p>
+                      <b>Primary</b>
+                    </p>
+                    <p>
+                      <b>Secondary</b>
+                    </p>
+                  </div>
+                  <ng-container *ngFor="let i of [0, 1, 2]">
+                    <div class="col-3" *ngIf="phones[i]">
+                      <p>
+                        {{ phones[i].primary_camera }}
+                      </p>
+                      <p>
+                        {{ phones[i].secondary_camera }}
+                      </p>
+                    </div>
+                  </ng-container>
+                </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="Display" id="detail-panel-display">
+              <ng-template ngbPanelContent>
+                <div class="row">
+                  <div class="col-2">
+                    <p>
+                      <b>Type</b>
+                    </p>
+                    <p>
+                      <b>Resolution</b>
+                    </p>
+                    <p>
+                      <b>Size</b>
+                    </p>
+                  </div>
+                  <ng-container *ngFor="let i of [0, 1, 2]">
+                    <div class="col-3" *ngIf="phones[i]">
+                      <p>
+                        {{ phones[i].display_type }}
+                      </p>
+                      <p>
+                        {{ phones[i].display_resolution }}
+                      </p>
+                      <p>
+                        {{ phones[i].display_size }}
+                      </p>
+                    </div>
+                  </ng-container>
+                </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="Media" id="detail-panel-media">
+              <ng-template ngbPanelContent>
+                <div class="row">
+                  <div class="col-2">
+                    <p>
+                      <b>Speaker</b>
+                    </p>
+                    <p>
+                      <b>Audio Jack</b>
+                    </p>
+                    <p>
+                      <b>Radio</b>
+                    </p>
+                  </div>
+                  <ng-container *ngFor="let i of [0, 1, 2]">
+                    <div class="col-3" *ngIf="phones[i]">
+                      <p>
+                        {{ phones[i].loud_speaker }}
+                      </p>
+                      <p>
+                        {{ phones[i].audio_jack }}
+                      </p>
+                      <p>
+                        {{ phones[i].radio }}
+                      </p>
+                    </div>
+                  </ng-container>
+                </div>
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel title="Network" id="detail-panel-network">
+              <ng-template ngbPanelContent>
+                <div class="row">
+                  <div class="col-2">
+                    <p>
+                      <b>WLAN</b>
+                    </p>
+                    <p>
+                      <b>Bluetooth</b>
+                    </p>
+                    <p>
+                      <b>USB</b>
+                    </p>
+                    <p>
+                      <b>GPS</b>
+                    </p>
+                    <p>
+                      <b>NFC</b>
+                    </p>
+                    <p>
+                      <b>SIM</b>
+                    </p>
+                    <p>
+                      <b>Network Tech</b>
+                    </p>
+                    <p>
+                      <b>2G Bands</b>
+                    </p>
+                    <p>
+                      <b>3G Bands</b>
+                    </p>
+                    <p>
+                      <b>4G Bands</b>
+                    </p>
+                    <p>
+                      <b>Speed</b>
+                    </p>
+                    <p>
+                      <b>GPRS</b>
+                    </p>
+                    <p>
+                      <b>EDGE</b>
+                    </p>
+                  </div>
+                  <ng-container *ngFor="let i of [0, 1, 2]">
+                    <div class="col-3" *ngIf="phones[i]">
+                      <p>
+                        {{ phones[i].WLAN }}
+                      </p>
+                      <p>
+                        {{ phones[i].bluetooth }}
+                      </p>
+                      <p>
+                        {{ phones[i].USB }}
+                      </p>
+                      <p>
+                        {{ phones[i].GPS }}
+                      </p>
+                      <p>
+                        {{ phones[i].NFC }}
+                      </p>
+                      <p>
+                        {{ phones[i].SIM }}
+                      </p>
+                      <p>
+                        {{ phones[i].network_technology }}
+                      </p>
+                      <p>
+                        {{ phones[i]['2G_bands'] }}
+                      </p>
+                      <p>
+                        {{ phones[i]['3G_bands'] }}
+                      </p>
+                      <p>
+                        {{ phones[i]['4G_bands'] }}
+                      </p>
+                      <p>
+                        {{ phones[i].network_speed }}
+                      </p>
+                      <p>
+                        {{ phones[i].GPRS }}
+                      </p>
+                      <p>
+                        {{ phones[i].EDGE }}
+                      </p>
+                    </div>
+                  </ng-container>
+                </div>
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="Prices">
+        <ng-template ngbTabContent>
+          <p>prices...</p>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="Reviews">
+        <ng-template ngbTabContent>
+          <p>reviews...</p>
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
   </div>
 </div>

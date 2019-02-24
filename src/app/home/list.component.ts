@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '@app/home/data.service';
 import { DataStoreService } from '@app/home/dataStore.service';
+import { TourService } from 'ngx-tour-md-menu';
 
 @Component({
   selector: 'app-phones-list',
@@ -14,8 +15,14 @@ export class ListComponent implements OnInit {
   isLoading: boolean;
   sort: string;
   order: string;
+  tutorialOverlay: boolean;
 
-  constructor(private route: ActivatedRoute, private router: Router, private dataService: DataStoreService) {}
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private dataService: DataStoreService,
+    private tourService: TourService
+  ) {}
 
   ngOnInit() {
     this.isLoading = false;
@@ -27,6 +34,49 @@ export class ListComponent implements OnInit {
       this.sort = params['sort'] || 'price';
       this.order = params['order'] || 'desc';
     });
+    this.showTutorial();
+  }
+
+  showTutorial() {
+    const tutorialShown = localStorage.getItem('tutorialShown');
+    if (tutorialShown) {
+      return;
+    }
+    localStorage.setItem('tutorialShown', 'true');
+
+    this.tourService.initialize([
+      {
+        anchorId: 'list.phones',
+        content: 'These are all the phones you filtered!',
+        title: 'Welcome!',
+        enableBackdrop: true,
+        preventScrolling: true
+      },
+      {
+        anchorId: 'list.filters',
+        content: 'You can sort the phones with these controls!',
+        title: 'Sort!',
+        enableBackdrop: true,
+        preventScrolling: true
+      },
+      {
+        anchorId: 'basket.drag',
+        content: 'Drag the phones here to compare them against each other!',
+        title: 'Compare!',
+        enableBackdrop: true,
+        preventScrolling: true
+      },
+      {
+        anchorId: 'basket.compare',
+        content: 'The press this button!',
+        title: 'Go!',
+        enableBackdrop: true,
+        preventScrolling: true
+      }
+    ]);
+    setTimeout(() => {
+      this.tourService.start();
+    }, 500);
   }
 
   loadPhones() {

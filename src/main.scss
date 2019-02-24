@@ -12,7 +12,36 @@
 @import "~@fortawesome/fontawesome-free-webfonts/scss/fa-brands.scss";
 @import "~@fortawesome/fontawesome-free-webfonts/scss/fa-regular.scss";
 @import "~@fortawesome/fontawesome-free-webfonts/scss/fa-solid.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "~ng-drag-drop/style.css";
+@import "~ngx-toastr/toastr.css";
 
 // Theme customization
 @import "theme/theme";
+
+/* TOASTR BUGFIX */
+#toast-container > div {
+  opacity: 1;
+}
+.toast {
+  font-size: initial !important;
+  border: initial !important;
+  backdrop-filter: blur(0) !important;
+}
+.toast-success {
+  background-color: #51a351 !important;
+}
+.toast-error {
+  background-color: #bd362f !important;
+}
+.toast-info {
+  background-color: #2f96b4 !important;
+}
+.toast-warning {
+  background-color: #f89406 !important;
+}
+
+/* UTIL STYLES */
+.no-margin {
+  margin: 0 !important;
+}

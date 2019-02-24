@@ -1,15 +1,15 @@
 <div class="container-fluid">
   <div class="phone-container">
     <div class="row">
-      <div class="col-lg-4 text-center">
+      <div class="col-4 text-center phone-image-container">
         <h2>{{ phone.brand }} {{ phone.model }}</h2>
         <img class="phone-img" src="{{ getImage() }}" />
       </div>
-      <div class="col-lg-8">
+      <div class="col-8 details-container">
         <ngb-tabset>
           <ngb-tab title="Specs">
             <ng-template ngbTabContent>
-              <ngb-accordion [closeOthers]="true" activeIds="detail-panel-general">
+              <ngb-accordion [closeOthers]="false" activeIds="detail-panel-general">
                 <ngb-panel title="General" id="detail-panel-general">
                   <ng-template ngbPanelContent>
                     <div class="row">
@@ -283,12 +283,74 @@
           </ngb-tab>
           <ngb-tab title="Prices">
             <ng-template ngbTabContent>
-              <p>prices...</p>
+              <div class="card prices">
+                <div class="card-body">
+                  <div class="list-group">
+                    <div *ngFor="let price of phone.prices" class="list-group-item">
+                      <div class="col col-3">
+                        <div>
+                          <img src="/assets/{{ price.source }}.png" alt="" class="seller-logo" />
+                        </div>
+                      </div>
+                      <div class="col col-2">
+                        <div class="rating">
+                          <i
+                            class="fa fa-star"
+                            *ngFor="let i of [1, 2, 3, 4, 5]"
+                            [ngClass]="{ active: i <= price.rating }"
+                          >
+                          </i>
+                        </div>
+                      </div>
+                      <div class="col col-2">
+                        {{ price.shipping }}
+                      </div>
+                      <div class="col col-2">
+                        <h5 class="no-margin">
+                          {{ price.price | currency }}
+                        </h5>
+                      </div>
+                      <div class="col col-3">
+                        <button class="btn btn-success">
+                          Buy
+                        </button>
+                        <button class="btn btn-warning btn-subscribe">
+                          Subscribe
+                        </button>
+                      </div>
+                    </div>
+                    <div *ngIf="!phone.prices || !phone.prices.length" class="text-center text-muted">
+                      <h5 class="no-margin">No prices are available for this product!</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </ng-template>
           </ngb-tab>
           <ngb-tab title="Reviews">
             <ng-template ngbTabContent>
-              <p>reviews...</p>
+              <div class="card reviews">
+                <div class="card-body">
+                  <div class="list-group">
+                    <div *ngFor="let review of phone.reviews" class="list-group-item">
+                      <h5>{{ review.source }}</h5>
+                      <div *ngIf="review.type === 'text'">
+                        {{ review.content }}
+                      </div>
+                      <div *ngIf="review.type === 'video'">
+                        <iframe
+                          width="560"
+                          height="315"
+                          [src]="review.content | safe"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </ng-template>
           </ngb-tab>
         </ngb-tabset>
