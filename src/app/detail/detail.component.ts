@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { DataService } from '@app/home/data.service';
 
 import { environment } from '@env/environment';
 
@@ -11,12 +12,31 @@ import { environment } from '@env/environment';
 export class DetailComponent implements OnInit {
   version: string = environment.version;
   id: number;
+  phone: any;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private dataService: DataService) {}
 
   ngOnInit() {
     this.route.queryParams.subscribe(params => {
       this.id = params['id'] || 0;
     });
+    this.dataService.getPhonesObservable().subscribe((phones: Array<any>) => {
+      if (phones) {
+        const match = phones.filter(phone => {
+          return phone.id == this.id;
+        });
+        if (match.length >= 1) {
+          this.phone = match[0];
+        }
+      }
+    });
+  }
+
+  getImage(): string {
+    if (this.phone) {
+      return this.phone.img_url;
+    } else {
+      return 'assets/apple.svg';
+    }
   }
 }
