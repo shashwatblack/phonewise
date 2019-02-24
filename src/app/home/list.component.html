@@ -1,48 +1,50 @@
 <div class="container-fluid container">
-  <!--<h2>{{ sort }} / {{ order }}</h2>-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light filters">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item" [ngClass]="{ active: sort === 'review' }">
-        <a class="nav-link" (click)="applyFilter('review')">
-          Review <i class="fa" [ngClass]="getSortIconClass('review')"></i>
-        </a>
-      </li>
-      <li class="nav-item" [ngClass]="{ active: sort === 'performance' }">
-        <a class="nav-link" (click)="applyFilter('performance')">
-          Performance <i class="fa" [ngClass]="getSortIconClass('performance')"></i>
-        </a>
-      </li>
-      <li class="nav-item" [ngClass]="{ active: sort === 'camera' }">
-        <a class="nav-link" (click)="applyFilter('camera')">
-          Camera <i class="fa" [ngClass]="getSortIconClass('camera')"></i>
-        </a>
-      </li>
-      <li class="nav-item" [ngClass]="{ active: sort === 'popularity' }">
-        <a class="nav-link" (click)="applyFilter('popularity')">
-          Popularity <i class="fa" [ngClass]="getSortIconClass('popularity')"></i>
-        </a>
-      </li>
-      <li class="nav-item" [ngClass]="{ active: sort === 'value' }">
-        <a class="nav-link" (click)="applyFilter('value')">
-          Value <i class="fa" [ngClass]="getSortIconClass('value')"></i>
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <div class="row">
-    <div
-      class="col-3"
-      *ngFor="let phone of phonesOrdered; let i = index"
-      draggable
-      [dragClass]="'my-draggable'"
-      [dragData]="phone"
-    >
-      <div [routerLink]="['/detail']" [queryParams]="{ id: phone.id }">
-        <div class="phone-container">
-          <div class="phone">
-            <img [src]="phone.img_url" alt="" />
+  <div class="phones-list">
+    <!--<h2>{{ sort }} / {{ order }}</h2>-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light filters">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" [ngClass]="{ active: sort === 'review' }">
+          <a class="nav-link" (click)="applyFilter('review')">
+            Review <i class="fa" [ngClass]="getSortIconClass('review')"></i>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{ active: sort === 'performance' }">
+          <a class="nav-link" (click)="applyFilter('performance')">
+            Performance <i class="fa" [ngClass]="getSortIconClass('performance')"></i>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{ active: sort === 'camera' }">
+          <a class="nav-link" (click)="applyFilter('camera')">
+            Camera <i class="fa" [ngClass]="getSortIconClass('camera')"></i>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{ active: sort === 'popularity' }">
+          <a class="nav-link" (click)="applyFilter('popularity')">
+            Popularity <i class="fa" [ngClass]="getSortIconClass('popularity')"></i>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{ active: sort === 'value' }">
+          <a class="nav-link" (click)="applyFilter('value')">
+            Value <i class="fa" [ngClass]="getSortIconClass('value')"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div
+        class="col-3"
+        *ngFor="let phone of phonesOrdered; let i = index"
+        draggable
+        [dragClass]="'my-draggable'"
+        [dragData]="phone"
+      >
+        <div [routerLink]="['/detail']" [queryParams]="{ id: phone.id }">
+          <div class="phone-container">
+            <div class="phone">
+              <img [src]="phone.img_url" alt="" />
+            </div>
+            <a class="title text-left">{{ phone.brand }} {{ phone.model }}</a>
           </div>
-          <a class="title text-left">{{ phone.brand }} {{ phone.model }}</a>
         </div>
       </div>
     </div>
