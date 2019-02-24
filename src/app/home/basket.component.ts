@@ -26,14 +26,14 @@ export class BasketComponent implements OnInit {
       }
       if (phone.id === droppedPhone.id) {
         if (index !== i) {
-          this.toastr.info(droppedPhone.brand + ' ' + droppedPhone.model + ' already exists!');
+          this.toastr.warning(droppedPhone.brand + ' ' + droppedPhone.model + ' already exists!');
         }
         return;
       }
     }
     this.droppedPhones[index] = event.dragData;
     this.saveLocalStorage();
-    this.toastr.success('Added ' + this.droppedPhones[index].brand + ' ' + this.droppedPhones[index].model);
+    this.toastr.info('Added ' + this.droppedPhones[index].brand + ' ' + this.droppedPhones[index].model);
   }
 
   disableCompareButton(): boolean {

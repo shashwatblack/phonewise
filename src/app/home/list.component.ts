@@ -38,6 +38,12 @@ export class ListComponent implements OnInit {
   }
 
   showTutorial() {
+    const tutorialShown = localStorage.getItem('tutorialShown');
+    if (tutorialShown) {
+      return;
+    }
+    localStorage.setItem('tutorialShown', true);
+
     this.tourService.initialize([
       {
         anchorId: 'list.phones',
@@ -68,14 +74,9 @@ export class ListComponent implements OnInit {
         preventScrolling: true
       }
     ]);
-    // const tutorialShown = localStorage.getItem('tutorialShown');
-    // if (tutorialShown) {
-    //   return;
-    // }
-    // this.tutorialOverlay = true;
     setTimeout(() => {
       this.tourService.start();
-    }, 1000);
+    }, 500);
   }
 
   loadPhones() {
