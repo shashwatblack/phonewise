@@ -18,6 +18,8 @@
     margin-top: 10px;
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     &:hover {
       text-decoration: underline;
       color: #428cbd;

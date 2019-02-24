@@ -5,6 +5,9 @@
         <div class="phone active" *ngIf="droppedPhones[index]">
           <img [src]="droppedPhones[index].img_url" alt="" />
         </div>
+        <div class="title text-left" *ngIf="droppedPhones[index]">
+          {{ droppedPhones[index].brand }} {{ droppedPhones[index].model }}
+        </div>
         <div class="phone" *ngIf="!droppedPhones[index]">
           <img src="assets/apple.svg" alt="" />
         </div>
