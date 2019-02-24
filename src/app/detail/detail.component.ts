@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '@app/home/data.service';
 
 import { environment } from '@env/environment';
+import { DataStoreService } from '@app/home/dataStore.service';
 
 @Component({
   selector: 'app-detail',
@@ -14,7 +15,7 @@ export class DetailComponent implements OnInit {
   id: number;
   phone: any;
 
-  constructor(private route: ActivatedRoute, private dataService: DataService) {}
+  constructor(private route: ActivatedRoute, private dataService: DataStoreService) {}
 
   ngOnInit() {
     this.route.queryParams.subscribe(params => {

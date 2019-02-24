@@ -40,3 +40,24 @@
     }
   }
 }
+
+.filters {
+  .nav-item {
+    margin-right: 40px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 150ms ease-in-out;
+    .fa {
+      margin-left: 5px;
+    }
+    &:hover {
+      opacity: 1;
+      a {
+        color: #428cbd;
+      }
+    }
+    &.active {
+      opacity: 1;
+    }
+  }
+}
