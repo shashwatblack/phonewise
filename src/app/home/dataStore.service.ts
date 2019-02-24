@@ -255,7 +255,7 @@ const phonesJson = [
           'https://www.ebay.com/itm/OnePlus-5T-128GB-Midnight-Black-A5010-FACTORY-UNLOCKED-6-0-16MP-8GB-RAM/222747039182'
       }
     ],
-    img_url: 'https://i.imgur.com/UlmhOyU.png'
+    img_url: 'https://i.imgur.com/bS06CTq.png'
   },
   {
     id: 4,

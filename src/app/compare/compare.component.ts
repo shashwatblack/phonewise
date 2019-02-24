@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '@app/home/data.service';
 
 import { environment } from '@env/environment';
+import { DataStoreService } from '@app/home/dataStore.service';
 
 @Component({
   selector: 'app-compare',
@@ -13,7 +14,7 @@ export class CompareComponent implements OnInit {
   version: string = environment.version;
   phones: Array<any> = [];
 
-  constructor(private route: ActivatedRoute, private dataService: DataService) {}
+  constructor(private route: ActivatedRoute, private dataService: DataStoreService) {}
 
   ngOnInit() {
     let phone_ids = [-1, -1, -1],
