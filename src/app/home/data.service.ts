@@ -9,7 +9,7 @@ const routes = {
 };
 
 @Injectable()
-export class dataService {
+export class DataService {
   phones: Observable<object>;
   overview: Observable<object>;
 
@@ -58,6 +58,11 @@ export class dataService {
   }
 
   getPhones(): Observable<object> {
+    return this.phones;
+  }
+
+  getPhoneById(id: any): object {
+    // TODO
     return this.phones;
   }
 

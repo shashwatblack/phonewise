@@ -14,8 +14,8 @@ export class BasketComponent implements OnInit {
     this.droppedPhones = [null, null, null];
   }
 
-  phoneDropped(event: object, index: number) {
-    this.droppedPhones[index] = event;
+  phoneDropped(event: any, index: number) {
+    this.droppedPhones[index] = event.dragData;
   }
 
   disableCompareButton(): boolean {

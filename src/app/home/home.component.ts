@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { finalize } from 'rxjs/operators';
-import { dataService } from '@app/home/data.service';
+import { DataService } from '@app/home/data.service';
 
 @Component({
   selector: 'app-home',
@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   overview: object;
   phones: Array<any>;
 
-  constructor(private dataService: dataService) {}
+  constructor(private dataService: DataService) {}
 
   ngOnInit() {
     this.isLoading = true;

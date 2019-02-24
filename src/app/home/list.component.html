@@ -6,15 +6,13 @@
       *ngFor="let phone of phones; let i = index"
       draggable
       [dragClass]="'my-draggable'"
-      [dragData]="i"
+      [dragData]="phone"
     >
-      <div [routerLink]="['/detail']" [queryParams]="{ id: i }">
+      <div [routerLink]="['/detail']" [queryParams]="{ id: phone.id }">
         <div class="phone-container">
-          <div class="title text-left">
-            {{ i }}
-          </div>
+          <div class="title text-left">{{ phone.brand }} {{ phone.model }}</div>
           <div class="phone">
-            <img src="assets/apple.svg" alt="" />
+            <img [src]="phone.img_url" alt="" />
           </div>
         </div>
       </div>
