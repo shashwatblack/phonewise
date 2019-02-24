@@ -27,6 +27,7 @@
       opacity: 0.3;
       > img {
         height: 150px;
+        max-height: 150px;
       }
       &.active {
         opacity: 1;
@@ -45,6 +46,15 @@
       right: -10px;
       background: #f0f0f0;
       z-index: 100;
+    }
+
+    &.drag-hint-border {
+      border: none;
+      outline: #3c763d dashed 2px;
+    }
+    &.drag-over-border {
+      border: none;
+      outline: #fbbc05 dashed 2px;
     }
   }
 

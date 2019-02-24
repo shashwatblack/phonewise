@@ -10,10 +10,10 @@
     >
       <div [routerLink]="['/detail']" [queryParams]="{ id: phone.id }">
         <div class="phone-container">
-          <div class="title text-left">{{ phone.brand }} {{ phone.model }}</div>
           <div class="phone">
             <img [src]="phone.img_url" alt="" />
           </div>
+          <a class="title text-left">{{ phone.brand }} {{ phone.model }}</a>
         </div>
       </div>
     </div>
