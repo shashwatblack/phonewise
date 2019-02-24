@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
@@ -9,7 +10,7 @@ import { ToastrService } from 'ngx-toastr';
 export class BasketComponent implements OnInit {
   droppedPhones: Array<any>;
 
-  constructor(private toastr: ToastrService) {}
+  constructor(private router: Router, private toastr: ToastrService) {}
 
   ngOnInit() {
     this.droppedPhones = [null, null, null];
@@ -56,5 +57,20 @@ export class BasketComponent implements OnInit {
     localStorage.setItem('basket', JSON.stringify(this.droppedPhones));
   }
 
-  compare() {}
+  compare() {
+    let link = '/compare?';
+    for (let i = 0; i < 3; i++) {
+      if (this.droppedPhones[i] != null) {
+        link += 'phone' + (i + 1);
+        link += '=';
+        link += this.droppedPhones[i].id;
+        link += '&';
+      }
+    }
+    if (link[link.length - 1] == '&') {
+      link = link.substring(0, link.length - 1);
+    }
+
+    this.router.navigateByUrl(link);
+  }
 }
