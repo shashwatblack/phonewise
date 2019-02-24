@@ -1,5 +1,70 @@
 <div class="container-fluid">
   <div class="phone-container">
+    <h3>Compare Phones</h3>
+    <div class="row align-items-center">
+      <div class="col-3 offset-2 text-center">
+        <ng-container *ngIf="phones[0]">
+          <img class="phone-img" src="{{ phones[0].img_url }}" />
+        </ng-container>
+        <ng-container *ngIf="!phones[0]">
+          <a href="/">
+            <img class="phone-img" src="../../assets/apple.svg" alt="add phone" />
+          </a>
+        </ng-container>
+      </div>
+      <div class="col-3 text-center">
+        <ng-container *ngIf="phones[1]">
+          <img class="phone-img" src="{{ phones[1].img_url }}" />
+        </ng-container>
+        <ng-container *ngIf="!phones[1]">
+          <a href="/">
+            <img class="phone-img" src="../../assets/apple.svg" alt="add phone" />
+          </a>
+        </ng-container>
+      </div>
+      <div class="col-3 text-center">
+        <ng-container *ngIf="phones[2]">
+          <img class="phone-img" src="{{ phones[2].img_url }}" />
+        </ng-container>
+        <ng-container *ngIf="!phones[2]">
+          <a href="/">
+            <img class="phone-img" src="../../assets/apple.svg" alt="add phone" />
+          </a>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3 offset-2 text-center">
+        <ng-container *ngIf="phones[0]">
+          <h5 class="phone-name">{{ phones[0].brand }} {{ phones[0].model }}</h5>
+        </ng-container>
+        <ng-container *ngIf="!phones[0]">
+          <a href="/">
+            <h5 class="phone-name">Add Phone</h5>
+          </a>
+        </ng-container>
+      </div>
+      <div class="col-3 text-center">
+        <ng-container *ngIf="phones[1]">
+          <h5 class="phone-name">{{ phones[1].brand }} {{ phones[1].model }}</h5>
+        </ng-container>
+        <ng-container *ngIf="!phones[1]">
+          <a href="/">
+            <h5 class="phone-name">Add Phone</h5>
+          </a>
+        </ng-container>
+      </div>
+      <div class="col-3 text-center">
+        <ng-container *ngIf="phones[2]">
+          <h5 class="phone-name">{{ phones[2].brand }} {{ phones[2].model }}</h5>
+        </ng-container>
+        <ng-container *ngIf="!phones[2]">
+          <a href="/">
+            <h5 class="phone-name">Add Phone</h5>
+          </a>
+        </ng-container>
+      </div>
+    </div>
     <ngb-tabset>
       <ngb-tab title="Specs">
         <ng-template ngbTabContent>

@@ -30,11 +30,11 @@ export class CompareComponent implements OnInit {
 
     this.dataService.getPhonesObservable().subscribe((phones: Array<any>) => {
       if (phones) {
-        const match = phones.filter(phone => {
-          return phone_ids.includes(phone.id);
-        });
-        for (let i = 0; i < match.length; i++) {
-          this.phones.push(match[i]);
+        for (let i = 0; i < 3; i++) {
+          if (phone_ids[i] == -1) {
+            break;
+          }
+          this.phones.push(phones[phone_ids[i] - 1]);
         }
       }
     });
