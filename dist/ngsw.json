@@ -1,0 +1,63 @@
+{
+  "configVersion": 1,
+  "index": "https://github.tamu.edu/pages/sswt/phonemache/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://github.tamu.edu/pages/sswt/phonemache/favicon.ico",
+        "https://github.tamu.edu/pages/sswt/phonemache/index.html",
+        "https://github.tamu.edu/pages/sswt/phonemache/main.d90f56a54e9118c5c260.js",
+        "https://github.tamu.edu/pages/sswt/phonemache/polyfills.493406d110d9255e1f25.js",
+        "https://github.tamu.edu/pages/sswt/phonemache/runtime.a5dd35324ddfd942bef1.js",
+        "https://github.tamu.edu/pages/sswt/phonemache/styles.cf73f392352461f0691d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://github.tamu.edu/pages/sswt/phonemache/assets/apple.svg",
+        "https://github.tamu.edu/pages/sswt/phonemache/assets/logo-white.png",
+        "https://github.tamu.edu/pages/sswt/phonemache/assets/logo.png",
+        "https://github.tamu.edu/pages/sswt/phonemache/assets/logo.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.tamu.edu/pages/sswt/phonemache/assets/apple.svg": "a9583d5cbe75cc603f833a6575b0e9c61044d489",
+    "https://github.tamu.edu/pages/sswt/phonemache/assets/logo-white.png": "810a46258269b58bb463ae273532a35e932f2634",
+    "https://github.tamu.edu/pages/sswt/phonemache/assets/logo.png": "06c0c39792ac1dea5363689afa1d0ee7cfb28b36",
+    "https://github.tamu.edu/pages/sswt/phonemache/assets/logo.svg": "3794136b4c82a7ec63a3f4508fda6d85fc57e2c9",
+    "https://github.tamu.edu/pages/sswt/phonemache/favicon.ico": "7830ae8993088ac08b8b52863c90525b201e4ed1",
+    "https://github.tamu.edu/pages/sswt/phonemache/index.html": "8d9a6522dd7fe37e81017fd44877e6069902a5c9",
+    "https://github.tamu.edu/pages/sswt/phonemache/main.d90f56a54e9118c5c260.js": "17d214db84a61587c639209ebd8c4752eb605405",
+    "https://github.tamu.edu/pages/sswt/phonemache/polyfills.493406d110d9255e1f25.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "https://github.tamu.edu/pages/sswt/phonemache/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://github.tamu.edu/pages/sswt/phonemache/styles.cf73f392352461f0691d.css": "ef215894451696ee915fdd5af45ae54ca044fb1e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
