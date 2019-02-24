@@ -14,6 +14,11 @@ const overviewsJson = {
 const phonesJson = [
   {
     id: 1,
+    reviewScore: 1,
+    performanceScore: 1,
+    cameraScore: 2,
+    popularityScore: 3,
+    valueScore: 1,
     brand: 'OnePlus',
     model: '6S',
     network_technology: 'GSM / HSPA / LTE',
@@ -91,6 +96,11 @@ const phonesJson = [
   },
   {
     id: 2,
+    reviewScore: 5,
+    performanceScore: 4,
+    cameraScore: 1,
+    popularityScore: 3,
+    valueScore: 1,
     brand: 'OnePlus',
     model: '5T',
     network_technology: 'GSM / HSPA / LTE',
@@ -167,6 +177,11 @@ const phonesJson = [
   },
   {
     id: 3,
+    reviewScore: 1,
+    performanceScore: 5,
+    cameraScore: 3,
+    popularityScore: 4,
+    valueScore: 1,
     brand: 'OnePlus',
     model: '7',
     network_technology: 'GSM / HSPA / LTE',
@@ -244,6 +259,11 @@ const phonesJson = [
   },
   {
     id: 4,
+    reviewScore: 1,
+    performanceScore: 3,
+    cameraScore: 2,
+    popularityScore: 4,
+    valueScore: 3,
     brand: 'OnePlus',
     model: 'Iconia 5T Plus',
     network_technology: 'No cellular connectivity',
@@ -320,6 +340,11 @@ const phonesJson = [
   },
   {
     id: 5,
+    reviewScore: 2,
+    performanceScore: 3,
+    cameraScore: 1,
+    popularityScore: 3,
+    valueScore: 5,
     brand: 'OnePlus',
     model: '3T',
     network_technology: 'GSM / HSPA / LTE',
@@ -396,6 +421,11 @@ const phonesJson = [
   },
   {
     id: 6,
+    reviewScore: 3,
+    performanceScore: 3,
+    cameraScore: 5,
+    popularityScore: 5,
+    valueScore: 1,
     brand: 'Apple',
     model: 'iPhone 6S',
     network_technology: 'GSM / HSPA',
@@ -473,6 +503,11 @@ const phonesJson = [
   },
   {
     id: 7,
+    reviewScore: 3,
+    performanceScore: 2,
+    cameraScore: 5,
+    popularityScore: 2,
+    valueScore: 3,
     brand: 'Apple',
     model: 'iPhone X',
     network_technology: 'GSM / HSPA',
@@ -551,6 +586,11 @@ const phonesJson = [
   },
   {
     id: 8,
+    reviewScore: 5,
+    performanceScore: 1,
+    cameraScore: 5,
+    popularityScore: 2,
+    valueScore: 2,
     brand: 'Apple',
     model: 'iPhone 8',
     network_technology: 'GSM / HSPA / LTE',
@@ -627,6 +667,11 @@ const phonesJson = [
   },
   {
     id: 9,
+    reviewScore: 2,
+    performanceScore: 2,
+    cameraScore: 1,
+    popularityScore: 2,
+    valueScore: 3,
     brand: 'Apple',
     model: 'iPhone 7',
     network_technology: 'GSM / CDMA / HSPA / EVDO / LTE',
@@ -705,6 +750,11 @@ const phonesJson = [
   },
   {
     id: 10,
+    reviewScore: 3,
+    performanceScore: 3,
+    cameraScore: 3,
+    popularityScore: 3,
+    valueScore: 5,
     brand: 'Apple',
     model: 'iPhone 7 Plus',
     network_technology: 'GSM / CDMA / HSPA / EVDO / LTE',
@@ -781,6 +831,11 @@ const phonesJson = [
   },
   {
     id: 11,
+    reviewScore: 2,
+    performanceScore: 2,
+    cameraScore: 2,
+    popularityScore: 5,
+    valueScore: 1,
     brand: 'Xiaomi',
     model: 'Note 5',
     network_technology: 'GSM / CDMA / HSPA / EVDO / LTE',
@@ -859,6 +914,11 @@ const phonesJson = [
   },
   {
     id: 12,
+    reviewScore: 1,
+    performanceScore: 2,
+    cameraScore: 3,
+    popularityScore: 5,
+    valueScore: 1,
     brand: 'Xiaomi',
     model: 'Redmi 6',
     network_technology: 'GSM / HSPA / LTE',
@@ -936,6 +996,11 @@ const phonesJson = [
   },
   {
     id: 13,
+    reviewScore: 2,
+    performanceScore: 1,
+    cameraScore: 3,
+    popularityScore: 4,
+    valueScore: 5,
     brand: 'Samsung',
     model: 'Galaxy J7',
     network_technology: 'GSM / HSPA / LTE',
@@ -1012,6 +1077,11 @@ const phonesJson = [
   },
   {
     id: 14,
+    reviewScore: 2,
+    performanceScore: 5,
+    cameraScore: 3,
+    popularityScore: 4,
+    valueScore: 2,
     brand: 'Samsung',
     model: 'Galaxy J3',
     network_technology: 'GSM / HSPA / LTE',
@@ -1089,6 +1159,11 @@ const phonesJson = [
   },
   {
     id: 15,
+    reviewScore: 5,
+    performanceScore: 3,
+    cameraScore: 3,
+    popularityScore: 3,
+    valueScore: 1,
     brand: 'Samsung',
     model: 'Galaxy S9',
     network_technology: 'GSM / HSPA / LTE',
@@ -1133,7 +1208,7 @@ const phonesJson = [
         rating: 5,
         type: 'video',
         source: 'TechRadar',
-        content: 'https://www.youtube.com/watch?v=t9R7xx0joOU'
+        content: 'https://www.youtube.com/embed/t9R7xx0joOU'
       },
       {
         rating: 2,
@@ -1164,6 +1239,11 @@ const phonesJson = [
   },
   {
     id: 16,
+    reviewScore: 2,
+    performanceScore: 5,
+    cameraScore: 3,
+    popularityScore: 2,
+    valueScore: 3,
     brand: 'Samsung',
     model: 'Z4',
     network_technology: 'GSM / HSPA / LTE',
@@ -1215,7 +1295,7 @@ const phonesJson = [
         rating: 2,
         type: 'video',
         source: 'GSMArena',
-        content: 'https://www.youtube.com/watch?v=nNlTNE1y9DM'
+        content: 'https://www.youtube.com/embed/nNlTNE1y9DM'
       }
     ],
     prices: [
@@ -1238,6 +1318,11 @@ const phonesJson = [
   },
   {
     id: 17,
+    reviewScore: 1,
+    performanceScore: 3,
+    cameraScore: 1,
+    popularityScore: 5,
+    valueScore: 4,
     brand: 'Samsung',
     model: 'Galaxy S8',
     network_technology: 'GSM / HSPA / LTE',
@@ -1291,7 +1376,7 @@ const phonesJson = [
         rating: 4,
         type: 'video',
         source: 'GSMArena',
-        content: 'https://www.youtube.com/watch?v=OvVKnC6gGtg'
+        content: 'https://www.youtube.com/embed/OvVKnC6gGtg'
       }
     ],
     prices: [

@@ -96,7 +96,7 @@ export class ListComponent implements OnInit {
         sortProperty = 'popularityScore';
         break;
       case 'value':
-        sortProperty = 'approx_price_USD'; // 'valueScore';
+        sortProperty = 'valueScore';
     }
     const order = this.order === 'asc' ? 1 : -1;
     this.phonesOrdered.sort(function(a: any, b: any) {
