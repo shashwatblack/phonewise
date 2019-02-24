@@ -9,8 +9,8 @@
   "phones": [
     {
       "id": 1,
-      "brand": "Acer",
-      "model": "Iconia Talk S",
+      "brand": "OnePlus",
+      "model": "6S",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
       "3G_bands": "HSDPA 850 / 1900 / 2100",
@@ -47,7 +47,7 @@
       "sensors": "Accelerometer| proximity",
       "battery": "Non-removable Li-Ion 3400 mAh battery (12.92 Wh)",
       "colors": "Black",
-      "approx_price_USD": 170,
+      "approx_price_USD": 439,
       "reviews": [
         {
           "rating": 4,
@@ -62,12 +62,28 @@
           "content": "These guys are the best! I had a little situation with my item but they quickly fixed the issue. I was pleased and will definitely be buying another phon from them if I need one."
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/acer-iconia-talk-s.jpg"
+      "prices": [
+        {
+          "rating": 5,
+          "source": "amazon",
+          "price": 600,
+          "shipping": "4 Days",
+          "url": "https://www.amazon.com/OnePlus-Dual-SIM-Unlocked-Smartphone-Midnight/dp/B07DFYM9RC/ref=sr_1_3?keywords=oneplus+6&qid=1551046851&s=gateway&sr=8-3"
+        },
+        {
+          "rating": 4,
+          "source": "ebay",
+          "price": 384,
+          "shipping": "7 days",
+          "url": "https://www.ebay.com/itm/OnePlus-6T-128GB-A6010-FACTORY-UNLOCKED-6-41-8GB-RAM-Mirror-Midnight-Black/192756206953?epid=20026599434&hash=item2ce12a4d69:m:moAD_9NYbfPFFI--DoaqAvQ:rk:1:pf:0"
+        }
+      ],
+      "img_url": "https://m.media-amazon.com/images/I/51U3RHsaqfL._AC_UL436_.jpg"
     },
     {
       "id": 2,
-      "brand": "Acer",
-      "model": "Liquid Z6 Plus",
+      "brand": "OnePlus",
+      "model": "5T",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
       "3G_bands": "HSDPA",
@@ -119,12 +135,28 @@
           "content": "pros-beautiful screen,capable of running chrome,take good pictures,the keyboard is comfy,fits in my pocket and fit my hands,plays really good videos and gamescons-no Bluetooth,came late,"
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/acer-liquid-z6-plus.jpg"
+      "prices": [
+        {
+          "rating": 4,
+          "source": "amazon",
+          "price": 400,
+          "shipping": "4 Days",
+          "url": "https://www.amazon.com/OnePlus-5T-A5010-64GB-International/dp/B0787NNSK9"
+        },
+        {
+          "rating": 3,
+          "source": "ebay",
+          "price": 300,
+          "shipping": "Out of Stock",
+          "url": "https://www.ebay.com/itm/OnePlus-5T-128GB-Midnight-Black-A5010-FACTORY-UNLOCKED-6-0-16MP-8GB-RAM/222747039182"
+        }
+      ],
+      "img_url": "https://cdn1.smartprix.com/rx-iMRK2tPAg-w103-h125/oneplus-5.webp"
     },
     {
       "id": 3,
-      "brand": "Acer",
-      "model": "Liquid Z6",
+      "brand": "OnePlus",
+      "model": "7",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
       "3G_bands": "HSDPA",
@@ -161,7 +193,7 @@
       "sensors": "Accelerometer| proximity",
       "battery": "Removable Li-Ion 2000 mAh battery",
       "colors": "Black| White",
-      "approx_price_USD": 120,
+      "approx_price_USD": 799,
       "reviews": [
         {
           "rating": 3,
@@ -176,12 +208,28 @@
           "content": "The phone was great but it had gotten old so it was time for a replacement.it was great while it lasted."
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/acer-liquid-z6.jpg"
+      "prices": [
+        {
+          "rating": 5,
+          "source": "amazon",
+          "price": 780,
+          "shipping": "2 Days",
+          "url": "https://www.amazon.com/OnePlus-Storage-Factory-Unlocked-Display/dp/B07K76LBLZ/ref=sr_1_2?keywords=oneplus+7&qid=1551047047&s=gateway&sr=8-2"
+        },
+        {
+          "rating": 5,
+          "source": "ebay",
+          "price": 880,
+          "shipping": "Out of Stock",
+          "url": "https://www.ebay.com/itm/OnePlus-5T-128GB-Midnight-Black-A5010-FACTORY-UNLOCKED-6-0-16MP-8GB-RAM/222747039182"
+        }
+      ],
+      "img_url": "https://cdn.wccftech.com/wp-content/uploads/2019/02/OnePlus-7-555x740.jpg"
     },
     {
       "id": 4,
-      "brand": "Acer",
-      "model": "Iconia Tab 10 A3-A40",
+      "brand": "OnePlus",
+      "model": "Iconia 5T Plus",
       "network_technology": "No cellular connectivity",
       "2G_bands": "N/A",
       "3G_bands": "",
@@ -218,7 +266,7 @@
       "sensors": "Accelerometer",
       "battery": "Non-removable Li-Ion battery",
       "colors": "Black",
-      "approx_price_USD": 230,
+      "approx_price_USD": 300,
       "reviews": [
         {
           "rating": 4,
@@ -233,12 +281,28 @@
           "content": "Preface: This is not what would be considered a smartphone in the United States (Nothing on the par of Android, iPhone, or Windows Phone), it is basically a feature phone. Also, although it says."
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/acer-iconia-tab-10-a3-a40.jpg"
+      "prices": [
+        {
+          "rating": 5,
+          "source": "amazon",
+          "price": 450,
+          "shipping": "2 Days",
+          "url": "https://www.amazon.com/OnePlus-5T-A5010-64GB-International/dp/B0787NNSK9/ref=sr_1_1?keywords=oneplus+5t&qid=1551047183&s=gateway&sr=8-1"
+        },
+        {
+          "rating": 3,
+          "source": "OnePlus",
+          "price": 466,
+          "shipping": "3 days",
+          "url": "https://www.oneplus.com/5t"
+        }
+      ],
+      "img_url": "https://images-na.ssl-images-amazon.com/images/I/41MPcJuHSZL.jpg"
     },
     {
       "id": 5,
-      "brand": "Acer",
-      "model": "Liquid X2",
+      "brand": "OnePlus",
+      "model": "3T",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900",
       "3G_bands": "HSDPA 900 / 1900 / 2100 - Europe| Taiwan",
@@ -290,12 +354,28 @@
           "content": "Incredible! This phone does not have Splaniish Language, I dont understand how can it be a international version, lost money!"
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/acer-liquid-x2-1.jpg"
+      "prices": [
+        {
+          "rating": 3,
+          "source": "amazon",
+          "price": 200,
+          "shipping": "4 Days",
+          "url": "https://www.amazon.com/OnePlus-A3003-Gray-International-Version/dp/B01MXSXHF3/ref=sr_1_1?keywords=oneplus+3&qid=1551047293&s=gateway&sr=8-1"
+        },
+        {
+          "rating": 2,
+          "source": "OnePlus",
+          "price": 250,
+          "shipping": "7 days",
+          "url": "https://www.oneplus.com/3t"
+        }
+      ],
+      "img_url": "https://images-na.ssl-images-amazon.com/images/I/61BWuWvjW9L._SX569_.jpg"
     },
     {
       "id": 6,
-      "brand": "alcatel",
-      "model": "Pixi 4 (4)",
+      "brand": "Apple",
+      "model": "iPhone 6S",
       "network_technology": "GSM / HSPA",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900",
       "3G_bands": "HSDPA 900 / 2100",
@@ -332,7 +412,7 @@
       "sensors": "Accelerometer",
       "battery": "Removable Li-Ion 1500 mAh battery",
       "colors": "Various",
-      "approx_price_USD": 60,
+      "approx_price_USD": 150,
       "reviews": [
         {
           "rating": 5,
@@ -347,12 +427,28 @@
           "content": "pros.. it works fine, its easy to use, not too heavy.cons .. most of the apps are for android iphone and bb"
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/alcatel-pixi4-40.jpg"
+      "prices": [
+        {
+          "rating": 4,
+          "source": "amazon",
+          "price": 200,
+          "shipping": "4 Days",
+          "url": "https://www.amazon.com/Apple-iPhone-6S-Unlocked-64GB/dp/B01CR1FQMG/ref=sr_1_3?keywords=apple+iphone&qid=1551047465&s=gateway&sr=8-3"
+        },
+        {
+          "rating": 2,
+          "source": "bestbuy",
+          "price": 150,
+          "shipping": "4 days",
+          "url": "https://www.bestbuy.com/site/apple-pre-owned-iphone-6s-4g-lte-with-64gb-cell-phone-unlocked-space-gray/5872531.p?skuId=5872531"
+        }
+      ],
+      "img_url": "https://images-na.ssl-images-amazon.com/images/I/41jUosGQiDL.jpg"
     },
     {
       "id": 7,
-      "brand": "alcatel",
-      "model": "Pixi 4 (3.5)",
+      "brand": "Apple",
+      "model": "iPhone X",
       "network_technology": "GSM / HSPA",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900",
       "3G_bands": "HSDPA 900 / 2100",
@@ -404,12 +500,28 @@
           "content": "When I got new Phone. I loved this phone. but with Android 4.2.2 it very small limited and would not let you set in SD Card where you want it. So may have to upgrade new Android 4.4 I heard they "
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/alcatel-pixi4-35.jpg"
+      "prices": [
+        {
+          "rating": 3,
+          "source": "amazon",
+          "price": 799,
+          "shipping": "4 Days",
+          "url": "https://www.amazon.com/Apple-iPhone-GSM-Unlocked-256GB/dp/B077596D7L/ref=sr_1_3?keywords=apple+iphone+X&qid=1551048083&s=gateway&sr=8-3"
+        },
+        {
+          "rating": 4,
+          "source": "bestbuy",
+          "price": 799,
+          "shipping": "4 days",
+          "url": "https://www.bestbuy.com/site/apple-iphone-x-with-64gb-memory-cell-phone-unlocked-space-gray/6316064.p?skuId=6316064"
+        }
+      ],
+      "img_url": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-x/space-gray/Apple-iPhoneX-SpaceGray-1-3x.jpg"
     },
     {
       "id": 8,
-      "brand": "alcatel",
-      "model": "Pixi 3 (8) LTE",
+      "brand": "Apple",
+      "model": "iPhone 8",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900",
       "3G_bands": "HSDPA 900 / 2100",
@@ -461,12 +573,28 @@
           "content": "This is a really great phone. I am visually impaired and have no problem with it. Will be getting another one for my partner."
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/alcatel-pixi3-8-lte.jpg"
+      "prices": [
+        {
+          "rating": 3,
+          "source": "amazon",
+          "price": 700,
+          "shipping": "4 Days",
+          "url": "https://www.amazon.com/Apple-iPhone-Fully-Unlocked-64GB/dp/B0775717ZP/ref=sr_1_3?keywords=apple+iphone+8&qid=1551047933&s=gateway&sr=8-3"
+        },
+        {
+          "rating": 4,
+          "source": "bestbuy",
+          "price": 650,
+          "shipping": "4 days",
+          "url": "https://www.bestbuy.com/site/iphone/iphone-8-shop-by-carrier/pcmcat1504816672256.c?id=pcmcat1504816672256"
+        }
+      ],
+      "img_url": "https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/SOL-45242-shop-iphone8-64841.jpg"
     },
     {
       "id": 9,
       "brand": "Apple",
-      "model": "iPhone 7 Plus",
+      "model": "iPhone 7",
       "network_technology": "GSM / CDMA / HSPA / EVDO / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - A1661| A1784",
       "3G_bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - A1661| A1784",
@@ -503,7 +631,7 @@
       "sensors": "Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass| barometer",
       "battery": "Non-removable Li-Ion 2900 mAh battery (11.1 Wh)",
       "colors": "Jet Black| Black| Silver| Gold| Rose Gold| Red",
-      "approx_price_USD": 900,
+      "approx_price_USD": 250,
       "reviews": [
         {
           "rating": 5,
@@ -518,12 +646,28 @@
           "content": "Even the instruction book is better than any I have ever had, but as a senior we need BIG print with the phone, not for your website as page 1 clearly tells us because seniors take instructions with t..."
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/apple-iphone-7-plus-r2.jpg"
+      "prices": [
+        {
+          "rating": 3,
+          "source": "amazon",
+          "price": 200,
+          "shipping": "4 Days",
+          "url": "https://www.amazon.com/Apple-iPhone-Unlocked-Certified-Refurbished/dp/B01N9YOF3R/ref=sr_1_5?keywords=apple+iphone&qid=1551047465&s=gateway&sr=8-5"
+        },
+        {
+          "rating": 5,
+          "source": "bestbuy",
+          "price": 150,
+          "shipping": "4 days",
+          "url": "https://www.bestbuy.com/site/apple-iphone-7-32gb-rose-gold-sprint/5580713.p?skuId=5580713"
+        }
+      ],
+      "img_url": "https://ss7.vzw.com/is/image/VerizonWireless/iphone7-front-rsgld?$device-lg$"
     },
     {
       "id": 10,
       "brand": "Apple",
-      "model": "iPhone 7",
+      "model": "iPhone 7 Plus",
       "network_technology": "GSM / CDMA / HSPA / EVDO / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - A1660| A1778",
       "3G_bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - A1660| A1778",
@@ -560,7 +704,7 @@
       "sensors": "Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass| barometer",
       "battery": "Non-removable Li-Ion 1960 mAh battery (7.45 Wh)",
       "colors": "Jet Black| Black| Silver| Gold| Rose Gold| Red",
-      "approx_price_USD": 760,
+      "approx_price_USD": 360,
       "reviews": [
         {
           "rating": 5,
@@ -575,12 +719,28 @@
           "content": "this phone met all our expectations, my dad loved it and is enjoying it!"
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/apple-iphone-7r4.jpg"
+      "prices": [
+        {
+          "rating": 4,
+          "source": "amazon",
+          "price": 375,
+          "shipping": "4 Days",
+          "url": "https://www.amazon.com/Apple-iPhone-Plus-Unlocked-32GB/dp/B01N6ZAR0D/ref=sr_1_9?keywords=apple+iphone&qid=1551047465&s=gateway&sr=8-9"
+        },
+        {
+          "rating": 4,
+          "source": "bestbuy",
+          "price": 350,
+          "shipping": "4 days",
+          "url": "https://www.bestbuy.com/site/total-wireless-iphone-7-plus-black/6318677.p?skuId=6318677"
+        }
+      ],
+      "img_url": "https://images-na.ssl-images-amazon.com/images/I/81gS9Sx0g7L._SL1500_.jpg"
     },
     {
       "id": 11,
-      "brand": "Apple",
-      "model": "iPad Pro 9.7",
+      "brand": "Xiaomi",
+      "model": "Note 5",
       "network_technology": "GSM / CDMA / HSPA / EVDO / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900",
       "3G_bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
@@ -617,7 +777,7 @@
       "sensors": "Fingerprint (front-mounted)| accelerometer| gyro| compass| barometer",
       "battery": "Non-removable Li-Ion battery (27.9 Wh)",
       "colors": "Silver| Gold| Space Gray| Rose Gold",
-      "approx_price_USD": 690,
+      "approx_price_USD": 300,
       "reviews": [
         {
           "rating": 4,
@@ -632,12 +792,28 @@
           "content": "The charging port was loose. I got that soldered in. Then needed a new battery as well. $100 later (not including cost of purchase) I have a usable phone. The phone should not have been sold i"
         }
       ],
+      "prices": [
+        {
+          "rating": 3,
+          "source": "amazon",
+          "price": 200,
+          "shipping": "3 Days",
+          "url": "https://www.amazon.com/Xiaomi-Unlocked-Global-Version-Warranty/dp/B07D82MTZL/ref=sr_1_2?keywords=redmi+note+5&qid=1551048759&s=gateway&sr=8-2"
+        },
+        {
+          "rating": 3,
+          "source": "mi.com",
+          "price": 225,
+          "shipping": "2 days",
+          "url": "hhttps://www.mi.com/global/redmi-note-5/"
+        }
+      ],
       "img_url": "http://cdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-97.jpg"
     },
     {
       "id": 12,
-      "brand": "Samsung",
-      "model": "Galaxy J7 Pro",
+      "brand": "Xiaomi",
+      "model": "Redmi 6",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
       "3G_bands": "HSDPA 850 / 900 / 1900 / 2100",
@@ -674,7 +850,7 @@
       "sensors": "Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass",
       "battery": "Non-removable Li-Ion 3600 mAh battery",
       "colors": "Black| Gold",
-      "approx_price_USD": 300,
+      "approx_price_USD": 160,
       "reviews": [
         {
           "rating": 3,
@@ -689,12 +865,28 @@
           "content": "My fiance had this phone previously, but caused many problems. So, of course, we decided to browse amazon for a replacement til' our contract is up! & so far so good!"
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j7-pro.jpg"
+      "prices": [
+        {
+          "rating": 3,
+          "source": "amazon",
+          "price": 160,
+          "shipping": "3 Days",
+          "url": "https://www.amazon.com/Xiaomi-Camera-Factory-Unlocked-Smartphone/dp/B07G5JD5ZT/ref=asc_df_B07G5JD5ZT/?tag=hyprod-20&linkCode=df0&hvadid=242488490571&hvpos=1o1&hvnetw=g&hvrand=14493763213428994597&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9027902&hvtargid=pla-525644137097&psc=1"
+        },
+        {
+          "rating": 3,
+          "source": "flipkart",
+          "price": 199,
+          "shipping": "2 days",
+          "url": "https://www.flipkart.com/redmi-6-gold-32-gb/p/itmf8gyqx7hkszpf"
+        }
+      ],
+      "img_url": "https://rukminim1.flixcart.com/image/704/704/jlo1tow0/mobile/g/v/x/mi-redmi-6-na-original-imaf8qtkgh6qhs3p.jpeg?q=70"
     },
     {
       "id": 13,
       "brand": "Samsung",
-      "model": "Galaxy J7 (2017)",
+      "model": "Galaxy J7",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
       "3G_bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
@@ -746,12 +938,28 @@
           "content": "SLOW, SLOW, SLOW....I'm on my home network and my Nokia 635 has already loaded the weather channel local forecast. This phone is still loading....To restate other reviews: terrible viewing angle, desp..."
         }
       ],
+      "prices": [
+        {
+          "rating": 5,
+          "source": "amazon",
+          "price": 325,
+          "shipping": "3 Days",
+          "url": "https://www.amazon.com/Samsung-Galaxy-Prime-G610F-DS/dp/B01N4WGN48/ref=sr_1_3?keywords=samsung+galaxy+j7&qid=1551048791&s=gateway&sr=8-3"
+        },
+        {
+          "rating": 1,
+          "source": "bestbuy",
+          "price": 349,
+          "shipping": "2 days",
+          "url": "https://www.bestbuy.com/site/samsung-galaxy-s7-4g-lte-with-32gb-memory-cell-phone-unlocked-black-onyx/5286503.p?skuId=5286503"
+        }
+      ],
       "img_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j7-2017-sm-j730f.jpg"
     },
     {
       "id": 14,
       "brand": "Samsung",
-      "model": "Galaxy J5 (2017)",
+      "model": "Galaxy J3",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
       "3G_bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
@@ -788,7 +996,7 @@
       "sensors": "Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass",
       "battery": "Non-removable Li-Ion 3000 mAh battery",
       "colors": "Blue| Pink| Gold| Black",
-      "approx_price_USD": 280,
+      "approx_price_USD": 200,
       "reviews": [
         {
           "rating": 4,
@@ -803,12 +1011,28 @@
           "content": "No the phone done have Bluetooth on it, which is so bad for my son.. This phone is still loading....To restate other reviews: terrible viewing angle, desp..."
         }
       ],
+      "prices": [
+        {
+          "rating": 2,
+          "source": "amazon",
+          "price": 149,
+          "shipping": "7 Days",
+          "url": "https://www.amazon.com/Samsung-J3-Factory-Unlocked-Phone/dp/B072KPG9PN/ref=sr_1_3?keywords=samsung+galaxy+j3&qid=1551048980&s=gateway&sr=8-3"
+        },
+        {
+          "rating": 3,
+          "source": "bestbuy",
+          "price": 145,
+          "shipping": "7 days",
+          "url": "https://www.bestbuy.com/site/samsung-galaxy-j3-top-with-16gb-memory-cell-phone-unlocked-black/6267019.p?skuId=6267019"
+        }
+      ],
       "img_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j5-2017-sm-j530.jpg"
     },
     {
       "id": 15,
       "brand": "Samsung",
-      "model": "Galaxy J3 (2017)",
+      "model": "Galaxy S9",
       "network_technology": "GSM / HSPA / LTE",
       "2G_bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
       "3G_bands": "HSDPA 850 / 900 / 1900 / 2100",
@@ -845,7 +1069,7 @@
       "sensors": "Accelerometer| proximity",
       "battery": "Removable Li-Ion 2400 mAh battery",
       "colors": "White| Black| Gold",
-      "approx_price_USD": 220,
+      "approx_price_USD": 620,
       "reviews": [
         {
           "rating": 5,
@@ -860,7 +1084,23 @@
           "content": "This product is expensive for the quality. At $20 it might be worth it...maybe. You are better off adding a little extra and getting a used second or third generation galaxy or iphone. It will definit."
         }
       ],
-      "img_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j3-2017.jpg"
+      "prices": [
+        {
+          "rating": 5,
+          "source": "amazon",
+          "price": 590,
+          "shipping": "3 Days",
+          "url": "https://www.amazon.com/Samsung-Galaxy-S9-Unlocked-Smartphone/dp/B079H6RLKQ/ref=sr_1_3?keywords=galaxy+s9&qid=1551049170&s=gateway&sr=8-3"
+        },
+        {
+          "rating": 4,
+          "source": "bestbuy",
+          "price": 675,
+          "shipping": "3 days",
+          "url": "https://www.bestbuy.com/site/samsung-galaxy-s9-64gb-unlocked-midnight-black/6191423.p?skuId=6191423"
+        }
+      ],
+      "img_url": "https://img.scoop.it/EvknZrobaqHeVqFrdVaE04XXXL4j3HpexhjNOf_P3YmryPKwJ94QGRtDb3Sbc6KY"
     },
     {
       "id": 16,
@@ -917,6 +1157,22 @@
           "content": "https://www.youtube.com/watch?v=nNlTNE1y9DM"
         }
       ],
+      "prices": [
+        {
+          "rating": 5,
+          "source": "amazon",
+          "price": 130,
+          "shipping": "out of stock",
+          "url": "https://www.amazon.in/Samsung-SM-Z400FZDDINS-Z4-Gold-8GB/dp/B072BZ2C8C"
+        },
+        {
+          "rating": 4,
+          "source": "fonearena",
+          "price": 175,
+          "shipping": "10 days",
+          "url": "https://www.fonearena.com/samsung-z4_8387.html"
+        }
+      ],
       "img_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-z4.jpg"
     },
     {
@@ -959,7 +1215,7 @@
       "sensors": "Iris scanner| fingerprint (rear-mounted)| accelerometer| gyro| proximity| compass| barometer| heart rate| SpO2",
       "battery": "Non-removable Li-Ion 3000 mAh battery",
       "colors": "Midnight Black| Orchid Gray| Arctic Silver| Coral Blue| Maple Gold",
-      "approx_price_USD": 700,
+      "approx_price_USD": 600,
       "reviews": [
         {
           "rating": 2,
@@ -972,6 +1228,22 @@
           "type": "video",
           "source": "GSMArena",
           "content": "https://www.youtube.com/watch?v=OvVKnC6gGtg"
+        }
+      ],
+      "prices": [
+        {
+          "rating": 5,
+          "source": "amazon",
+          "price": 630,
+          "shipping": "3 days",
+          "url": "https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_2?keywords=s8&qid=1551049684&s=gateway&sr=8-2"
+        },
+        {
+          "rating": 4,
+          "source": "samsung",
+          "price": 675,
+          "shipping": "3 days",
+          "url": "https://www.samsung.com/us/mobile/phones/galaxy-s/galaxy-s8-64gb--unlocked--sm-g950uzkaxaa/"
         }
       ],
       "img_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-.jpg"
