@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '@app/home/data.service';
 
 @Component({
   selector: 'app-basket',
@@ -19,11 +20,12 @@ export class BasketComponent implements OnInit {
   }
 
   disableCompareButton(): boolean {
-    console.log(this.droppedPhones.filter(p => !!p).length < 2);
     return this.droppedPhones.filter(p => !!p).length < 2;
   }
 
   removePhone(index: number) {
     this.droppedPhones[index] = null;
   }
+
+  compare() {}
 }

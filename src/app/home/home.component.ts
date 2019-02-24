@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.isLoading = true;
     this.dataService
-      .getOverview()
+      .getOverviewObservable()
       .pipe(
         finalize(() => {
           this.isLoading = false;
@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
       .subscribe((overview: object) => {
         this.overview = overview;
       });
-    this.dataService.getPhones().subscribe((phones: any) => {
+    this.dataService.getPhonesObservable().subscribe((phones: any) => {
       this.phones = phones;
     });
   }

@@ -10,43 +10,35 @@ const routes = {
 
 @Injectable()
 export class DataService {
-  phones: Observable<object>;
-  overview: Observable<object>;
+  phonesObservable: Observable<object>;
+  phones: Array<any>;
+  overviewObservable: Observable<object>;
+  overview: object;
 
   constructor(private httpClient: HttpClient) {
     this.loadOverview();
     this.loadPhones();
+    this.phones = [];
+    this.overview = {};
   }
-
-  /*
-  loadOverview(): Observable<object> {
-    return this.httpClient
-      .cache()
-      .get(routes.overview())
-      .pipe(
-        map((body: any) => {
-          this.overview = body;
-          return body;
-        }),
-        catchError(() => of('Error, could not load overview!'))
-      );
-  }
-  */
 
   loadOverview() {
-    this.overview = this.httpClient
+    this.overviewObservable = this.httpClient
       .cache()
       .get(routes.overview())
       .pipe(
         map((body: any) => {
           return body;
         }),
-        catchError(() => of('Error, could not load overview!'))
+        catchError(() => of('Error, could not load overviewObservable!'))
       );
+    this.overviewObservable.subscribe((overview: object) => {
+      this.overview = overview;
+    });
   }
 
   loadPhones() {
-    this.phones = this.httpClient
+    this.phonesObservable = this.httpClient
       .cache()
       .get(routes.phones())
       .pipe(
@@ -55,18 +47,33 @@ export class DataService {
         }),
         catchError(() => of('Error, could not load phones!'))
       );
+    this.phonesObservable.subscribe((phones: Array<any>) => {
+      this.phones = phones;
+    });
   }
 
-  getPhones(): Observable<object> {
+  getPhonesObservable(): Observable<object> {
+    return this.phonesObservable;
+  }
+
+  getPhones(): Array<object> {
+    // careful! this will return empty array if called before API request has been completed
     return this.phones;
   }
 
   getPhoneById(id: any): object {
-    // TODO
-    return this.phones;
+    if (!this.phones) {
+      return null;
+    }
+    return this.phones.filter(phone => phone.id === id)[0];
   }
 
-  getOverview(): Observable<object> {
+  getOverviewObservable(): Observable<object> {
+    return this.overviewObservable;
+  }
+
+  getOverview(): object {
+    // careful! this will return empty object if called before API request has been completed
     return this.overview;
   }
 }

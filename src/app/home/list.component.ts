@@ -17,7 +17,7 @@ export class ListComponent implements OnInit {
 
   ngOnInit() {
     this.isLoading = false;
-    this.dataService.getPhones().subscribe((phones: any) => {
+    this.dataService.getPhonesObservable().subscribe((phones: any) => {
       this.phones = phones;
     });
     this.route.queryParams.subscribe(params => {
