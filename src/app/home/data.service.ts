@@ -4,8 +4,8 @@ import { Observable, of } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
 const routes = {
-  overview: () => `overview`,
-  phones: () => `phones`
+  overview: () => `overview.json`,
+  phones: () => `phones.json`
 };
 
 @Injectable()
