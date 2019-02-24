@@ -1,7 +1,7 @@
 <div class="container-fluid container">
   <div class="row">
     <div class="col-6">
-      <a [routerLink]="['/list']" [queryParams]="{ sort: 'popularity', order: 'desc' }">
+      <div [routerLink]="['/list']" [queryParams]="{ sort: 'popularity', order: 'desc' }">
         <div class="top-phone phone-container">
           <div class="title text-right">
             MOST POPULAR
@@ -10,10 +10,10 @@
             <img src="{{ getImage((overview || {}).mostPopular) }}" />
           </div>
         </div>
-      </a>
+      </div>
     </div>
     <div class="col-6">
-      <a [routerLink]="['/list']" [queryParams]="{ sort: 'price', order: 'asc' }">
+      <div [routerLink]="['/list']" [queryParams]="{ sort: 'price', order: 'asc' }">
         <div class="top-phone phone-container">
           <div class="phone">
             <img src="{{ getImage((overview || {}).bestBudget) }}" />
@@ -22,12 +22,12 @@
             BEST BUDGET
           </div>
         </div>
-      </a>
+      </div>
     </div>
   </div>
   <div class="row">
     <div class="col-3">
-      <a [routerLink]="['/list']" [queryParams]="{ sort: 'admiration', order: 'desc' }">
+      <div [routerLink]="['/list']" [queryParams]="{ sort: 'admiration', order: 'desc' }">
         <div class="phone-container">
           <div class="title text-left">
             MOST ADMIRED
@@ -36,10 +36,10 @@
             <img src="{{ getImage((overview || {}).mostAdmired) }}" />
           </div>
         </div>
-      </a>
+      </div>
     </div>
     <div class="col-3">
-      <a [routerLink]="['/list']" [queryParams]="{ sort: 'camera', order: 'desc' }">
+      <div [routerLink]="['/list']" [queryParams]="{ sort: 'camera', order: 'desc' }">
         <div class="phone-container">
           <div class="title text-left">
             BEST CAMERA
@@ -48,10 +48,10 @@
             <img src="{{ getImage((overview || {}).bestCamera) }}" />
           </div>
         </div>
-      </a>
+      </div>
     </div>
     <div class="col-3">
-      <a [routerLink]="['/list']" [queryParams]="{ sort: 'performance', order: 'desc' }">
+      <div [routerLink]="['/list']" [queryParams]="{ sort: 'performance', order: 'desc' }">
         <div class="phone-container">
           <div class="title text-left">
             BEST PERFORMER
@@ -60,7 +60,7 @@
             <img src="{{ getImage((overview || {}).bestPerformer) }}" />
           </div>
         </div>
-      </a>
+      </div>
     </div>
     <div class="col-3">
       <div class="phone-container">

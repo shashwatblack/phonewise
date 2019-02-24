@@ -1,25 +1,28 @@
-.logo {
-  width: 100px;
-}
-
-q {
-  font-style: italic;
-  font-size: 1.2rem;
-  quotes: "« " " »";
-}
-
 .phone-container {
-  background: #f0f0f0;
+  background: white;
   margin: 10px 0;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+
   .phone {
     > img {
       height: 150px;
     }
+  }
+
+  .title {
+    font-size: 18px;
+    padding: 0 20px 10px;
+  }
+
+  &:hover {
+    outline: 4px solid #ddd;
+    background: #fafafa;
   }
 
   &.top-phone {
@@ -28,6 +31,9 @@ q {
       > img {
         height: 300px;
       }
+    }
+    .title {
+      font-size: 22px;
     }
   }
 }
