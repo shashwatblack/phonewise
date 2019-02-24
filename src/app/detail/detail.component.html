@@ -1,15 +1,15 @@
 <div class="container-fluid">
   <div class="phone-container">
     <div class="row">
-      <div class="col-lg-4 text-center">
+      <div class="col-4 text-center phone-image-container">
         <h2>{{ phone.brand }} {{ phone.model }}</h2>
         <img class="phone-img" src="{{ getImage() }}" />
       </div>
-      <div class="col-lg-8">
+      <div class="col-8 details-container">
         <ngb-tabset>
           <ngb-tab title="Specs">
             <ng-template ngbTabContent>
-              <ngb-accordion [closeOthers]="true" activeIds="detail-panel-general">
+              <ngb-accordion [closeOthers]="false" activeIds="detail-panel-general">
                 <ngb-panel title="General" id="detail-panel-general">
                   <ng-template ngbPanelContent>
                     <div class="row">
