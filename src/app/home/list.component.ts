@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '@app/home/data.service';
+import { DataStoreService } from '@app/home/dataStore.service';
 
 @Component({
   selector: 'app-phones-list',
@@ -13,7 +14,7 @@ export class ListComponent implements OnInit {
   sort: string;
   order: string;
 
-  constructor(private route: ActivatedRoute, private dataService: DataService) {}
+  constructor(private route: ActivatedRoute, private dataService: DataStoreService) {}
 
   ngOnInit() {
     this.isLoading = false;
