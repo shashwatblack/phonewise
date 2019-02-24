@@ -14,15 +14,8 @@ const overviewsJson = {
 const phonesJson = [
   {
     id: 1,
-
-    reviewScore: 4,
-    performanceScore: 4,
-    cameraScore: 4,
-    popularityScore: 4,
-    valueScore: 4,
-
-    brand: 'Acer',
-    model: 'Iconia Talk S',
+    brand: 'OnePlus',
+    model: '6S',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2',
     '3G_bands': 'HSDPA 850 / 1900 / 2100',
@@ -59,7 +52,7 @@ const phonesJson = [
     sensors: 'Accelerometer| proximity',
     battery: 'Non-removable Li-Ion 3400 mAh battery (12.92 Wh)',
     colors: 'Black',
-    approx_price_USD: 170,
+    approx_price_USD: 439,
     reviews: [
       {
         rating: 4,
@@ -78,27 +71,28 @@ const phonesJson = [
     ],
     prices: [
       {
-        rating: 4,
+        rating: 5,
         source: 'amazon',
-        price: 400,
+        price: 600,
         shipping: '4 Days',
-        url: 'https://www.amazon.com/OnePlus-5T-A5010-64GB-International/dp/B0787NNSK9'
+        url:
+          'https://www.amazon.com/OnePlus-Dual-SIM-Unlocked-Smartphone-Midnight/dp/B07DFYM9RC/ref=sr_1_3?keywords=oneplus+6&qid=1551046851&s=gateway&sr=8-3'
       },
       {
-        rating: 3,
+        rating: 4,
         source: 'ebay',
-        price: 300,
-        shipping: 'Out of Stock',
+        price: 384,
+        shipping: '7 days',
         url:
-          'https://www.ebay.com/itm/OnePlus-5T-128GB-Midnight-Black-A5010-FACTORY-UNLOCKED-6-0-16MP-8GB-RAM/222747039182'
+          'https://www.ebay.com/itm/OnePlus-6T-128GB-A6010-FACTORY-UNLOCKED-6-41-8GB-RAM-Mirror-Midnight-Black/192756206953?epid=20026599434&hash=item2ce12a4d69:m:moAD_9NYbfPFFI--DoaqAvQ:rk:1:pf:0'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/acer-iconia-talk-s.jpg'
+    img_url: 'https://m.media-amazon.com/images/I/51U3RHsaqfL._AC_UL436_.jpg'
   },
   {
     id: 2,
-    brand: 'Acer',
-    model: 'Liquid Z6 Plus',
+    brand: 'OnePlus',
+    model: '5T',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)',
     '3G_bands': 'HSDPA',
@@ -152,12 +146,29 @@ const phonesJson = [
           'pros-beautiful screen,capable of running chrome,take good pictures,the keyboard is comfy,fits in my pocket and fit my hands,plays really good videos and gamescons-no Bluetooth,came late,'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/acer-liquid-z6-plus.jpg'
+    prices: [
+      {
+        rating: 4,
+        source: 'amazon',
+        price: 400,
+        shipping: '4 Days',
+        url: 'https://www.amazon.com/OnePlus-5T-A5010-64GB-International/dp/B0787NNSK9'
+      },
+      {
+        rating: 3,
+        source: 'ebay',
+        price: 300,
+        shipping: 'Out of Stock',
+        url:
+          'https://www.ebay.com/itm/OnePlus-5T-128GB-Midnight-Black-A5010-FACTORY-UNLOCKED-6-0-16MP-8GB-RAM/222747039182'
+      }
+    ],
+    img_url: 'https://cdn1.smartprix.com/rx-iMRK2tPAg-w103-h125/oneplus-5.webp'
   },
   {
     id: 3,
-    brand: 'Acer',
-    model: 'Liquid Z6',
+    brand: 'OnePlus',
+    model: '7',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)',
     '3G_bands': 'HSDPA',
@@ -194,7 +205,7 @@ const phonesJson = [
     sensors: 'Accelerometer| proximity',
     battery: 'Removable Li-Ion 2000 mAh battery',
     colors: 'Black| White',
-    approx_price_USD: 120,
+    approx_price_USD: 799,
     reviews: [
       {
         rating: 3,
@@ -211,12 +222,30 @@ const phonesJson = [
           'The phone was great but it had gotten old so it was time for a replacement.it was great while it lasted.'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/acer-liquid-z6.jpg'
+    prices: [
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 780,
+        shipping: '2 Days',
+        url:
+          'https://www.amazon.com/OnePlus-Storage-Factory-Unlocked-Display/dp/B07K76LBLZ/ref=sr_1_2?keywords=oneplus+7&qid=1551047047&s=gateway&sr=8-2'
+      },
+      {
+        rating: 5,
+        source: 'ebay',
+        price: 880,
+        shipping: 'Out of Stock',
+        url:
+          'https://www.ebay.com/itm/OnePlus-5T-128GB-Midnight-Black-A5010-FACTORY-UNLOCKED-6-0-16MP-8GB-RAM/222747039182'
+      }
+    ],
+    img_url: 'https://i.imgur.com/UlmhOyU.png'
   },
   {
     id: 4,
-    brand: 'Acer',
-    model: 'Iconia Tab 10 A3-A40',
+    brand: 'OnePlus',
+    model: 'Iconia 5T Plus',
     network_technology: 'No cellular connectivity',
     '2G_bands': 'N/A',
     '3G_bands': '',
@@ -253,7 +282,7 @@ const phonesJson = [
     sensors: 'Accelerometer',
     battery: 'Non-removable Li-Ion battery',
     colors: 'Black',
-    approx_price_USD: 230,
+    approx_price_USD: 300,
     reviews: [
       {
         rating: 4,
@@ -270,12 +299,29 @@ const phonesJson = [
           'Preface: This is not what would be considered a smartphone in the United States (Nothing on the par of Android, iPhone, or Windows Phone), it is basically a feature phone. Also, although it says.'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/acer-iconia-tab-10-a3-a40.jpg'
+    prices: [
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 450,
+        shipping: '2 Days',
+        url:
+          'https://www.amazon.com/OnePlus-5T-A5010-64GB-International/dp/B0787NNSK9/ref=sr_1_1?keywords=oneplus+5t&qid=1551047183&s=gateway&sr=8-1'
+      },
+      {
+        rating: 3,
+        source: 'OnePlus',
+        price: 466,
+        shipping: '3 days',
+        url: 'https://www.oneplus.com/5t'
+      }
+    ],
+    img_url: 'https://images-na.ssl-images-amazon.com/images/I/41MPcJuHSZL.jpg'
   },
   {
     id: 5,
-    brand: 'Acer',
-    model: 'Liquid X2',
+    brand: 'OnePlus',
+    model: '3T',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
     '3G_bands': 'HSDPA 900 / 1900 / 2100 - Europe| Taiwan',
@@ -329,12 +375,29 @@ const phonesJson = [
           'Incredible! This phone does not have Splaniish Language, I dont understand how can it be a international version, lost money!'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/acer-liquid-x2-1.jpg'
+    prices: [
+      {
+        rating: 3,
+        source: 'amazon',
+        price: 200,
+        shipping: '4 Days',
+        url:
+          'https://www.amazon.com/OnePlus-A3003-Gray-International-Version/dp/B01MXSXHF3/ref=sr_1_1?keywords=oneplus+3&qid=1551047293&s=gateway&sr=8-1'
+      },
+      {
+        rating: 2,
+        source: 'OnePlus',
+        price: 250,
+        shipping: '7 days',
+        url: 'https://www.oneplus.com/3t'
+      }
+    ],
+    img_url: 'https://images-na.ssl-images-amazon.com/images/I/61BWuWvjW9L._SX569_.jpg'
   },
   {
     id: 6,
-    brand: 'alcatel',
-    model: 'Pixi 4 (4)',
+    brand: 'Apple',
+    model: 'iPhone 6S',
     network_technology: 'GSM / HSPA',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
     '3G_bands': 'HSDPA 900 / 2100',
@@ -371,7 +434,7 @@ const phonesJson = [
     sensors: 'Accelerometer',
     battery: 'Removable Li-Ion 1500 mAh battery',
     colors: 'Various',
-    approx_price_USD: 60,
+    approx_price_USD: 150,
     reviews: [
       {
         rating: 5,
@@ -388,12 +451,30 @@ const phonesJson = [
           'pros.. it works fine, its easy to use, not too heavy.cons .. most of the apps are for android iphone and bb'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/alcatel-pixi4-40.jpg'
+    prices: [
+      {
+        rating: 4,
+        source: 'amazon',
+        price: 200,
+        shipping: '4 Days',
+        url:
+          'https://www.amazon.com/Apple-iPhone-6S-Unlocked-64GB/dp/B01CR1FQMG/ref=sr_1_3?keywords=apple+iphone&qid=1551047465&s=gateway&sr=8-3'
+      },
+      {
+        rating: 2,
+        source: 'bestbuy',
+        price: 150,
+        shipping: '4 days',
+        url:
+          'https://www.bestbuy.com/site/apple-pre-owned-iphone-6s-4g-lte-with-64gb-cell-phone-unlocked-space-gray/5872531.p?skuId=5872531'
+      }
+    ],
+    img_url: 'https://images-na.ssl-images-amazon.com/images/I/41jUosGQiDL.jpg'
   },
   {
     id: 7,
-    brand: 'alcatel',
-    model: 'Pixi 4 (3.5)',
+    brand: 'Apple',
+    model: 'iPhone X',
     network_technology: 'GSM / HSPA',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
     '3G_bands': 'HSDPA 900 / 2100',
@@ -447,12 +528,31 @@ const phonesJson = [
           'When I got new Phone. I loved this phone. but with Android 4.2.2 it very small limited and would not let you set in SD Card where you want it. So may have to upgrade new Android 4.4 I heard they '
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/alcatel-pixi4-35.jpg'
+    prices: [
+      {
+        rating: 3,
+        source: 'amazon',
+        price: 799,
+        shipping: '4 Days',
+        url:
+          'https://www.amazon.com/Apple-iPhone-GSM-Unlocked-256GB/dp/B077596D7L/ref=sr_1_3?keywords=apple+iphone+X&qid=1551048083&s=gateway&sr=8-3'
+      },
+      {
+        rating: 4,
+        source: 'bestbuy',
+        price: 799,
+        shipping: '4 days',
+        url:
+          'https://www.bestbuy.com/site/apple-iphone-x-with-64gb-memory-cell-phone-unlocked-space-gray/6316064.p?skuId=6316064'
+      }
+    ],
+    img_url:
+      'https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-x/space-gray/Apple-iPhoneX-SpaceGray-1-3x.jpg'
   },
   {
     id: 8,
-    brand: 'alcatel',
-    model: 'Pixi 3 (8) LTE',
+    brand: 'Apple',
+    model: 'iPhone 8',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
     '3G_bands': 'HSDPA 900 / 2100',
@@ -506,12 +606,29 @@ const phonesJson = [
           'This is a really great phone. I am visually impaired and have no problem with it. Will be getting another one for my partner.'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/alcatel-pixi3-8-lte.jpg'
+    prices: [
+      {
+        rating: 3,
+        source: 'amazon',
+        price: 700,
+        shipping: '4 Days',
+        url:
+          'https://www.amazon.com/Apple-iPhone-Fully-Unlocked-64GB/dp/B0775717ZP/ref=sr_1_3?keywords=apple+iphone+8&qid=1551047933&s=gateway&sr=8-3'
+      },
+      {
+        rating: 4,
+        source: 'bestbuy',
+        price: 650,
+        shipping: '4 days',
+        url: 'https://www.bestbuy.com/site/iphone/iphone-8-shop-by-carrier/pcmcat1504816672256.c?id=pcmcat1504816672256'
+      }
+    ],
+    img_url: 'https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/SOL-45242-shop-iphone8-64841.jpg'
   },
   {
     id: 9,
     brand: 'Apple',
-    model: 'iPhone 7 Plus',
+    model: 'iPhone 7',
     network_technology: 'GSM / CDMA / HSPA / EVDO / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - A1661| A1784',
     '3G_bands': 'HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - A1661| A1784',
@@ -550,7 +667,7 @@ const phonesJson = [
     sensors: 'Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass| barometer',
     battery: 'Non-removable Li-Ion 2900 mAh battery (11.1 Wh)',
     colors: 'Jet Black| Black| Silver| Gold| Rose Gold| Red',
-    approx_price_USD: 900,
+    approx_price_USD: 250,
     reviews: [
       {
         rating: 5,
@@ -567,12 +684,29 @@ const phonesJson = [
           'Even the instruction book is better than any I have ever had, but as a senior we need BIG print with the phone, not for your website as page 1 clearly tells us because seniors take instructions with t...'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/apple-iphone-7-plus-r2.jpg'
+    prices: [
+      {
+        rating: 3,
+        source: 'amazon',
+        price: 200,
+        shipping: '4 Days',
+        url:
+          'https://www.amazon.com/Apple-iPhone-Unlocked-Certified-Refurbished/dp/B01N9YOF3R/ref=sr_1_5?keywords=apple+iphone&qid=1551047465&s=gateway&sr=8-5'
+      },
+      {
+        rating: 5,
+        source: 'bestbuy',
+        price: 150,
+        shipping: '4 days',
+        url: 'https://www.bestbuy.com/site/apple-iphone-7-32gb-rose-gold-sprint/5580713.p?skuId=5580713'
+      }
+    ],
+    img_url: 'https://ss7.vzw.com/is/image/VerizonWireless/iphone7-front-rsgld?$device-lg$'
   },
   {
     id: 10,
     brand: 'Apple',
-    model: 'iPhone 7',
+    model: 'iPhone 7 Plus',
     network_technology: 'GSM / CDMA / HSPA / EVDO / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - A1660| A1778',
     '3G_bands': 'HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - A1660| A1778',
@@ -610,7 +744,7 @@ const phonesJson = [
     sensors: 'Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass| barometer',
     battery: 'Non-removable Li-Ion 1960 mAh battery (7.45 Wh)',
     colors: 'Jet Black| Black| Silver| Gold| Rose Gold| Red',
-    approx_price_USD: 760,
+    approx_price_USD: 360,
     reviews: [
       {
         rating: 5,
@@ -626,12 +760,29 @@ const phonesJson = [
         content: 'this phone met all our expectations, my dad loved it and is enjoying it!'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/apple-iphone-7r4.jpg'
+    prices: [
+      {
+        rating: 4,
+        source: 'amazon',
+        price: 375,
+        shipping: '4 Days',
+        url:
+          'https://www.amazon.com/Apple-iPhone-Plus-Unlocked-32GB/dp/B01N6ZAR0D/ref=sr_1_9?keywords=apple+iphone&qid=1551047465&s=gateway&sr=8-9'
+      },
+      {
+        rating: 4,
+        source: 'bestbuy',
+        price: 350,
+        shipping: '4 days',
+        url: 'https://www.bestbuy.com/site/total-wireless-iphone-7-plus-black/6318677.p?skuId=6318677'
+      }
+    ],
+    img_url: 'https://images-na.ssl-images-amazon.com/images/I/81gS9Sx0g7L._SL1500_.jpg'
   },
   {
     id: 11,
-    brand: 'Apple',
-    model: 'iPad Pro 9.7',
+    brand: 'Xiaomi',
+    model: 'Note 5',
     network_technology: 'GSM / CDMA / HSPA / EVDO / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
     '3G_bands': 'HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100',
@@ -669,7 +820,7 @@ const phonesJson = [
     sensors: 'Fingerprint (front-mounted)| accelerometer| gyro| compass| barometer',
     battery: 'Non-removable Li-Ion battery (27.9 Wh)',
     colors: 'Silver| Gold| Space Gray| Rose Gold',
-    approx_price_USD: 690,
+    approx_price_USD: 300,
     reviews: [
       {
         rating: 4,
@@ -686,12 +837,30 @@ const phonesJson = [
           'The charging port was loose. I got that soldered in. Then needed a new battery as well. $100 later (not including cost of purchase) I have a usable phone. The phone should not have been sold i'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-97.jpg'
+    prices: [
+      {
+        rating: 3,
+        source: 'amazon',
+        price: 200,
+        shipping: '3 Days',
+        url:
+          'https://www.amazon.com/Xiaomi-Unlocked-Global-Version-Warranty/dp/B07D82MTZL/ref=sr_1_2?keywords=redmi+note+5&qid=1551048759&s=gateway&sr=8-2'
+      },
+      {
+        rating: 3,
+        source: 'mi.com',
+        price: 225,
+        shipping: '2 days',
+        url: 'hhttps://www.mi.com/global/redmi-note-5/'
+      }
+    ],
+    img_url:
+      'https://image2.geekbuying.com/ggo_pic/2018-04-25/Global-Version-Xiaomi-Redmi-Note-5-5-99-Inch-4GB-64GB-Smartphone-Gold-628321-.jpg'
   },
   {
     id: 12,
-    brand: 'Samsung',
-    model: 'Galaxy J7 Pro',
+    brand: 'Xiaomi',
+    model: 'Redmi 6',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2',
     '3G_bands': 'HSDPA 850 / 900 / 1900 / 2100',
@@ -728,7 +897,7 @@ const phonesJson = [
     sensors: 'Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass',
     battery: 'Non-removable Li-Ion 3600 mAh battery',
     colors: 'Black| Gold',
-    approx_price_USD: 300,
+    approx_price_USD: 160,
     reviews: [
       {
         rating: 3,
@@ -745,12 +914,30 @@ const phonesJson = [
           "My fiance had this phone previously, but caused many problems. So, of course, we decided to browse amazon for a replacement til' our contract is up! & so far so good!"
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j7-pro.jpg'
+    prices: [
+      {
+        rating: 3,
+        source: 'amazon',
+        price: 160,
+        shipping: '3 Days',
+        url:
+          'https://www.amazon.com/Xiaomi-Camera-Factory-Unlocked-Smartphone/dp/B07G5JD5ZT/ref=asc_df_B07G5JD5ZT/?tag=hyprod-20&linkCode=df0&hvadid=242488490571&hvpos=1o1&hvnetw=g&hvrand=14493763213428994597&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9027902&hvtargid=pla-525644137097&psc=1'
+      },
+      {
+        rating: 3,
+        source: 'flipkart',
+        price: 199,
+        shipping: '2 days',
+        url: 'https://www.flipkart.com/redmi-6-gold-32-gb/p/itmf8gyqx7hkszpf'
+      }
+    ],
+    img_url:
+      'https://rukminim1.flixcart.com/image/704/704/jlo1tow0/mobile/g/v/x/mi-redmi-6-na-original-imaf8qtkgh6qhs3p.jpeg?q=70'
   },
   {
     id: 13,
     brand: 'Samsung',
-    model: 'Galaxy J7 (2017)',
+    model: 'Galaxy J7',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)',
     '3G_bands': 'HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100',
@@ -803,12 +990,30 @@ const phonesJson = [
           "SLOW, SLOW, SLOW....I'm on my home network and my Nokia 635 has already loaded the weather channel local forecast. This phone is still loading....To restate other reviews: terrible viewing angle, desp..."
       }
     ],
+    prices: [
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 325,
+        shipping: '3 Days',
+        url:
+          'https://www.amazon.com/Samsung-Galaxy-Prime-G610F-DS/dp/B01N4WGN48/ref=sr_1_3?keywords=samsung+galaxy+j7&qid=1551048791&s=gateway&sr=8-3'
+      },
+      {
+        rating: 1,
+        source: 'bestbuy',
+        price: 349,
+        shipping: '2 days',
+        url:
+          'https://www.bestbuy.com/site/samsung-galaxy-s7-4g-lte-with-32gb-memory-cell-phone-unlocked-black-onyx/5286503.p?skuId=5286503'
+      }
+    ],
     img_url: 'http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j7-2017-sm-j730f.jpg'
   },
   {
     id: 14,
     brand: 'Samsung',
-    model: 'Galaxy J5 (2017)',
+    model: 'Galaxy J3',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)',
     '3G_bands': 'HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100',
@@ -845,7 +1050,7 @@ const phonesJson = [
     sensors: 'Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass',
     battery: 'Non-removable Li-Ion 3000 mAh battery',
     colors: 'Blue| Pink| Gold| Black',
-    approx_price_USD: 280,
+    approx_price_USD: 200,
     reviews: [
       {
         rating: 4,
@@ -862,12 +1067,30 @@ const phonesJson = [
           'No the phone done have Bluetooth on it, which is so bad for my son.. This phone is still loading....To restate other reviews: terrible viewing angle, desp...'
       }
     ],
+    prices: [
+      {
+        rating: 2,
+        source: 'amazon',
+        price: 149,
+        shipping: '7 Days',
+        url:
+          'https://www.amazon.com/Samsung-J3-Factory-Unlocked-Phone/dp/B072KPG9PN/ref=sr_1_3?keywords=samsung+galaxy+j3&qid=1551048980&s=gateway&sr=8-3'
+      },
+      {
+        rating: 3,
+        source: 'bestbuy',
+        price: 145,
+        shipping: '7 days',
+        url:
+          'https://www.bestbuy.com/site/samsung-galaxy-j3-top-with-16gb-memory-cell-phone-unlocked-black/6267019.p?skuId=6267019'
+      }
+    ],
     img_url: 'http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j5-2017-sm-j530.jpg'
   },
   {
     id: 15,
     brand: 'Samsung',
-    model: 'Galaxy J3 (2017)',
+    model: 'Galaxy S9',
     network_technology: 'GSM / HSPA / LTE',
     '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)',
     '3G_bands': 'HSDPA 850 / 900 / 1900 / 2100',
@@ -904,13 +1127,13 @@ const phonesJson = [
     sensors: 'Accelerometer| proximity',
     battery: 'Removable Li-Ion 2400 mAh battery',
     colors: 'White| Black| Gold',
-    approx_price_USD: 220,
+    approx_price_USD: 620,
     reviews: [
       {
         rating: 5,
         type: 'video',
         source: 'TechRadar',
-        content: 'https://www.youtube.com/embed/t9R7xx0joOU'
+        content: 'https://www.youtube.com/watch?v=t9R7xx0joOU'
       },
       {
         rating: 2,
@@ -920,7 +1143,24 @@ const phonesJson = [
           'This product is expensive for the quality. At $20 it might be worth it...maybe. You are better off adding a little extra and getting a used second or third generation galaxy or iphone. It will definit.'
       }
     ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-j3-2017.jpg'
+    prices: [
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 590,
+        shipping: '3 Days',
+        url:
+          'https://www.amazon.com/Samsung-Galaxy-S9-Unlocked-Smartphone/dp/B079H6RLKQ/ref=sr_1_3?keywords=galaxy+s9&qid=1551049170&s=gateway&sr=8-3'
+      },
+      {
+        rating: 4,
+        source: 'bestbuy',
+        price: 675,
+        shipping: '3 days',
+        url: 'https://www.bestbuy.com/site/samsung-galaxy-s9-64gb-unlocked-midnight-black/6191423.p?skuId=6191423'
+      }
+    ],
+    img_url: 'https://img.scoop.it/EvknZrobaqHeVqFrdVaE04XXXL4j3HpexhjNOf_P3YmryPKwJ94QGRtDb3Sbc6KY'
   },
   {
     id: 16,
@@ -978,6 +1218,22 @@ const phonesJson = [
         content: 'https://www.youtube.com/watch?v=nNlTNE1y9DM'
       }
     ],
+    prices: [
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 130,
+        shipping: 'out of stock',
+        url: 'https://www.amazon.in/Samsung-SM-Z400FZDDINS-Z4-Gold-8GB/dp/B072BZ2C8C'
+      },
+      {
+        rating: 4,
+        source: 'fonearena',
+        price: 175,
+        shipping: '10 days',
+        url: 'https://www.fonearena.com/samsung-z4_8387.html'
+      }
+    ],
     img_url: 'http://cdn2.gsmarena.com/vv/bigpic/samsung-z4.jpg'
   },
   {
@@ -1022,7 +1278,7 @@ const phonesJson = [
       'Iris scanner| fingerprint (rear-mounted)| accelerometer| gyro| proximity| compass| barometer| heart rate| SpO2',
     battery: 'Non-removable Li-Ion 3000 mAh battery',
     colors: 'Midnight Black| Orchid Gray| Arctic Silver| Coral Blue| Maple Gold',
-    approx_price_USD: 700,
+    approx_price_USD: 600,
     reviews: [
       {
         rating: 2,
@@ -1038,1351 +1294,24 @@ const phonesJson = [
         content: 'https://www.youtube.com/watch?v=OvVKnC6gGtg'
       }
     ],
+    prices: [
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 630,
+        shipping: '3 days',
+        url:
+          'https://www.amazon.com/Samsung-Galaxy-S8-Unlocked-64GB/dp/B06Y14T5YW/ref=sr_1_2?keywords=s8&qid=1551049684&s=gateway&sr=8-2'
+      },
+      {
+        rating: 4,
+        source: 'samsung',
+        price: 675,
+        shipping: '3 days',
+        url: 'https://www.samsung.com/us/mobile/phones/galaxy-s/galaxy-s8-64gb--unlocked--sm-g950uzkaxaa/'
+      }
+    ],
     img_url: 'http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-.jpg'
-  },
-  {
-    id: 18,
-    brand: 'Lenovo',
-    model: 'Tab 4 10 Plus',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA 2100',
-    '4G_bands': 'LTE',
-    network_speed: 'HSPA 42.2/5.76 Mbps  LTE Cat4 150/50 Mbps',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2017  February',
-    status: 'Coming soon. Exp. release 2017  July',
-    dimentions: '247 x 173 x 7 mm (9.72 x 6.81 x 0.28 in)',
-    weight_g: 475,
-    weight_oz: 1.05,
-    SIM: 'Yes',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '10.1 inches (~69.2% screen-to-body ratio)',
-    display_size: '1200 x 1920 pixels (~224 ppi pixel density)',
-    OS: 'Android 7.0 (Nougat)',
-    CPU: 'Octa-core 2.0 GHz Cortex-A53',
-    Chipset: 'Qualcomm MSM8953 Snapdragon 625',
-    GPU: 'Adreno 506',
-    memory_card: 'microSD  up to 256 GB',
-    internal_memory: '16 GB',
-    RAM: '3 GB RAM or 64 GB| 4 GB RAM',
-    primary_camera: '8 MP| autofocus| LED flash',
-    secondary_camera: '5 MP',
-    loud_speaker: 'Yes dual speakers',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot',
-    bluetooth: '4.2| A2DP| LE',
-    GPS: 'Yes with A-GPS',
-    NFC: '',
-    radio: 'FM radio',
-    USB: '2.0| Type-C 1.0 reversible connector',
-    sensors: 'Fingerprint (front-mounted)| accelerometer| proximity| compass',
-    battery: 'Non-removable Li-Ion 7000 mAh battery',
-    colors: 'Aurora Black| Sparkling White',
-    approx_price_USD: 240,
-    reviews: [
-      {
-        rating: 4,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          "I took this phone all through Mexico with me, and I surfed the web, and made calls (VoIP and regular) and this phone was heroic. The camera isn't bad either."
-      },
-      {
-        rating: 3,
-        type: 'video',
-        source: 'GSMArena',
-        content: 'https://www.youtube.com/watch?v=OvVKnC6gGtg'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/lenovo-tab-4-10.jpg'
-  },
-  {
-    id: 19,
-    brand: 'Lenovo',
-    model: 'Tab 4 10',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA 2100',
-    '4G_bands': 'LTE',
-    network_speed: 'HSPA 42.2/5.76 Mbps  LTE Cat4 150/50 Mbps',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2017  February',
-    status: 'Coming soon. Exp. release 2017  July',
-    dimentions: '247 x 171 x 8.3 mm (9.72 x 6.73 x 0.33 in)',
-    weight_g: 500,
-    weight_oz: 1.1,
-    SIM: 'Yes',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '10.1 inches (~70.0% screen-to-body ratio)',
-    display_size: '800 x 1280 pixels (~149 ppi pixel density)',
-    OS: 'Android 7.0 (Nougat)',
-    CPU: 'Quad-core 1.4 GHz Cortex-A53',
-    Chipset: 'Qualcomm MSM8917 Snapdragon 425',
-    GPU: 'Adreno 306',
-    memory_card: 'microSD  up to 256 GB',
-    internal_memory: '16/32 GB',
-    RAM: '2 GB RAM',
-    primary_camera: '5 MP| autofocus',
-    secondary_camera: '2 MP',
-    loud_speaker: 'Yes dual speakers',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 b/g/n| hotspot',
-    bluetooth: '4.2| A2DP| LE',
-    GPS: 'Yes with A-GPS',
-    NFC: '',
-    radio: 'FM radio',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer',
-    battery: 'Non-removable Li-Ion 7000 mAh battery',
-    colors: 'Black| White',
-    approx_price_USD: 140,
-    reviews: [
-      {
-        rating: 5,
-        type: 'text',
-        source: 'TechRadar',
-        content: 'This is an extremely fast, good-looking phone with excellent storage options, great screen clarity.'
-      },
-      {
-        rating: 4,
-        type: 'video',
-        source: 'GSMArena',
-        content: 'https://www.youtube.com/watch?v=UahV5zRwiYc'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/lenovo-tab-4-10.jpg'
-  },
-  {
-    id: 20,
-    brand: 'Lenovo',
-    model: 'Tab 4 8 Plus',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA 2100',
-    '4G_bands': 'LTE',
-    network_speed: 'HSPA 42.2/5.76 Mbps  LTE Cat4 150/50 Mbps',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2017  February',
-    status: 'Coming soon. Exp. release 2017  July',
-    dimentions: '210 x 123 x 7 mm (8.27 x 4.84 x 0.28 in)',
-    weight_g: 300,
-    weight_oz: 10.58,
-    SIM: 'Yes',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '8.0 inches (~71.8% screen-to-body ratio)',
-    display_size: '1200 x 1920 pixels (~283 ppi pixel density)',
-    OS: 'Android 7.0 (Nougat)',
-    CPU: 'Octa-core 2.0 GHz Cortex-A53',
-    Chipset: 'Qualcomm MSM8953 Snapdragon 625',
-    GPU: 'Adreno 506',
-    memory_card: 'microSD  up to 256 GB',
-    internal_memory: '16 GB',
-    RAM: '3 GB RAM or 64 GB| 4 GB RAM',
-    primary_camera: '8 MP| autofocus| LED flash',
-    secondary_camera: '5 MP',
-    loud_speaker: 'Yes dual speakers',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot',
-    bluetooth: '4.2| A2DP| LE',
-    GPS: 'Yes with A-GPS',
-    NFC: '',
-    radio: 'FM radio',
-    USB: '2.0| Type-C 1.0 reversible connector',
-    sensors: 'Fingerprint (side-mounted)| accelerometer| proximity| compass',
-    battery: 'Non-removable Li-Ion 4850 mAh battery',
-    colors: 'Aurora Black| Sparkling White',
-    approx_price_USD: 190,
-    reviews: [
-      {
-        rating: 5,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'I am happy with most of the characteristics of this mobile. except for:1. its wifi connection. For some reason it does not perform well when compared to other devices connected to the same wifi signal...'
-      },
-      {
-        rating: 4,
-        type: 'text',
-        source: 'GSMArena',
-        content:
-          "Like phone its nice for price sometimes it get a little to hot only thing I didn't like is that it went to factory mode for a day didn't work bit other then that phone was great for price"
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/lenovo-tab-4-8-.jpg'
-  },
-  {
-    id: 21,
-    brand: 'Lenovo',
-    model: 'Tab 4 8',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA 2100',
-    '4G_bands': 'LTE',
-    network_speed: 'HSPA 42.2/5.76 Mbps  LTE Cat4 150/50 Mbps',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2017  February',
-    status: 'Coming soon. Exp. release 2017  July',
-    dimentions: '211 x 124 x 8.2 mm (8.31 x 4.88 x 0.32 in)',
-    weight_g: 310,
-    weight_oz: 10.93,
-    SIM: 'Yes',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '8.0 inches (~70.9% screen-to-body ratio)',
-    display_size: '800 x 1280 pixels (~189 ppi pixel density)',
-    OS: 'Android 7.0 (Nougat)',
-    CPU: 'Quad-core 1.4 GHz Cortex-A53',
-    Chipset: 'Qualcomm MSM8917 Snapdragon 425',
-    GPU: 'Adreno 306',
-    memory_card: 'microSD  up to 256 GB',
-    internal_memory: '16/32 GB',
-    RAM: '2 GB RAM',
-    primary_camera: '5 MP| autofocus',
-    secondary_camera: '2 MP',
-    loud_speaker: 'Yes dual speakers',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 b/g/n| hotspot',
-    bluetooth: '4.2| A2DP| LE',
-    GPS: 'Yes with A-GPS',
-    NFC: '',
-    radio: 'FM radio',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| proximity (LTE model only)',
-    battery: 'Non-removable Li-Ion 4850 mAh battery',
-    colors: 'Black| White',
-    approx_price_USD: 100,
-    reviews: [
-      {
-        rating: 2,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          "It was slow, but worked fine. However after only 2 weeks it wouldn't charge. After diagonosis, it was charging port that was defective and could not be repaired. May be just this one i received. "
-      },
-      {
-        rating: 1,
-        type: 'text',
-        source: 'CNET',
-        content: 'Just received phone... Phone will not power on or take a charge?'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/lenovo-tab-4-8-.jpg'
-  },
-  {
-    id: 22,
-    brand: 'Lenovo',
-    model: 'Tab3 8 Plus',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA 850 / 1900 / 2100',
-    '4G_bands': 'LTE',
-    network_speed: 'HSPA  LTE',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2017  March',
-    status: 'Available. Released 2017  March',
-    dimentions: '210 x 125 x 8.9 mm (8.27 x 4.92 x 0.35 in)',
-    weight_g: 329,
-    weight_oz: 11.61,
-    SIM: 'Micro-SIM',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '8.0 inches (~70.7% screen-to-body ratio)',
-    display_size: '1200 x 1920 pixels (~283 ppi pixel density)',
-    OS: 'Android 6.0.1 (Marshmallow)',
-    CPU: 'Octa-core 2.0 GHz Cortex-A53',
-    Chipset: 'Qualcomm MSM8953 Snapdragon 625',
-    GPU: 'Adreno 506',
-    memory_card: 'microSD  up to 256 GB',
-    internal_memory: '16 GB',
-    RAM: '3 GB RAM',
-    primary_camera: '8 MP| autofocus',
-    secondary_camera: '5 MP',
-    loud_speaker: 'Yes with stereo speakers',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot',
-    bluetooth: '4.0| A2DP',
-    GPS: 'Yes with A-GPS GLONASS',
-    NFC: '',
-    radio: 'No',
-    USB: 'microUSB 2.0| USB On-The-Go',
-    sensors: 'Accelerometer| proximity| compass',
-    battery: 'Non-removable Li-Po 4250 mAh battery',
-    colors: 'Black| White',
-    approx_price_USD: 170,
-    reviews: [
-      {
-        rating: 5,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'eI bought this to replace my samsung galaxy s3 and this phone has went above an beyond my expectations. It works the same if not better than my Samsung did for more than half the price. '
-      },
-      {
-        rating: 5,
-        type: 'text',
-        source: 'CNET',
-        content:
-          "This is a good wireless type of phone, the price is really cheap but the quality is good.This phone is already had the latest android system 5.1 lollipop.I don't need lots of specs on a phone,"
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/lenovo-tab3-8.jpg'
-  },
-  {
-    id: 23,
-    brand: 'Lenovo',
-    model: 'ZUK Edge',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2',
-    '3G_bands': 'HSDPA 850 / 900 / 1900 / 2100',
-    '4G_bands':
-      'LTE band 1(2100)| 2(1900)| 3(1800)| 4(1700/2100)| 5(850)| 7(2600)| 8(900)| 20(800)| 38(2600)| 39(1900)| 40(2300)| 41(2500)',
-    network_speed: 'HSPA 42.2/5.76 Mbps  LTE-A (3CA) Cat11 600/50 Mbps',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2016  December',
-    status: 'Available. Released 2017  January',
-    dimentions: '142.9 x 74.5 x 7.7 mm (5.63 x 2.93 x 0.30 in)',
-    weight_g: 160,
-    weight_oz: 5.64,
-    SIM: 'Dual SIM (Nano-SIM| dual stand-by)',
-    display_type: 'TDDI capacitive touchscreen  16M colors',
-    display_resolution: '5.5 inches (~78.3% screen-to-body ratio)',
-    display_size: '1080 x 1920 pixels (~401 ppi pixel density)',
-    OS: 'Android 7.0 (Nougat)',
-    CPU: 'Quad-core (2x2.35 GHz Kryo & 2x1.6 GHz Kryo)',
-    Chipset: 'Qualcomm MSM8996 Snapdragon 821',
-    GPU: 'Adreno 530',
-    memory_card: 'No',
-    internal_memory: '64 GB',
-    RAM: '4/6 GB RAM',
-    primary_camera: '13 MP| f/2.2| phase detection autofocus| LED flash',
-    secondary_camera: '8 MP| f/2.2| 1/4" sensor size| 1.12 µm pixel size| 1080p',
-    loud_speaker: 'Yes',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot',
-    bluetooth: '4.1| A2DP| LE',
-    GPS: 'Yes with A-GPS GLONASS BDS GALILEO',
-    NFC: '',
-    radio: 'FM radio',
-    USB: '3.1| Type-C 1.0 reversible connector',
-    sensors: 'Fingerprint (front-mounted)| accelerometer| gyro| proximity| compass| heart rate| altimeter',
-    battery: 'Non-removable Li-Ion 3100 mAh battery',
-    colors: 'Ceramic White| Titanium Black',
-    approx_price_USD: 450,
-    reviews: [
-      {
-        rating: 5,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          " I must say, I'm so impressed with this unlocked cell phone by Juning ! I've never had an unlocked cell phone before and I really needed a new phone. My old one was several years old and not working  "
-      },
-      {
-        rating: 5,
-        type: 'text',
-        source: 'CNET',
-        content:
-          'When I got this phone I was so excited. Its very easy to use smartphone at a good ,affordable price. Perform as describe so compared to more expensive BRAND name phones that do the same thing .'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/lenovo-zuk-edge-1.jpg'
-  },
-  {
-    id: 24,
-    brand: 'Coolpad',
-    model: 'Modena',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 900 / 1800 / 1900 - SIM 1 & SIM 2',
-    '3G_bands': 'HSDPA 900 / 2100',
-    '4G_bands': 'LTE band 3(1800)| 7(2600)| 8(900)| 20(800)',
-    network_speed: 'HSPA 42.2/11.5 Mbps  LTE Cat4 150/50 Mbps',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2015  August',
-    status: 'Available. Released 2015  August',
-    dimentions: '153 x 77.5 x 8.6 mm (6.02 x 3.05 x 0.34 in)',
-    weight_g: 158,
-    weight_oz: 5.57,
-    SIM: 'Dual SIM (Micro-SIM| dual stand-by)',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '5.5 inches (~70.3% screen-to-body ratio)',
-    display_size: '540 x 960 pixels (~200 ppi pixel density)',
-    OS: 'Android 5.1 (Lollipop)',
-    CPU: 'Quad-core 1.2 GHz Cortex-A53',
-    Chipset: 'Qualcomm MSM8916 Snapdragon 410',
-    GPU: 'Adreno 306',
-    memory_card: 'microSD  up to 32 GB',
-    internal_memory: '8 GB',
-    RAM: '1 GB RAM',
-    primary_camera: '8 MP| autofocus| LED flash',
-    secondary_camera: '2 MP| 720p',
-    loud_speaker: 'Yes',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 b/g/n| hotspot',
-    bluetooth: '4.0| A2DP| LE',
-    GPS: 'Yes with A-GPS GLONASS',
-    NFC: '',
-    radio: 'FM radio',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| proximity',
-    battery: 'Non-removable Li-Ion 2500 mAh battery',
-    colors: 'White',
-    approx_price_USD: 160,
-    reviews: [
-      {
-        rating: 1,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          ' I  bought this phone to give as a gift to a friend, she called me today to informed that the phone is not working and she was not able to use it at all. '
-      },
-      {
-        rating: 5,
-        type: 'text',
-        source: 'CNET',
-        content:
-          'This phone is very good for daily use like calling, texting, social media or net surfing. It\'s fast and the big 5.5" inch screen is making things on the screen bigger and easy to read. '
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/coolpad-modena.jpg'
-  },
-  {
-    id: 25,
-    brand: 'Coolpad',
-    model: 'Porto',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA 900 / 2100',
-    '4G_bands': 'LTE band 3(1800)| 7(2600)| 8(900)| 20(800)',
-    network_speed: 'HSPA 42.2/11.5 Mbps  LTE Cat4 150/50 Mbps',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2015  August',
-    status: 'Available. Released 2015  August',
-    dimentions: '139 x 67.8 x 8 mm (5.47 x 2.67 x 0.31 in)',
-    weight_g: 119,
-    weight_oz: 4.2,
-    SIM: 'Micro-SIM',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '4.7 inches (~64.6% screen-to-body ratio)',
-    display_size: '540 x 960 pixels (~234 ppi pixel density)',
-    OS: 'Android 5.1 (Lollipop)',
-    CPU: 'Quad-core 1.2 GHz Cortex-A53',
-    Chipset: 'Qualcomm MSM8916 Snapdragon 410',
-    GPU: 'Adreno 306',
-    memory_card: 'microSD  up to 32 GB (dedicated slot)',
-    internal_memory: '8 GB',
-    RAM: '1 GB RAM',
-    primary_camera: '8 MP| autofocus| LED flash',
-    secondary_camera: '5 MP| 720p',
-    loud_speaker: 'Yes',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 b/g/n| hotspot',
-    bluetooth: '4.0| A2DP| LE',
-    GPS: 'Yes with A-GPS GLONASS',
-    NFC: '',
-    radio: 'FM radio',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| proximity',
-    battery: 'Non-removable Li-Ion 1800 mAh battery',
-    colors: 'White',
-    approx_price_USD: 150,
-    reviews: [
-      {
-        rating: 2,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'A few issues but the main one is: Poor signal reception. Looses signal where other phones on same network has signal'
-      },
-      {
-        rating: 2,
-        type: 'text',
-        source: 'CNET',
-        content:
-          'Worst phone ever... not only you can’t find a case but if it falls once it will crack and you won’t be able to use it. I tried to sell it on one of those machines at Walmart '
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/coolpad-porto.jpg'
-  },
-  {
-    id: 26,
-    brand: 'Dell',
-    model: 'Venue 10 7000',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA',
-    '4G_bands': 'LTE',
-    network_speed: 'HSPA  LTE',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2015  April',
-    status: 'Available. Released 2015  May',
-    dimentions: '243.4 x 195.4 x 6.2 mm (9.58 x 7.69 x 0.24 in)',
-    weight_g: 597,
-    weight_oz: 1.32,
-    SIM: 'Micro-SIM',
-    display_type: 'OLED capacitive touchscreen  16M colors',
-    display_resolution: '10.5 inches (~67.2% screen-to-body ratio)',
-    display_size: '1600 x 2560 pixels (~288 ppi pixel density)',
-    OS: 'Android 5.0 (Lollipop)',
-    CPU: 'Quad-core 2.3 GHz',
-    Chipset: 'Intel Atom Z3580',
-    GPU: 'PowerVR G6430',
-    memory_card: 'microSD  up to 512 GB (dedicated slot)',
-    internal_memory: '32 GB',
-    RAM: '2 GB RAM',
-    primary_camera: '8 MP| autofocus',
-    secondary_camera: '2 MP',
-    loud_speaker: 'Yes with stereo speakers',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 a/b/g/n/ac| dual-band| hotspot',
-    bluetooth: '4.0| A2DP',
-    GPS: 'Yes with A-GPS',
-    NFC: '',
-    radio: 'No',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| proximity| compass',
-    battery: 'Non-removable Li-Ion 7000 mAh battery',
-    colors: 'Black',
-    approx_price_USD: 460,
-    reviews: [
-      {
-        rating: 3,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'Good phone but easy to break screen.This thing is also full of ads.Which Burns up your data plan.I wish there was a way to kill the ads.I think it is part of the interface.'
-      },
-      {
-        rating: 4,
-        type: 'text',
-        source: 'CNET',
-        content:
-          'So i got this Juning phone 3 days ago, and i started using it already, and i have no complains about this phone. Everything works well, i downloaded music as well and the built in speaker is super  '
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/dell-venue-10-7000.jpg'
-  },
-  {
-    id: 27,
-    brand: 'Dell',
-    model: 'Venue 8 7000',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA',
-    '4G_bands': 'LTE',
-    network_speed: 'HSPA  LTE',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2014  October',
-    status: 'Available. Released 2015  January',
-    dimentions: '215.9 x 124.2 x 6.1 mm (8.5 x 4.89 x 0.24 in)',
-    weight_g: 305,
-    weight_oz: 10.76,
-    SIM: 'Micro-SIM',
-    display_type: 'OLED capacitive touchscreen  16M colors',
-    display_resolution: '8.4 inches (~76.3% screen-to-body ratio)',
-    display_size: '1600 x 2560 pixels (~359 ppi pixel density)',
-    OS: 'Android 4.4.2 (KitKat)| upgradable to 5.0.2 (Lollipop)',
-    CPU: 'Quad-core 2.3 GHz',
-    Chipset: 'Intel Atom Z3580',
-    GPU: 'PowerVR G6430',
-    memory_card: 'microSD  up to 512 GB (dedicated slot)',
-    internal_memory: '16/32 GB',
-    RAM: '2 GB RAM',
-    primary_camera: '8 MP| f/2.4| autofocus',
-    secondary_camera: '2 MP| 1080p@30fps',
-    loud_speaker: 'Yes with stereo speakers',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 a/b/g/n/ac| dual-band| hotspot',
-    bluetooth: '4.0| A2DP',
-    GPS: 'Yes with A-GPS',
-    NFC: '',
-    radio: 'No',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| proximity| compass',
-    battery: 'Non-removable battery (21 Wh)',
-    colors: 'Black',
-    approx_price_USD: 250,
-    reviews: [
-      {
-        rating: 3,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'Good phone but easy to break screen.This thing is also full of ads.Which Burns up your data plan.I wish there was a way to kill the ads.I think it is part of the interface.I had to reset it about '
-      },
-      {
-        rating: 5,
-        type: 'text',
-        source: 'CNET',
-        content:
-          'Phone looks very nice, with a note equivilent hd screen. The OS is android 5.1, I am unsure if android 6.x is supported. Device has a light duty, slightly flimsy case, you will need to be  '
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/dell-venue-8-7000.jpg'
-  },
-  {
-    id: 28,
-    brand: 'Dell',
-    model: 'Venue 8',
-    network_technology: 'GSM / HSPA',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA 900 / 2100',
-    '4G_bands': '',
-    network_speed: 'HSPA',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2013  October',
-    status: 'Available. Released 2013  October',
-    dimentions: '212 x 130 x 9.8 mm (8.35 x 5.12 x 0.39 in)',
-    weight_g: 292,
-    weight_oz: 10.3,
-    SIM: 'Micro-SIM',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '8.0 inches (~67.3% screen-to-body ratio)',
-    display_size: '800 x 1280 pixels (~189 ppi pixel density)',
-    OS: 'Android 4.2.2 (Jelly Bean)',
-    CPU: 'Dual-core 2.0 GHz',
-    Chipset: 'Intel Atom Z2580',
-    GPU: 'PowerVR SGX544MP2',
-    memory_card: 'microSD  up to 32 GB (dedicated slot)',
-    internal_memory: '16/32 GB',
-    RAM: '2 GB RAM',
-    primary_camera: '5 MP',
-    secondary_camera: '2 MP',
-    loud_speaker: 'Yes',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 b/g/n| hotspot',
-    bluetooth: '4.0| A2DP',
-    GPS: 'Yes with A-GPS',
-    NFC: '',
-    radio: 'No',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| proximity| compass',
-    battery: 'Non-removable Li-Ion 4100 mAh battery (15.5 Wh)',
-    colors: 'Black',
-    approx_price_USD: 130,
-    reviews: [
-      {
-        rating: 2,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'Decent price for a decent piece of equipment. The camera is not bad, the processor is decent. What absolutely ruins this phone is the ADWARE GARBAGE attached to it.'
-      },
-      {
-        rating: 3,
-        type: 'text',
-        source: 'CNET',
-        content:
-          "It's Ok! I went back to my old phone because so much was not working right on this phone and I haven't had time to call to see if it was a phone problem or phone carrier problem. "
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/dell-venue-8.jpg'
-  },
-  {
-    id: 29,
-    brand: 'Dell',
-    model: 'Venue 7 8 GB',
-    network_technology: 'No cellular connectivity',
-    '2G_bands': 'N/A',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: '2013  October',
-    status: 'Available. Released 2013  October',
-    dimentions: '193 x 118 x 9.6 mm (7.60 x 4.65 x 0.38 in)',
-    weight_g: 234,
-    weight_oz: 8.25,
-    SIM: 'No',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '7.0 inches (~62.4% screen-to-body ratio)',
-    display_size: '800 x 1280 pixels (~216 ppi pixel density)',
-    OS: 'Android 4.2.2 (Jelly Bean)',
-    CPU: 'Dual-core 1.6 GHz',
-    Chipset: 'Intel Atom Z2560',
-    GPU: 'PowerVR SGX544MP2',
-    memory_card: 'microSD  up to 32 GB (dedicated slot)',
-    internal_memory: '8 GB',
-    RAM: '1 GB RAM',
-    primary_camera: '3.15 MP',
-    secondary_camera: 'VGA',
-    loud_speaker: 'Yes',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 b/g/n| hotspot',
-    bluetooth: '4.0| A2DP',
-    GPS: 'Yes',
-    NFC: '',
-    radio: 'No',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| proximity| compass',
-    battery: 'Non-removable Li-Ion 4100 mAh battery (15.5 Wh)',
-    colors: 'Black| Red',
-    approx_price_USD: 400,
-    reviews: [
-      {
-        rating: 1,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'I received it, charged the battery and nothing happened. The photo was DOA. Nada. Returned and got my money back to buy another brand.'
-      },
-      {
-        rating: 3,
-        type: 'text',
-        source: 'CNET',
-        content:
-          "Like the phone,plays all my apps and for the price its Good  0.I haven't had time to call to see if it was a phone problem or phone carrier problem. "
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/dell-venue-7-8gb.jpg'
-  },
-  {
-    id: 30,
-    brand: 'Dell',
-    model: 'Venue 7',
-    network_technology: 'GSM / HSPA',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900',
-    '3G_bands': 'HSDPA 900 / 2100',
-    '4G_bands': '',
-    network_speed: 'HSPA',
-    GPRS: 'Yes',
-    EDGE: 'Yes',
-    announced: '2013  October',
-    status: 'Available. Released 2013  October',
-    dimentions: '193 x 118 x 9.6 mm (7.60 x 4.65 x 0.38 in)',
-    weight_g: 234,
-    weight_oz: 8.25,
-    SIM: 'Micro-SIM',
-    display_type: 'IPS LCD capacitive touchscreen  16M colors',
-    display_resolution: '7.0 inches (~62.4% screen-to-body ratio)',
-    display_size: '800 x 1280 pixels (~216 ppi pixel density)',
-    OS: 'Android 4.2.2 (Jelly Bean)',
-    CPU: 'Dual-core 1.6 GHz',
-    Chipset: 'Intel Atom Z2560',
-    GPU: 'PowerVR SGX544MP2',
-    memory_card: 'microSD  up to 32 GB (dedicated slot)',
-    internal_memory: '16 GB',
-    RAM: '2 GB RAM',
-    primary_camera: '3.15 MP',
-    secondary_camera: 'VGA',
-    loud_speaker: 'Yes',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 b/g/n| hotspot',
-    bluetooth: '4.0| A2DP',
-    GPS: 'Yes with A-GPS',
-    NFC: '',
-    radio: 'No',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| proximity| compass',
-    battery: 'Non-removable Li-Ion 4100 mAh battery (15.5 Wh)',
-    colors: 'Black| Red',
-    approx_price_USD: 100,
-    reviews: [
-      {
-        rating: 1,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'the phone it is terrible ,got some virus,and kepeeng come back on the phone screen and it does not let you do anything,waste off money and i have this for only 3 months'
-      },
-      {
-        rating: 1,
-        type: 'text',
-        source: 'CNET',
-        content: 'Im not happy with my Lenovo A850 it doesnt work well with 3G and 4G. Im happy with your service. '
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/dell-venue-7.jpg'
-  },
-  {
-    id: 31,
-    brand: 'Dell',
-    model: 'XPS 10',
-    network_technology: 'GSM / HSPA / LTE',
-    '2G_bands': 'GSM 850 / 900 / 1800 / 1900  (optional)',
-    '3G_bands': 'HSDPA (optional)',
-    '4G_bands': 'LTE (optional)',
-    network_speed: 'HSPA/LTE (optional)',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: '2012  Q4',
-    status: 'Available. Released 2012  December',
-    dimentions: '274.7 x 177.3 x 9.2 mm (10.81 x 6.98 x 0.36 in)',
-    weight_g: 635,
-    weight_oz: 1.4,
-    SIM: 'Single SIM (Micro-SIM) - optional',
-    display_type: 'TFT capacitive touchscreen  16M colors',
-    display_resolution: '10.1 inches (~57.7% screen-to-body ratio)',
-    display_size: '1366 x 768 pixels (~155 ppi pixel density)',
-    OS: 'Microsoft Windows RT',
-    CPU: 'Dual-core 1.5 GHz',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'microSD  up to 64 GB (dedicated slot)',
-    internal_memory: '32/64 GB',
-    RAM: '',
-    primary_camera: '5 MP| autofocus',
-    secondary_camera: '2 MP| 720p@30fps',
-    loud_speaker: 'Yes with stereo speakers',
-    audio_jack: 'Yes',
-    WLAN: 'Wi-Fi 802.11 a/b/g/n| dual-band',
-    bluetooth: '4.0| A2DP',
-    GPS: 'Yes with A-GPS (with LTE/HSPA+ configs)',
-    NFC: '',
-    radio: 'No',
-    USB: 'microUSB 2.0',
-    sensors: 'Accelerometer| gyro| compass',
-    battery: 'Non-removable Li-Ion battery (28 Wh)',
-    colors: 'Black',
-    approx_price_USD: 380,
-    reviews: [
-      {
-        rating: 5,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          "I Just received this phone and I'm very impressed with the quality. I've had a Lenovo computer and it was a great device. The phone thus far seems so too. I recently purchased a POSH 5.7"
-      },
-      {
-        rating: 5,
-        type: 'text',
-        source: 'CNET',
-        content:
-          'I am still getting used to it. It is unlocked but It was not rooted. It is subject to annoying "GSM Buzz" near my radio/TV/speakers. I like the dual SIM slots. I use one plan for voice and'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/dell-xps-10.jpg'
-  },
-  {
-    id: 32,
-    brand: 'Ericsson',
-    model: 'SH 888',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 900 / 1800',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1998,
-    status: 'Discontinued',
-    dimentions: '130 x 49 x 22 mm (5.12 x 1.93 x 0.87 in)',
-    weight_g: 195,
-    weight_oz: 6.88,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '3 x 12 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 800 mAh battery',
-    colors: '',
-    approx_price_USD: 123,
-    reviews: [
-      {
-        rating: 2,
-        type: 'text',
-        source: 'TechRadar',
-        content:
-          'this phone has poor talk quality and it is not a 3g phone itis a 2g phone i called at&t to have them send me a new sim they asked for a imei # when i gave it to them them told me that is was 2g '
-      },
-      {
-        rating: 4,
-        type: 'text',
-        source: 'CNET',
-        content:
-          'I am still getting used to it. It is unlocked but It was not rooted. It is subject to annoying "GSM Buzz" near my radio/TV/speakers. I like the dual SIM slots. I use one plan for voice and'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/ersh888b.gif'
-  },
-  {
-    id: 33,
-    brand: 'Ericsson',
-    model: 'S 868',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 900 / 1800',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1998,
-    status: 'Discontinued',
-    dimentions: '130 x 49 x 21 mm (5.12 x 1.93 x 0.83 in)',
-    weight_g: 172,
-    weight_oz: 6.07,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '3 x 12 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 800 mAh battery',
-    colors: '',
-    approx_price_USD: 235,
-    reviews: [
-      {
-        rating: 5,
-        type: 'text',
-        source: 'GSMArena',
-        content:
-          "First this phone is huge! I absolutely love it! It is super fast and the camera and video is very clear and crisp! I'm so glad I took a chance on it!UPDATE! Still love my phone "
-      },
-      {
-        rating: 4,
-        type: 'text',
-        source: 'Amazon',
-        content: 'Nice for the price, very big!'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/ers868b.gif'
-  },
-  {
-    id: 34,
-    brand: 'Ericsson',
-    model: 'GF 788e',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 900',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1997,
-    status: 'Discontinued',
-    dimentions: '105 x 49 x 24 mm (4.13 x 1.93 x 0.94 in)',
-    weight_g: 135,
-    weight_oz: 4.76,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '1 x 10 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 550 mAh battery',
-    colors: 4,
-    approx_price_USD: 823,
-    reviews: [
-      {
-        rating: 4,
-        type: 'text',
-        source: 'GSMArena',
-        content:
-          'the only situation is tha you have to upload a new software.all in Chinese!!! what??? yes all in chinese     1'
-      },
-      {
-        rating: 5,
-        type: 'text',
-        source: 'Amazon',
-        content:
-          'I like this smartphone, good quality very very smartphone, the color, pretty, 5.5 inch perfect in the hand, I recomend this smartphone very very smart. Thank a Amazon and the other seller of china.'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/erg788eb.gif'
-  },
-  {
-    id: 35,
-    brand: 'Ericsson',
-    model: 'GF 788',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 900',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1997,
-    status: 'Discontinued',
-    dimentions: '105 x 49 x 24 mm (4.13 x 1.93 x 0.94 in)',
-    weight_g: 135,
-    weight_oz: 4.76,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '1 x 10 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 550 mAh battery',
-    colors: 4,
-    approx_price_USD: 342,
-    reviews: [
-      {
-        rating: 1,
-        type: 'text',
-        source: 'GSMArena',
-        content:
-          "The biggest downside to this phone is from China. It looks great. I've been using it about a week and already having charging/battery issues. Its definitely going back!"
-      },
-      {
-        rating: 4,
-        type: 'text',
-        source: 'CNET',
-        content:
-          'The phone is excellent at such a low price compared to other brands. fast, long battery life, I would give it five star if the phone was set properly. The large screen is so nice for a old person '
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/ergf788b.gif'
-  },
-  {
-    id: 36,
-    brand: 'Ericsson',
-    model: 'PF 768',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 1800',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1997,
-    status: 'Discontinued',
-    dimentions: '105 x 49 x 23 mm (4.13 x 1.93 x 0.91 in)',
-    weight_g: 135,
-    weight_oz: 4.76,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '1 x 10 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 550 mAh battery',
-    colors: 4,
-    approx_price_USD: 201,
-    reviews: [
-      {
-        rating: 4,
-        type: 'text',
-        source: 'GSMArena',
-        content:
-          'Positive Sides : Big screen, very nice colours , not bad camera for 5MP, fast in work, perfect body quality, long battery life, low priceNegative Sides : NOT LOADED WITH GOOGLE PLAY, '
-      },
-      {
-        rating: 5,
-        type: 'text',
-        source: 'CNET',
-        content:
-          "Usually after buying a unlocked phone off amazon I have a problem . BUT I LOVE THIS PHONE . I HAVEN'T HAD A SINGLE ISSUE ."
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/erpf768b.gif'
-  },
-  {
-    id: 37,
-    brand: 'Ericsson',
-    model: 'GF 768',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 900',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1997,
-    status: 'Discontinued',
-    dimentions: '105 x 49 x 23 mm (4.13 x 1.93 x 0.91 in)',
-    weight_g: 135,
-    weight_oz: 4.76,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '1 x 10 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 550 mAh battery',
-    colors: 4,
-    approx_price_USD: 350,
-    reviews: [
-      {
-        rating: 4,
-        type: 'video',
-        source: 'GSMArena',
-        content: 'https://www.youtube.com/watch?v=sGAvuJ8Aw0Y '
-      },
-      {
-        rating: 5,
-        type: 'video',
-        source: 'CNET',
-        content: 'https://www.youtube.com/watch?v=Bb_8n4MOw8g'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/ergf768b.gif'
-  },
-  {
-    id: 38,
-    brand: 'Ericsson',
-    model: 'GH 688',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 900',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1996,
-    status: 'Discontinued',
-    dimentions: '130 x 49 x 23 mm (5.12 x 1.93 x 0.91 in)',
-    weight_g: 160,
-    weight_oz: 5.64,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '3 x 12 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 1200 mAh battery',
-    colors: '',
-    approx_price_USD: 89,
-    reviews: [
-      {
-        rating: 3,
-        type: 'video',
-        source: 'GSMArena',
-        content: 'https://www.youtube.com/watch?v=znz8o-boH0E'
-      },
-      {
-        rating: 2,
-        type: 'video',
-        source: 'CNET',
-        content: 'https://www.youtube.com/watch?v=dMjirYM8cTs'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/ergh688b.gif'
-  },
-  {
-    id: 39,
-    brand: 'Ericsson',
-    model: 'GA 628',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 900',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1996,
-    status: 'Discontinued',
-    dimentions: '130 x 49 x 28 mm (5.12 x 1.93 x 1.10 in)',
-    weight_g: 160,
-    weight_oz: 5.64,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '1 x 12 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 1000 mAh battery',
-    colors: '',
-    approx_price_USD: 100,
-    reviews: [
-      {
-        rating: 5,
-        type: 'video',
-        source: 'GSMArena',
-        content: 'https://www.youtube.com/watch?v=cA9ym0j-X1g'
-      },
-      {
-        rating: 2,
-        type: 'video',
-        source: 'TechRadar',
-        content: 'https://www.youtube.com/watch?v=7KLRjH-kHdk'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/erga628b.gif'
-  },
-  {
-    id: 40,
-    brand: 'Ericsson',
-    model: 'GF 388',
-    network_technology: 'GSM',
-    '2G_bands': 'GSM 900',
-    '3G_bands': '',
-    '4G_bands': '',
-    network_speed: '',
-    GPRS: 'No',
-    EDGE: 'No',
-    announced: 1995,
-    status: 'Discontinued',
-    dimentions: '130 x 49 x 23 mm (5.12 x 1.93 x 0.91 in)',
-    weight_g: 170,
-    weight_oz: 6,
-    SIM: 'Mini-SIM',
-    display_type: 'Alphanumeric',
-    display_resolution: '',
-    display_size: '3 x 12 chars',
-    OS: '',
-    CPU: '',
-    Chipset: '',
-    GPU: '',
-    memory_card: 'No',
-    internal_memory: '',
-    RAM: '',
-    primary_camera: '',
-    secondary_camera: '',
-    loud_speaker: 'No',
-    audio_jack: 'No',
-    WLAN: 'No',
-    bluetooth: 'No',
-    GPS: 'No',
-    NFC: '',
-    radio: 'No',
-    USB: '',
-    sensors: '',
-    battery: 'Removable NiMH 915 mAh battery',
-    colors: '',
-    approx_price_USD: 212,
-    reviews: [
-      {
-        rating: 4,
-        type: 'blog',
-        source: 'GSMArena',
-        content: 'https://www.gsmarena.com/apple_iphone_xs_max-review-1829.php'
-      },
-      {
-        rating: 4,
-        type: 'blog',
-        source: 'TechRadar',
-        content: 'https://www.techradar.com/reviews/samsung-galaxy-s10-plus'
-      }
-    ],
-    img_url: 'http://cdn2.gsmarena.com/vv/bigpic/ergf388b.gif'
   }
 ];
 
