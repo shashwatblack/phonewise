@@ -39527,7 +39527,7 @@
               var t = this;
               (this.overviewObservable = this.httpClient
                 .cache()
-                .get('overview.json')
+                .get('13ogl2')
                 .pipe(
                   Object(Ot.a)(function(t) {
                     return t;
@@ -39544,7 +39544,7 @@
               var t = this;
               (this.phonesObservable = this.httpClient
                 .cache()
-                .get('phones.json')
+                .get('ai7xy')
                 .pipe(
                   Object(Ot.a)(function(t) {
                     return t;
