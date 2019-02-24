@@ -12,6 +12,7 @@ import { BasketComponent } from '@app/home/basket.component';
 import { DataStoreService } from '@app/home/dataStore.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { TourMatMenuModule } from 'ngx-tour-md-menu';
 
 @NgModule({
   imports: [
@@ -25,7 +26,8 @@ import { ToastrModule } from 'ngx-toastr';
     ToastrModule.forRoot({
       timeOut: 3000,
       positionClass: 'toast-top-right'
-    })
+    }),
+    TourMatMenuModule
   ],
   declarations: [ListComponent, BasketComponent],
   providers: [DataService, DataStoreService]

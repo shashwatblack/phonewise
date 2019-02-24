@@ -18,6 +18,7 @@ import { DetailModule } from '@app/detail/detail.module';
 import { LoginModule } from './login/login.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TourMatMenuModule } from 'ngx-tour-md-menu';
 
 @NgModule({
   imports: [
@@ -26,6 +27,7 @@ import { AppRoutingModule } from './app-routing.module';
     FormsModule,
     HttpClientModule,
     TranslateModule.forRoot(),
+    TourMatMenuModule.forRoot(),
     NgbModule,
     CoreModule,
     SharedModule,
