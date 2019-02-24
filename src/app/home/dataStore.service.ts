@@ -2393,7 +2393,7 @@ export class DataStoreService {
       map((body: any) => {
         return body;
       }),
-      catchError(() => of('Error, could not load overviewObservable!'))
+      catchError(() => of('Error, could not load phones!'))
     );
     this.phonesObservable.subscribe((phones: Array<any>) => {
       this.phones = phones;

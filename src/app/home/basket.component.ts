@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '@app/home/data.service';
 
 @Component({
   selector: 'app-basket',
