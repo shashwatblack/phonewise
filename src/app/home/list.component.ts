@@ -42,7 +42,7 @@ export class ListComponent implements OnInit {
     if (tutorialShown) {
       return;
     }
-    localStorage.setItem('tutorialShown', true);
+    localStorage.setItem('tutorialShown', 'true');
 
     this.tourService.initialize([
       {
