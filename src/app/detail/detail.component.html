@@ -283,9 +283,46 @@
           </ngb-tab>
           <ngb-tab title="Prices">
             <ng-template ngbTabContent>
-              <div class="card">
+              <div class="card prices">
                 <div class="card-body">
-                  <div *ngFor="let price of phone.prices">{{ price.shipping }} ==</div>
+                  <div class="list-group">
+                    <div *ngFor="let price of phone.prices" class="list-group-item">
+                      <div class="col col-3">
+                        <div>
+                          <img src="/assets/{{ price.source }}.png" alt="" class="seller-logo" />
+                        </div>
+                      </div>
+                      <div class="col col-2">
+                        <div class="rating">
+                          <i
+                            class="fa fa-star"
+                            *ngFor="let i of [1, 2, 3, 4, 5]"
+                            [ngClass]="{ active: i <= price.rating }"
+                          >
+                          </i>
+                        </div>
+                      </div>
+                      <div class="col col-2">
+                        {{ price.shipping }}
+                      </div>
+                      <div class="col col-2">
+                        <h5 class="no-margin">
+                          {{ price.price | currency }}
+                        </h5>
+                      </div>
+                      <div class="col col-3">
+                        <button class="btn btn-success">
+                          Buy
+                        </button>
+                        <button class="btn btn-warning btn-subscribe">
+                          Subscribe
+                        </button>
+                      </div>
+                    </div>
+                    <div *ngIf="!phone.prices || !phone.prices.length" class="text-center text-muted">
+                      <h5 class="no-margin">No prices are available for this product!</h5>
+                    </div>
+                  </div>
                 </div>
               </div>
             </ng-template>

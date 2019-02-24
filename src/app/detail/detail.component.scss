@@ -39,6 +39,41 @@
       border-top-right-radius: 0 !important;
       color: #428cbd;
     }
+    .prices {
+      .list-group {
+        margin-bottom: 20px;
+        .list-group-item {
+          border-radius: 0;
+          display: flex;
+          align-items: center;
+          .col {
+            text-align: center;
+          }
+          .seller-logo {
+            width: 130px;
+          }
+          .rating {
+            display: inline-flex;
+            .fa {
+              color: gray;
+              &.active {
+                color: gold;
+              }
+            }
+          }
+          .btn {
+            width: 150px;
+            display: block;
+            margin: 10px 0;
+            border-radius: 0;
+          }
+          .btn-subscribe {
+            opacity: 0.5;
+            cursor: not-allowed;
+          }
+        }
+      }
+    }
     .reviews {
       .list-group {
         margin-bottom: 20px;
