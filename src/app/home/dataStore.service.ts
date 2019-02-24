@@ -69,6 +69,20 @@ const phonesJson = [
           'These guys are the best! I had a little situation with my item but they quickly fixed the issue. I was pleased and will definitely be buying another phon from them if I need one.'
       }
     ],
+    prices: [
+      {
+        rating: 4,
+        source: 'amazon',
+        price: 400,
+        shipping: '4 Days'
+      },
+      {
+        rating: 3,
+        source: 'ebay',
+        price: 300,
+        shipping: 'Out of Stock'
+      }
+    ],
     img_url: 'http://cdn2.gsmarena.com/vv/bigpic/acer-iconia-talk-s.jpg'
   },
   {
@@ -886,7 +900,7 @@ const phonesJson = [
         rating: 5,
         type: 'video',
         source: 'TechRadar',
-        content: 'https://www.youtube.com/watch?v=t9R7xx0joOU'
+        content: 'https://www.youtube.com/embed/t9R7xx0joOU'
       },
       {
         rating: 2,

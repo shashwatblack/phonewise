@@ -283,12 +283,37 @@
           </ngb-tab>
           <ngb-tab title="Prices">
             <ng-template ngbTabContent>
-              <p>prices...</p>
+              <div class="card">
+                <div class="card-body">
+                  <div *ngFor="let price of phone.prices">{{ price.shipping }} ==</div>
+                </div>
+              </div>
             </ng-template>
           </ngb-tab>
           <ngb-tab title="Reviews">
             <ng-template ngbTabContent>
-              <p>reviews...</p>
+              <div class="card reviews">
+                <div class="card-body">
+                  <div class="list-group">
+                    <div *ngFor="let review of phone.reviews" class="list-group-item">
+                      <h5>{{ review.source }}</h5>
+                      <div *ngIf="review.type === 'text'">
+                        {{ review.content }}
+                      </div>
+                      <div *ngIf="review.type === 'video'">
+                        <iframe
+                          width="560"
+                          height="315"
+                          [src]="review.content | safe"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </ng-template>
           </ngb-tab>
         </ngb-tabset>
