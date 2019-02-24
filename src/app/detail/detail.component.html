@@ -1,8 +1,298 @@
 <div class="container-fluid">
-  <div class="jumbotron text-center">
-    <h1>
-      <span translate>{{ id }}</span>
-    </h1>
-    <p><i class="far fa-bookmark"></i> <span translate>Version</span> {{ version }}</p>
+  <div class="phone-container">
+    <div class="row">
+      <div class="col-lg-4 text-center">
+        <h2>{{ phone.brand }} {{ phone.model }}</h2>
+        <img class="phone-img" src="{{ getImage() }}" />
+      </div>
+      <div class="col-lg-8">
+        <ngb-tabset>
+          <ngb-tab title="Specs">
+            <ng-template ngbTabContent>
+              <ngb-accordion [closeOthers]="true" activeIds="detail-panel-general">
+                <ngb-panel title="General" id="detail-panel-general">
+                  <ng-template ngbPanelContent>
+                    <div class="row">
+                      <div class="col-3">
+                        <p>
+                          <b>Announced</b>
+                        </p>
+                        <p>
+                          <b>Status</b>
+                        </p>
+                        <p>
+                          <b>Dimentions</b>
+                        </p>
+                        <p>
+                          <b>Weight</b>
+                        </p>
+                        <p>
+                          <b>Colors</b>
+                        </p>
+                        <p>
+                          <b>OS</b>
+                        </p>
+                        <p>
+                          <b>Battery</b>
+                        </p>
+                        <p>
+                          <b>Sensors</b>
+                        </p>
+                      </div>
+                      <div class="col-9">
+                        <p>
+                          {{ phone.announced }}
+                        </p>
+                        <p>
+                          {{ phone.status }}
+                        </p>
+                        <p>
+                          {{ phone.dimentions }}
+                        </p>
+                        <p>{{ phone.weight_g }} g / {{ phone.weight_oz }} oz</p>
+                        <p>
+                          {{ phone.colors }}
+                        </p>
+                        <p>
+                          {{ phone.OS }}
+                        </p>
+                        <p>
+                          {{ phone.battery }}
+                        </p>
+                        <p>
+                          {{ phone.sensors }}
+                        </p>
+                      </div>
+                    </div>
+                  </ng-template>
+                </ngb-panel>
+                <ngb-panel title="Hardware" id="detail-panel-hardware">
+                  <ng-template ngbPanelContent>
+                    <div class="row">
+                      <div class="col-3">
+                        <p>
+                          <b>CPU</b>
+                        </p>
+                        <p>
+                          <b>Chipset</b>
+                        </p>
+                        <p>
+                          <b>GPU</b>
+                        </p>
+                        <p>
+                          <b>Memory Card</b>
+                        </p>
+                        <p>
+                          <b>Internal Memory</b>
+                        </p>
+                        <p>
+                          <b>RAM</b>
+                        </p>
+                      </div>
+                      <div class="col-9">
+                        <p>
+                          {{ phone.CPU }}
+                        </p>
+                        <p>
+                          {{ phone.Chipset }}
+                        </p>
+                        <p>
+                          {{ phone.GPU }}
+                        </p>
+                        <p>
+                          {{ phone.memory_card }}
+                        </p>
+                        <p>
+                          {{ phone.internal_memory }}
+                        </p>
+                        <p>
+                          {{ phone.RAM }}
+                        </p>
+                      </div>
+                    </div>
+                  </ng-template>
+                </ngb-panel>
+                <ngb-panel title="Camera" id="detail-panel-camera">
+                  <ng-template ngbPanelContent>
+                    <div class="row">
+                      <div class="col-3">
+                        <p>
+                          <b>Primary</b>
+                        </p>
+                        <p>
+                          <b>Secondary</b>
+                        </p>
+                      </div>
+                      <div class="col-9">
+                        <p>
+                          {{ phone.primary_camera }}
+                        </p>
+                        <p>
+                          {{ phone.secondary_camera }}
+                        </p>
+                      </div>
+                    </div>
+                  </ng-template>
+                </ngb-panel>
+                <ngb-panel title="Display" id="detail-panel-display">
+                  <ng-template ngbPanelContent>
+                    <div class="row">
+                      <div class="col-3">
+                        <p>
+                          <b>Type</b>
+                        </p>
+                        <p>
+                          <b>Resolution</b>
+                        </p>
+                        <p>
+                          <b>Size</b>
+                        </p>
+                      </div>
+                      <div class="col-9">
+                        <p>
+                          {{ phone.display_type }}
+                        </p>
+                        <p>
+                          {{ phone.display_resolution }}
+                        </p>
+                        <p>
+                          {{ phone.display_size }}
+                        </p>
+                      </div>
+                    </div>
+                  </ng-template>
+                </ngb-panel>
+                <ngb-panel title="Media" id="detail-panel-media">
+                  <ng-template ngbPanelContent>
+                    <div class="row">
+                      <div class="col-3">
+                        <p>
+                          <b>Speaker</b>
+                        </p>
+                        <p>
+                          <b>Audio Jack</b>
+                        </p>
+                        <p>
+                          <b>Radio</b>
+                        </p>
+                      </div>
+                      <div class="col-9">
+                        <p>
+                          {{ phone.loud_speaker }}
+                        </p>
+                        <p>
+                          {{ phone.audio_jack }}
+                        </p>
+                        <p>
+                          {{ phone.radio }}
+                        </p>
+                      </div>
+                    </div>
+                  </ng-template>
+                </ngb-panel>
+                <ngb-panel title="Network" id="detail-panel-network">
+                  <ng-template ngbPanelContent>
+                    <div class="row">
+                      <div class="col-3">
+                        <p>
+                          <b>WLAN</b>
+                        </p>
+                        <p>
+                          <b>Bluetooth</b>
+                        </p>
+                        <p>
+                          <b>USB</b>
+                        </p>
+                        <p>
+                          <b>GPS</b>
+                        </p>
+                        <p>
+                          <b>NFC</b>
+                        </p>
+                        <p>
+                          <b>SIM</b>
+                        </p>
+                        <p>
+                          <b>Network Tech</b>
+                        </p>
+                        <p>
+                          <b>2G Bands</b>
+                        </p>
+                        <p>
+                          <b>3G Bands</b>
+                        </p>
+                        <p>
+                          <b>4G Bands</b>
+                        </p>
+                        <p>
+                          <b>Speed</b>
+                        </p>
+                        <p>
+                          <b>GPRS</b>
+                        </p>
+                        <p>
+                          <b>EDGE</b>
+                        </p>
+                      </div>
+                      <div class="col-9">
+                        <p>
+                          {{ phone.WLAN }}
+                        </p>
+                        <p>
+                          {{ phone.bluetooth }}
+                        </p>
+                        <p>
+                          {{ phone.USB }}
+                        </p>
+                        <p>
+                          {{ phone.GPS }}
+                        </p>
+                        <p>
+                          {{ phone.NFC }}
+                        </p>
+                        <p>
+                          {{ phone.SIM }}
+                        </p>
+                        <p>
+                          {{ phone.network_technology }}
+                        </p>
+                        <p>
+                          {{ phone['2G_bands'] }}
+                        </p>
+                        <p>
+                          {{ phone['3G_bands'] }}
+                        </p>
+                        <p>
+                          {{ phone['4G_bands'] }}
+                        </p>
+                        <p>
+                          {{ phone.network_speed }}
+                        </p>
+                        <p>
+                          {{ phone.GPRS }}
+                        </p>
+                        <p>
+                          {{ phone.EDGE }}
+                        </p>
+                      </div>
+                    </div>
+                  </ng-template>
+                </ngb-panel>
+              </ngb-accordion>
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab title="Prices">
+            <ng-template ngbTabContent>
+              <p>prices...</p>
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab title="Reviews">
+            <ng-template ngbTabContent>
+              <p>reviews...</p>
+            </ng-template>
+          </ngb-tab>
+        </ngb-tabset>
+      </div>
+    </div>
   </div>
 </div>
