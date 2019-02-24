@@ -2,10 +2,8 @@
  * Entry point of global application style.
  * Component-specific style should not go here and be included directly as part of the components.
  */
-
 // Theme variables, must be included before the libraries to allow overriding defaults
 @import "theme/theme-variables";
-
 // 3rd party libraries
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free-webfonts/scss/fontawesome.scss";
@@ -15,7 +13,6 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "~ng-drag-drop/style.css";
 @import "~ngx-toastr/toastr.css";
-
 // Theme customization
 @import "theme/theme";
 
@@ -23,20 +20,25 @@
 #toast-container > div {
   opacity: 1;
 }
+
 .toast {
   font-size: initial !important;
   border: initial !important;
   backdrop-filter: blur(0) !important;
 }
+
 .toast-success {
   background-color: #51a351 !important;
 }
+
 .toast-error {
   background-color: #bd362f !important;
 }
+
 .toast-info {
   background-color: #2f96b4 !important;
 }
+
 .toast-warning {
   background-color: #f89406 !important;
 }
@@ -44,4 +46,68 @@
 /* UTIL STYLES */
 .no-margin {
   margin: 0 !important;
+}
+
+/* FUNCTIONALITIES BREADCRUMBS */
+.functionalities {
+  clear: both;
+  top: 50px;
+  position: relative;
+  &.container {
+    width: 90%;
+    margin: auto;
+  }
+  li {
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+  }
+  ul.breadcrumb {
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 1.5em;
+    clear: both;
+    height: 40px;
+    margin: -66px -15px 70px;
+    border-radius: 0;
+    li {
+      //background-color: #ee6e73;
+      border-right: 3px solid #fff;
+      transform: skewX(-25deg);
+      height: 40px;
+      padding: 0 20px;
+      position: relative;
+      top: 0;
+      line-height: 40px;
+      &:first-child {
+        display: none;
+      }
+      &:nth-child(2) {
+        border-left: 3px solid #fff;
+      }
+      &:last-child {
+        border-right: none;
+      }
+      a {
+        color: #555;
+        transform: skewX(25deg);
+        display: inline-block;
+        cursor: pointer;
+      }
+      a:hover,
+      a:focus {
+        text-decoration: underline;
+      }
+      &.active {
+        font-weight: bold;
+        background: #cccccc;
+        pointer-events: none;
+      }
+    }
+    i {
+      position: relative;
+      top: 6px;
+      float: none;
+    }
+  }
 }

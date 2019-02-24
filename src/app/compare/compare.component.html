@@ -1,6 +1,17 @@
+<div class="col s12 functionalities">
+  <ul id="breadcrumb" class="breadcrumb">
+    <li></li>
+    <li>
+      <a [routerLink]="['/']"><i class="material-icons">home</i></a>
+    </li>
+    <li><a [routerLink]="['/list']">list</a></li>
+    <li class="active"><a title="">compare</a></li>
+  </ul>
+</div>
 <div class="container-fluid">
   <div class="phone-container">
     <!--<h3>Compare Phones</h3>-->
+
     <div class="row align-items-center phone-image-container">
       <div class="col-3 offset-2 text-center">
         <ng-container *ngIf="phones[0]">
