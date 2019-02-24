@@ -18,12 +18,12 @@ export class DetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.queryParams.subscribe(params => {
-      this.id = params['id'] || 0;
+      this.id = parseInt(params['id']) || 0;
     });
     this.dataService.getPhonesObservable().subscribe((phones: Array<any>) => {
       if (phones) {
         const match = phones.filter(phone => {
-          return phone.id == this.id;
+          return phone.id === this.id;
         });
         if (match.length >= 1) {
           this.phone = match[0];
