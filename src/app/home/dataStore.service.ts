@@ -330,7 +330,7 @@ const phonesJson = [
       },
       {
         rating: 3,
-        source: 'OnePlus',
+        source: 'oneplus',
         price: 466,
         shipping: '3 days',
         url: 'https://www.oneplus.com/5t'
@@ -411,7 +411,7 @@ const phonesJson = [
       },
       {
         rating: 2,
-        source: 'OnePlus',
+        source: 'oneplus',
         price: 250,
         shipping: '7 days',
         url: 'https://www.oneplus.com/3t'
@@ -903,7 +903,7 @@ const phonesJson = [
       },
       {
         rating: 3,
-        source: 'mi.com',
+        source: 'mi',
         price: 225,
         shipping: '2 days',
         url: 'hhttps://www.mi.com/global/redmi-note-5/'
@@ -1397,6 +1397,281 @@ const phonesJson = [
       }
     ],
     img_url: 'http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-.jpg'
+  },
+  {
+    id: 101,
+    reviewScore: 5,
+    performanceScore: 4,
+    cameraScore: 4,
+    popularityScore: 5,
+    valueScore: 5,
+    brand: 'Google',
+    model: 'Pixel 3',
+    network_technology: '',
+    '2G_bands': '',
+    '3G_bands': 'Yes',
+    '4G_bands': 'Yes',
+    network_speed: '',
+    GPRS: 'Yes',
+    EDGE: 'Yes',
+    announced: '',
+    status: '',
+    dimentions: '',
+    weight_g: '',
+    weight_oz: '',
+    SIM: '',
+    display_type: '',
+    display_resolution: '',
+    display_size: '',
+    OS: '',
+    CPU: '',
+    Chipset: '',
+    GPU: '',
+    memory_card: '',
+    internal_memory: '',
+    RAM: '',
+    primary_camera: '',
+    secondary_camera: '',
+    loud_speaker: 'Yes',
+    audio_jack: 'Yes',
+    WLAN: '',
+    bluetooth: '',
+    GPS: '',
+    NFC: '',
+    radio: '',
+    USB: '',
+    sensors: '',
+    battery: '',
+    colors: '',
+    approx_price_USD: '',
+    reviews: [
+      {
+        rating: 5,
+        type: 'text',
+        source: 'smartprix',
+        content:
+          "Buy this mobile for software and camera also excellent performance. It is the world's best camera mobile.it beats Samsung note 9,iphone x"
+      }
+    ],
+    prices: [
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 915.04,
+        shipping: '4-6 Business Days',
+        url: 'https://www.amazon.in/dp/B07L3SV833/?tag=smartprix-21&ascsubtag=RJ2QDVd001u1LiT'
+      },
+      {
+        rating: 4,
+        source: 'flipkart',
+        price: 999.5,
+        shipping: '2-5 Business Days',
+        url:
+          'https://www.flipkart.com/google-pixel-3-not-pink-64-gb/p/itmf9gaqgdfshhpn?pid=MOBF9GAPSKYZQFGY&affid=adminsmart1&affExtParam1=RJ2QUnm001F1TgI'
+      },
+      {
+        rating: 3,
+        source: 'paytm_mall',
+        price: 900.93,
+        shipping: '4-7 Business Days',
+        url:
+          'https://paytmmall.com/google-pixel-3-64-gb-black-CMPLXMOBGOOGLE-PIXELDUMM141313C3DF9-pdp?product_id=219883902&utm_source=admitad&utm_medium=affiliate&utm_campaign=admitad_547492_RJ2QTCu001VRxqB_e3f7f6cdcd6c26158f6caef103f3caae&utm_term=CPS&utm_content=banner'
+      }
+    ],
+    img_url:
+      'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6303/6303042_sd.jpg;maxHeight=1000;maxWidth=1000'
+  },
+  {
+    id: 102,
+    reviewScore: 5,
+    performanceScore: 4,
+    cameraScore: 4,
+    popularityScore: 4,
+    valueScore: 4,
+    brand: 'Google',
+    model: 'Pixel XL',
+    network_technology: '',
+    '2G_bands': '',
+    '3G_bands': '',
+    '4G_bands': '',
+    network_speed: '',
+    GPRS: 'Yes',
+    EDGE: 'Yes',
+    announced: '',
+    status: '',
+    dimentions: '',
+    weight_g: '',
+    weight_oz: '',
+    SIM: '',
+    display_type: '',
+    display_resolution: '',
+    display_size: '',
+    OS: '',
+    CPU: '',
+    Chipset: '',
+    GPU: '',
+    memory_card: '',
+    internal_memory: '',
+    RAM: '',
+    primary_camera: '',
+    secondary_camera: '',
+    loud_speaker: 'Yes',
+    audio_jack: 'Yes',
+    WLAN: '',
+    bluetooth: '',
+    GPS: '',
+    NFC: '',
+    radio: '',
+    USB: '',
+    sensors: '',
+    battery: '',
+    colors: '',
+    approx_price_USD: '',
+    reviews: [
+      {
+        rating: 5,
+        type: 'text',
+        source: 'smartprix',
+        content:
+          'Firstly i would like to request Everyone to ignore all the negative comments in here. I use every phone in real depth and i give all the feedbacks after the benchmark results of the devices. Comparing this device with iPhones is completely rubbish.'
+      },
+      {
+        rating: 3,
+        type: 'text',
+        source: 'amazon',
+        content: 'I was a big fan of Google as I had used Nexus and it was brilliant. But pixel is no way near that .'
+      },
+      {
+        rating: 5,
+        type: 'text',
+        source: 'amazon',
+        content:
+          "Google has proved it's class once again by making this phone. It's just amazing. Camera is simply too Good"
+      }
+    ],
+    prices: [
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 520.73,
+        shipping: 'Out of Stock',
+        url: 'https://www.amazon.in/dp/B01MXHYFGM/?tag=smartprix-21&ascsubtag=RJ2T2Rc001C2kaN'
+      },
+      {
+        rating: 3,
+        source: 'shopclues',
+        price: 562.96,
+        shipping: 'Out of Stock',
+        url:
+          'https://www.shopclues.com/google-pixel-xl-very-silver-32-gb-136775339.html?ty=0&id=181454165&mcid=aff&tid=nh&utm_source=Smartprix&OfferId=15&utm_keyword='
+      },
+      {
+        rating: 3,
+        source: 'paytm_mall',
+        price: 520.85,
+        shipping: 'Out of Stock',
+        url:
+          'https://paytmmall.com/google-pixel-xl-32-gb-very-silver-CMPLXMOBGOOGLE-PIXELDUMM141BAD01E42-pdp?product_id=198769533&utm_source=admitad&utm_medium=affiliate&utm_campaign=admitad_547492_RJ2TLXK001n5Etu_9e6bc5563622df7c1f5eee1698d96593&utm_term=CPS&utm_content=banner'
+      }
+    ],
+    img_url:
+      'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTkuviUVOp-ReYVCHb3iI0a7bIEEi0LRlU992-5FZIsGovMOKH4OrA&usqp=CAc'
+  },
+  {
+    id: 103,
+    reviewScore: 5,
+    performanceScore: 4,
+    cameraScore: 3,
+    popularityScore: 4,
+    valueScore: 4,
+    brand: 'Google',
+    model: 'Pixel 2 XL (64GB)',
+    network_technology: '',
+    '2G_bands': '',
+    '3G_bands': 'Yes',
+    '4G_bands': 'Yes',
+    network_speed: '',
+    GPRS: 'Yes',
+    EDGE: 'Yes',
+    announced: 'October, 2017',
+    status: '',
+    dimentions: '157.9 x 76.7 x 7.9 mm',
+    weight_g: 175,
+    weight_oz: '',
+    SIM: 'Single Sim, GSM',
+    display_type: '',
+    display_resolution: '',
+    display_size: '',
+    OS: '',
+    CPU: '',
+    Chipset: '',
+    GPU: '',
+    memory_card: '',
+    internal_memory: '',
+    RAM: '',
+    primary_camera: '',
+    secondary_camera: '',
+    loud_speaker: 'Yes',
+    audio_jack: 'No 3.5mm Headphone Jack',
+    WLAN: '',
+    bluetooth: '',
+    GPS: 'Yes, with A-GPS Support',
+    NFC: 'Yes',
+    radio: '',
+    USB: '',
+    sensors: 'Accelerometer, Gyroscope, Compass',
+    battery: '',
+    colors: '',
+    approx_price_USD: '',
+    reviews: [
+      {
+        rating: 5,
+        type: 'text',
+        source: 'smartprix',
+        content: 'Amazing picture quality.'
+      },
+      {
+        rating: 2,
+        type: 'text',
+        source: 'flipkart',
+        content:
+          'The phone is amazing, great battery backup easily fits in your pocket, camera quality is amazing, but Flipkart cart cheated me, i never got the 10k cashback from Hdfc,and also seller doesnt accept returns,be careful while buying with Flipkart'
+      },
+      {
+        rating: 5,
+        type: 'text',
+        source: 'amazon',
+        content:
+          'I am using Google phones from Nexus days. Believe me by every passing year Google has improved their phones. Pixel 2XL is no exception. One of the best pure android phone till date.'
+      }
+    ],
+    prices: [
+      {
+        rating: 5,
+        source: 'flipkart',
+        price: 534.93,
+        shipping: '2-5 Business Days',
+        url:
+          'https://www.flipkart.com/google-pixel-2-xl-just-black-64-gb/p/itmfykvdhgxr3tbd?pid=MOBEYEQGG8PCVY23&affid=adminsmart1&affExtParam1=RJ2VsQt001LcZI3'
+      },
+      {
+        rating: 5,
+        source: 'amazon',
+        price: 640.51,
+        shipping: '4-6 Business Days',
+        url: 'https://www.amazon.in/dp/B077XGCZKL/?tag=smartprix-21&ascsubtag=RJ2W6Tx001Js8wt'
+      },
+      {
+        rating: 3,
+        source: 'paytm_mall',
+        price: 548.53,
+        shipping: '4-7 Business Days',
+        url:
+          'https://paytmmall.com/google-pixel-2-xl-64-gb-just-black-CMPLXMOBGOOGLE-PIXELDUMM141530A14D8-pdp?product_id=144886533&utm_source=admitad&utm_medium=affiliate&utm_campaign=admitad_547492_RJ2WDXZ001qJQPF_b9157b5e4063565d2f5e5bf33e18f46d&utm_term=CPS&utm_content=banner'
+      }
+    ],
+    img_url:
+      'https://assetscdn1.paytm.com/images/catalog/product/M/MO/MOBGOOGLE-PIXELDEAL23206530A14D8/a_0..jpeg?imwidth=320&impolicy=hq'
   }
 ];
 

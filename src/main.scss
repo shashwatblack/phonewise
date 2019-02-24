@@ -16,6 +16,11 @@
 // Theme customization
 @import "theme/theme";
 
+body {
+  background: #f0f0f0;
+  padding-bottom: 30px;
+}
+
 /* TOASTR BUGFIX */
 #toast-container > div {
   opacity: 1;
