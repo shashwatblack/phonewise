@@ -69,7 +69,7 @@ export class ListComponent implements OnInit {
       },
       {
         anchorId: 'basket.compare',
-        content: 'The press this button!',
+        content: 'Then press this button!',
         title: 'Go!',
         enableBackdrop: true,
         preventScrolling: true
