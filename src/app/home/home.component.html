@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="col-6">
-      <div [routerLink]="['/list']" [queryParams]="{ sort: 'value', order: 'asc' }">
+      <div [routerLink]="['/list']" [queryParams]="{ sort: 'value', order: 'desc' }">
         <div class="top-phone phone-container">
           <div class="phone">
             <img src="{{ getImage((overview || {}).bestBudget) }}" />

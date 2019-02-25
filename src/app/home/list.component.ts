@@ -33,6 +33,7 @@ export class ListComponent implements OnInit {
     this.route.queryParams.subscribe(params => {
       this.sort = params['sort'] || 'price';
       this.order = params['order'] || 'desc';
+      this.loadPhones();
     });
     this.showTutorial();
   }
