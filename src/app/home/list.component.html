@@ -29,12 +29,12 @@
         </li>
         <li class="nav-item" [ngClass]="{ active: sort === 'popularity' }">
           <a class="nav-link" (click)="applyFilter('popularity')">
-            Brand <i class="fa" [ngClass]="getSortIconClass('popularity')"></i>
+            Brand Popularity <i class="fa" [ngClass]="getSortIconClass('popularity')"></i>
           </a>
         </li>
         <li class="nav-item" [ngClass]="{ active: sort === 'value' }">
           <a class="nav-link" (click)="applyFilter('value')">
-            Value <i class="fa" [ngClass]="getSortIconClass('value')"></i>
+            Price <i class="fa" [ngClass]="getSortIconClass('value')"></i>
           </a>
         </li>
       </ul>
