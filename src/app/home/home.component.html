@@ -9,10 +9,10 @@
 <div class="container-fluid container">
   <div class="row">
     <div class="col-6">
-      <div [routerLink]="['/list']" [queryParams]="{ sort: 'review', order: 'desc' }">
+      <div [routerLink]="['/list']" [queryParams]="{ sort: 'popularity', order: 'desc' }">
         <div class="top-phone phone-container">
           <div class="title text-right">
-            MOST ADMIRED
+            MOST POPULAR
           </div>
           <div class="phone">
             <img src="{{ getImage((overview || {}).mostPopular) }}" />
@@ -27,25 +27,13 @@
             <img src="{{ getImage((overview || {}).bestBudget) }}" />
           </div>
           <div class="title text-left">
-            BEST BUDGET
+            BEST VALUE
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-3">
-      <div [routerLink]="['/list']" [queryParams]="{ sort: 'popularity', order: 'desc' }">
-        <div class="phone-container">
-          <div class="title text-left">
-            MOST POPULAR
-          </div>
-          <div class="phone">
-            <img src="{{ getImage((overview || {}).mostAdmired) }}" />
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="col-3">
       <div [routerLink]="['/list']" [queryParams]="{ sort: 'camera', order: 'desc' }">
         <div class="phone-container">
@@ -71,12 +59,26 @@
       </div>
     </div>
     <div class="col-3">
-      <div class="phone-container">
-        <div class="title text-left">
-          YOU CHOOSE
+      <div [routerLink]="['/list']" [queryParams]="{ sort: 'review', order: 'desc' }">
+        <div class="phone-container">
+          <div class="title text-left">
+            MOST ADMIRED
+          </div>
+          <div class="phone">
+            <img src="{{ getImage((overview || {}).mostAdmired) }}" />
+          </div>
         </div>
-        <div class="phone">
-          <img src="{{ getImage() }}" />
+      </div>
+    </div>
+    <div class="col-3">
+      <div [routerLink]="['/list']">
+        <div class="phone-container">
+          <div class="title text-left">
+            YOU CHOOSE
+          </div>
+          <div class="phone">
+            <img src="{{ getImage() }}" />
+          </div>
         </div>
       </div>
     </div>
