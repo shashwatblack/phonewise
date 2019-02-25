@@ -12,7 +12,7 @@
       <div [routerLink]="['/list']" [queryParams]="{ sort: 'popularity', order: 'desc' }">
         <div class="top-phone phone-container">
           <div class="title text-right">
-            MOST POPULAR
+            POPULAR BRANDS
           </div>
           <div class="phone">
             <img src="{{ getImage((overview || {}).mostPopular) }}" />
@@ -27,7 +27,7 @@
             <img src="{{ getImage((overview || {}).bestBudget) }}" />
           </div>
           <div class="title text-left">
-            BEST VALUE
+            BEST PRICE
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@
       <div [routerLink]="['/list']" [queryParams]="{ sort: 'performance', order: 'desc' }">
         <div class="phone-container">
           <div class="title text-left">
-            BEST PERFORMER
+            BEST PERFORMANCE
           </div>
           <div class="phone">
             <img src="{{ getImage((overview || {}).bestPerformer) }}" />
@@ -62,7 +62,7 @@
       <div [routerLink]="['/list']" [queryParams]="{ sort: 'review', order: 'desc' }">
         <div class="phone-container">
           <div class="title text-left">
-            MOST ADMIRED
+            BEST REVIEWS
           </div>
           <div class="phone">
             <img src="{{ getImage((overview || {}).mostAdmired) }}" />
