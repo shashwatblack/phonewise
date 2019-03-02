@@ -41,18 +41,58 @@
     </nav>
     <div class="row" tourAnchor="list.phones">
       <div
-        class="col-3"
+        class="col-12"
         *ngFor="let phone of phonesOrdered; let i = index"
         draggable
         [dragClass]="'my-draggable'"
         [dragData]="phone"
       >
-        <div [routerLink]="['/detail']" [queryParams]="{ id: phone.id }">
+        <div class="phone-details-item">
           <div class="phone-container">
             <div class="phone">
               <img [src]="phone.img_url" alt="" />
             </div>
-            <a class="title text-left">{{ phone.brand }} {{ phone.model }}</a>
+          </div>
+          <div class="details-box">
+            <div class="phone-title">
+              <a [routerLink]="['/detail']" [queryParams]="{ id: phone.id }" class="title text-left"
+                >{{ phone.brand }} {{ phone.model }}</a
+              >
+            </div>
+            <div class="details">
+              <div class="features">
+                <div class="sec-title">Features</div>
+                <div class="feature">
+                  Brand: <span [ngClass]="{ bold: sort === 'popularity' }">{{ phone.brand }}, {{ phone.OS }}</span>
+                </div>
+                <div class="feature">
+                  CPU: <span [ngClass]="{ bold: sort === 'performance' }">{{ phone.CPU }}</span> RAM:
+                  <span [ngClass]="{ bold: sort === 'performance' }">{{ phone.RAM }}</span>
+                </div>
+                <div class="feature">
+                  Camera: <span [ngClass]="{ bold: sort === 'camera' }">{{ phone.primary_camera }}</span>
+                </div>
+                <div class="feature">
+                  Display:
+                  <span [ngClass]="{ bold: sort === 'display' }"
+                    >{{ phone.display_type }} {{ phone.display_resolution }}</span
+                  >
+                </div>
+                <div class="feature">
+                  Price: <span [ngClass]="{ bold: sort === 'value' }">{{ phone.approx_price_USD | currency }}</span>
+                </div>
+              </div>
+              <div class="scores">
+                <div class="sec-title">Our scores</div>
+                <span [ngClass]="{ bold: sort === 'review' }">Review: {{ phone.reviewScore }} / 5</span> <br />
+                <span [ngClass]="{ bold: sort === 'performance' }">Performance: {{ phone.performanceScore }} / 5</span>
+                <br />
+                <span [ngClass]="{ bold: sort === 'camera' }">Camera: {{ phone.cameraScore }} / 5</span> <br />
+                <span [ngClass]="{ bold: sort === 'popularity' }">Popularity: {{ phone.popularityScore }} / 5</span>
+                <br />
+                <span [ngClass]="{ bold: sort === 'value' }">Value: {{ phone.valueScore }} / 5</span> <br />
+              </div>
+            </div>
           </div>
         </div>
       </div>

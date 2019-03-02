@@ -10,7 +10,7 @@
 
 .phone-container {
   background: white;
-  margin: 10px 0;
+  margin: 0;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -37,11 +37,6 @@
     }
   }
 
-  &:hover {
-    outline: 4px solid #ddd;
-    background: #fafafa;
-  }
-
   &.top-phone {
     flex-direction: row;
     .phone {
@@ -49,6 +44,51 @@
         height: 300px;
       }
     }
+  }
+}
+
+.phone-details-item {
+  display: flex;
+  margin: 10px 0;
+  outline: 1px solid #ccc;
+  .details-box {
+    flex: 1 1;
+    margin: 0;
+    background: #e6e6e6;
+    padding: 10px 15px;
+    .phone-title {
+      font-size: 1.2em;
+      border-bottom: 1px solid #428cbd;
+      margin-bottom: 10px;
+      a {
+        color: #428cbd;
+      }
+    }
+    .details {
+      display: flex;
+      .sec-title {
+        border-bottom: 1px solid #aaa;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .features {
+        flex: 1 1;
+        overflow: hidden;
+        .feature {
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          margin-right: 10px;
+        }
+      }
+      .scores {
+        flex: 0 0 200px;
+      }
+    }
+  }
+  &:hover {
+    outline: 4px solid #ddd;
+    background: #fafafa;
   }
 }
 
@@ -71,4 +111,8 @@
       opacity: 1;
     }
   }
+}
+
+.bold {
+  font-weight: bold;
 }

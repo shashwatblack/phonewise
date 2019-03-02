@@ -698,8 +698,7 @@ const phonesJson = [
     memory_card: 'No',
     internal_memory: '32/128/256 GB',
     RAM: '3 GB RAM',
-    primary_camera:
-      'Dual 12 MP| (28mm| f/1.8| OIS & 56mm| f/2.8)| phase detection autofocus| 2x optical zoom| quad-LED (dual tone) flash|',
+    primary_camera: 'Dual 12 MP| (28mm| f/1.8| OIS & 56mm| f/2.8)| phase detection autofocus|',
     secondary_camera: '7 MP| f/2.2| 32mm| 1080p@30fps| 720p@240fps| face detection| HDR| panorama',
     loud_speaker: 'Yes with stereo speakers',
     audio_jack: 'No',
