@@ -68,7 +68,6 @@
       display: flex;
       .sec-title {
         border-bottom: 1px solid #aaa;
-        font-weight: bold;
         margin-bottom: 10px;
       }
       .features {
@@ -115,4 +114,8 @@
 
 .bold {
   font-weight: bold;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
 }

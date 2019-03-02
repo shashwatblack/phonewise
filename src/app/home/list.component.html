@@ -55,9 +55,12 @@
           </div>
           <div class="details-box">
             <div class="phone-title">
-              <a [routerLink]="['/detail']" [queryParams]="{ id: phone.id }" class="title text-left"
-                >{{ phone.brand }} {{ phone.model }}</a
-              >
+              <a [routerLink]="['/detail']" [queryParams]="{ id: phone.id }" class="title text-left">
+                {{ phone.brand }} {{ phone.model }}
+              </a>
+              <a [routerLink]="['/detail']" [queryParams]="{ id: phone.id }" class="title" style="float:right;">
+                <small>See Full Specifications</small>
+              </a>
             </div>
             <div class="details">
               <div class="features">
@@ -66,7 +69,7 @@
                   Brand: <span [ngClass]="{ bold: sort === 'popularity' }">{{ phone.brand }}, {{ phone.OS }}</span>
                 </div>
                 <div class="feature">
-                  CPU: <span [ngClass]="{ bold: sort === 'performance' }">{{ phone.CPU }}</span> RAM:
+                  CPU: <span [ngClass]="{ bold: sort === 'performance' }">{{ phone.CPU }}</span> &nbsp; RAM:
                   <span [ngClass]="{ bold: sort === 'performance' }">{{ phone.RAM }}</span>
                 </div>
                 <div class="feature">
@@ -83,7 +86,15 @@
                 </div>
               </div>
               <div class="scores">
-                <div class="sec-title">Our scores</div>
+                <div class="sec-title">
+                  Our scores &nbsp;
+                  <small>
+                    <i
+                      class="fa fa-question-circle cursor-pointer"
+                      title="These scores are calculated for different facets based on multiple features and sources."
+                    ></i>
+                  </small>
+                </div>
                 <span [ngClass]="{ bold: sort === 'review' }">Review: {{ phone.reviewScore }} / 5</span> <br />
                 <span [ngClass]="{ bold: sort === 'performance' }">Performance: {{ phone.performanceScore }} / 5</span>
                 <br />
