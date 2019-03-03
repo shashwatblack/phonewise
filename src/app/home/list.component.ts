@@ -124,4 +124,8 @@ export class ListComponent implements OnInit {
     }
     return 'fa-sort-amount-down';
   }
+
+  alert(message: string) {
+    alert(message);
+  }
 }

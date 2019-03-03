@@ -57,6 +57,10 @@ export class BasketComponent implements OnInit {
     localStorage.setItem('basket', JSON.stringify(this.droppedPhones));
   }
 
+  alert(message: string) {
+    alert(message);
+  }
+
   compare() {
     let link = '/compare?';
     for (let i = 0; i < 3; i++) {

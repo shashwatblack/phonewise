@@ -63,6 +63,9 @@
       &:hover {
         background: #dc3545;
       }
+      &.btn-outline-secondary:hover {
+        background: #17a2b8;
+      }
     }
 
     &.drag-hint-border {

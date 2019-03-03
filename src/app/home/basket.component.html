@@ -19,6 +19,13 @@
           >
             <i class="fa fa-times"></i>
           </button>
+          <button
+            class="btn btn-outline-secondary btn-remove-phone"
+            *ngIf="!droppedPhones[index]"
+            (click)="alert('Drag phones from the list into empty containers here.')"
+          >
+            <i class="fa fa-question-circle" title="Drag phones from the list into empty containers here."></i>
+          </button>
         </div>
       </div>
     </div>
