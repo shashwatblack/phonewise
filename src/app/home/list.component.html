@@ -104,9 +104,11 @@
                 <span [ngClass]="{ bold: sort === 'performance' }">Performance: {{ phone.performanceScore }} / 5</span>
                 <br />
                 <span [ngClass]="{ bold: sort === 'camera' }">Camera: {{ phone.cameraScore }} / 5</span> <br />
-                <span [ngClass]="{ bold: sort === 'popularity' }">Popularity: {{ phone.popularityScore }} / 5</span>
+                <span [ngClass]="{ bold: sort === 'popularity' }"
+                  >Brand Popularity: {{ phone.popularityScore }} / 5</span
+                >
                 <br />
-                <span [ngClass]="{ bold: sort === 'value' }">Value: {{ phone.valueScore }} / 5</span> <br />
+                <span [ngClass]="{ bold: sort === 'value' }">Price: {{ phone.valueScore }} / 5</span> <br />
               </div>
             </div>
           </div>
