@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "index": "https://shashwatblack.github.io/phonewise/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://shashwatblack.github.io/phonewise/favicon.ico",
+        "https://shashwatblack.github.io/phonewise/index.html",
+        "https://shashwatblack.github.io/phonewise/main.31361d890765bc79c6e1.js",
+        "https://shashwatblack.github.io/phonewise/polyfills.493406d110d9255e1f25.js",
+        "https://shashwatblack.github.io/phonewise/runtime.a5dd35324ddfd942bef1.js",
+        "https://shashwatblack.github.io/phonewise/styles.f6e2758d5425f43605d7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://shashwatblack.github.io/phonewise/assets/amazon.png",
+        "https://shashwatblack.github.io/phonewise/assets/apple.svg",
+        "https://shashwatblack.github.io/phonewise/assets/best-buy.png",
+        "https://shashwatblack.github.io/phonewise/assets/bestbuy.png",
+        "https://shashwatblack.github.io/phonewise/assets/ebay.png",
+        "https://shashwatblack.github.io/phonewise/assets/flipkart.png",
+        "https://shashwatblack.github.io/phonewise/assets/fonearena.png",
+        "https://shashwatblack.github.io/phonewise/assets/logo-white.png",
+        "https://shashwatblack.github.io/phonewise/assets/logo.png",
+        "https://shashwatblack.github.io/phonewise/assets/logo.svg",
+        "https://shashwatblack.github.io/phonewise/assets/mi.png",
+        "https://shashwatblack.github.io/phonewise/assets/oneplus.png",
+        "https://shashwatblack.github.io/phonewise/assets/paytm_mall.png",
+        "https://shashwatblack.github.io/phonewise/assets/samsung.png",
+        "https://shashwatblack.github.io/phonewise/assets/shopclues.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://shashwatblack.github.io/phonewise/assets/amazon.png": "67d5e51ee29c36b7b1ea8393ae144276396d510c",
+    "https://shashwatblack.github.io/phonewise/assets/apple.svg": "a9583d5cbe75cc603f833a6575b0e9c61044d489",
+    "https://shashwatblack.github.io/phonewise/assets/best-buy.png": "087fc8c3115841232ac0a00c561d7d67ba5a18a8",
+    "https://shashwatblack.github.io/phonewise/assets/bestbuy.png": "087fc8c3115841232ac0a00c561d7d67ba5a18a8",
+    "https://shashwatblack.github.io/phonewise/assets/ebay.png": "9da03f2a291923b25077ae097272df91a81b9153",
+    "https://shashwatblack.github.io/phonewise/assets/flipkart.png": "87b6bf7781bfaad169f88377124099639d9aea72",
+    "https://shashwatblack.github.io/phonewise/assets/fonearena.png": "41821a3b5b743e3d63f5f30a239636cb41d28123",
+    "https://shashwatblack.github.io/phonewise/assets/logo-white.png": "810a46258269b58bb463ae273532a35e932f2634",
+    "https://shashwatblack.github.io/phonewise/assets/logo.png": "06c0c39792ac1dea5363689afa1d0ee7cfb28b36",
+    "https://shashwatblack.github.io/phonewise/assets/logo.svg": "3794136b4c82a7ec63a3f4508fda6d85fc57e2c9",
+    "https://shashwatblack.github.io/phonewise/assets/mi.png": "5372fccfb629781d694f04e2e8505e81f9d7ca01",
+    "https://shashwatblack.github.io/phonewise/assets/oneplus.png": "3329ffde33507ad28808dd6fd770745884e65aa0",
+    "https://shashwatblack.github.io/phonewise/assets/paytm_mall.png": "ed80e551346109e4940222bc3dfe9867d5f22c82",
+    "https://shashwatblack.github.io/phonewise/assets/samsung.png": "9949047ae4f8d34a615a296b36bb49023e545bf0",
+    "https://shashwatblack.github.io/phonewise/assets/shopclues.png": "444b8bdbf08e613606fa8f90ba14c64dc2be2f0c",
+    "https://shashwatblack.github.io/phonewise/favicon.ico": "7830ae8993088ac08b8b52863c90525b201e4ed1",
+    "https://shashwatblack.github.io/phonewise/index.html": "316f634f374744e81036ffc2a7d5c9bb47b081f1",
+    "https://shashwatblack.github.io/phonewise/main.31361d890765bc79c6e1.js": "3940d1723e074e686f454c42f4938de437973d72",
+    "https://shashwatblack.github.io/phonewise/polyfills.493406d110d9255e1f25.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "https://shashwatblack.github.io/phonewise/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://shashwatblack.github.io/phonewise/styles.f6e2758d5425f43605d7.css": "b9a0df6c02cc8ffb2c2d5cf77977da3a4f4cffd4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
